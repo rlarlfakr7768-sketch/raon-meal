@@ -44,8 +44,7 @@ def build_html(item, idx, total):
             '<div class="shade"></div><div class="wrap">'
             f'<div class="top"><div class="label">오늘의 과학뉴스</div>'
             f'<div class="num">{idx}/{total}</div></div>'
-            f'<div class="bottom"><h1>{esc(item.get("headline",""))}</h1>'
-            f'<div class="blurb">{esc(item.get("blurb",""))}</div></div>'
+            f'<div class="bottom"><h1>{esc(item.get("headline",""))}</h1></div>'
             '</div></body></html>')
 
 

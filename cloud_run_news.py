@@ -26,18 +26,19 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 JSON_PATH = os.path.join(SCRIPT_DIR, "news_today.json")
 TARGETS = ["phyedu_net"]
 OPENAI_MODEL = "gpt-5-mini"
-N_ITEMS = 10
+N_ITEMS = 5
 
 SYS_PROMPT = "너는 한국 고등학생용 과학 인스타그램 편집자다."
 USER_TMPL = (
     f"아래 과학뉴스 후보에서 가장 흥미롭고 정확하며 학생에게 적절한 {N_ITEMS}건을 "
     "골라(주제가 겹치지 않게 다양하게) JSON으로. items 배열로 출력하고, 각 항목은:\n"
     "- headline: 한국어 헤드라인(낚시·과장 금지, 24자 이내)\n"
-    "- blurb: 한국어 1~2문장으로 핵심을 '네 말로 완전히 새로' 써라. 원문 표현·구조를 "
-    "따르지 말고, 기사에 없는 수치·인용·해석은 추가하지 마라(불확실하면 생략).\n"
+    "- summary: 한국어 3~4문장으로 뉴스 핵심을 충실히. 무엇을·어떻게·왜 중요한지 "
+    "고등학생이 배경지식 없이도 이해하게 풀어라. 단 모든 문장은 원문 표현·구조를 따르지 말고 "
+    "네 말로 완전히 새로 쓰고, 기사에 없는 수치·인용·해석은 추가하지 마라(불확실하면 생략).\n"
     "- source: 후보의 출처명 그대로\n"
     "- photo_query: 내용에 맞는 영어 스톡사진 검색어(2~4단어)\n"
-    'JSON만: {"items":[{"headline":"","blurb":"","source":"","photo_query":""}]}\n\n'
+    'JSON만: {"items":[{"headline":"","summary":"","source":"","photo_query":""}]}\n\n'
     "후보:\n{items}"
 )
 
@@ -82,12 +83,17 @@ def fetch_photo(query, dest):
 
 def build_caption(items):
     today = datetime.date.today()
-    lines = [f"📰 오늘의 과학뉴스 TOP {len(items)} · {today.month}/{today.day}", "",
-             "한 장씩 넘겨보세요 →", ""]
-    for i, it in enumerate(items, 1):
-        lines.append(f"{i}. {it.get('headline','')} ({it.get('source','')})")
-    lines += ["", "#과학뉴스 #오늘의과학 #science #고등학생 #라온고 #과학상식 #지식스타그램",
-              "", "📷 사진 Pexels · 출처는 각 매체"]
+    nums = "①②③④⑤⑥⑦⑧⑨⑩"
+    lines = [f"📰 오늘의 과학뉴스 · {today.month}/{today.day}",
+             "넘겨보고, 자세한 내용은 아래 ↓", ""]
+    for i, it in enumerate(items):
+        mark = nums[i] if i < len(nums) else f"{i+1}."
+        lines.append(f"{mark} {it.get('headline','')}")
+        lines.append(it.get("summary", ""))
+        lines.append(f"· 출처 {it.get('source','')}")
+        lines.append("")
+    lines += ["#과학뉴스 #오늘의과학 #science #고등학생 #라온고 #과학상식 #지식스타그램",
+              "📷 사진 Pexels"]
     return "\n".join(lines)
 
 
