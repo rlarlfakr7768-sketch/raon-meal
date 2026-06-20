@@ -96,6 +96,32 @@ def post(label, image_url, caption=None, is_story=False):
     return mid
 
 
+def create_carousel_item(user_id, token, image_url):
+    r = requests.post(f"{GRAPH}/{VERSION}/{user_id}/media",
+                      data={"image_url": image_url, "is_carousel_item": "true",
+                            "access_token": token}, timeout=60).json()
+    if "id" not in r:
+        raise RuntimeError(f"캐러셀 아이템 실패: {r}")
+    return r["id"]
+
+
+def post_carousel(label, image_urls, caption):
+    """여러 이미지를 하나의 캐러셀 게시물로 발행(2~10장)."""
+    _, acc = get_account(label)
+    uid, tok = acc["user_id"], acc["access_token"]
+    children = [create_carousel_item(uid, tok, u) for u in image_urls]
+    time.sleep(3)
+    r = requests.post(f"{GRAPH}/{VERSION}/{uid}/media",
+                      data={"media_type": "CAROUSEL", "children": ",".join(children),
+                            "caption": caption or "", "access_token": tok}, timeout=60).json()
+    if "id" not in r:
+        raise RuntimeError(f"캐러셀 컨테이너 실패: {r}")
+    time.sleep(5)
+    mid = publish_container(uid, tok, r["id"])
+    print(f"[{label}] 캐러셀 게시 완료 — media id {mid} ({len(image_urls)}장)")
+    return mid
+
+
 def main():
     if len(sys.argv) < 3:
         print(__doc__)

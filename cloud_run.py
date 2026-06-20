@@ -76,6 +76,46 @@ def upload_image(path, name):
     return url
 
 
+def upload_images(pairs):
+    """여러 이미지를 한 번에 커밋·푸시하고 jsDelivr URL 리스트를 반환(캐러셀용).
+    pairs: [(path, name), ...]"""
+    import subprocess
+    import shutil
+    import time
+    repo = os.environ.get("GITHUB_REPOSITORY")
+    if not repo:
+        raise RuntimeError("이미지 호스팅은 GitHub Actions(공개 레포)에서만 동작")
+
+    def git(*a, check=True):
+        return subprocess.run(["git", *a], cwd=SCRIPT_DIR, check=check,
+                              capture_output=True, text=True)
+
+    git("config", "user.name", "github-actions[bot]")
+    git("config", "user.email", "41898282+github-actions[bot]@users.noreply.github.com")
+    rels = []
+    for path, name in pairs:
+        rel = f"img/{name}"
+        dest = os.path.join(SCRIPT_DIR, rel)
+        os.makedirs(os.path.dirname(dest), exist_ok=True)
+        if os.path.abspath(path) != os.path.abspath(dest):
+            shutil.copy(path, dest)
+        git("add", "-f", rel)
+        rels.append(rel)
+    committed = git("commit", "-m", "host carousel [skip ci]", check=False)
+    if committed.returncode == 0:
+        git("push")
+    sha = git("rev-parse", "HEAD").stdout.strip()
+    urls = [f"https://cdn.jsdelivr.net/gh/{repo}@{sha}/{rel}" for rel in rels]
+    for _ in range(15):  # jsDelivr 워밍업
+        try:
+            if requests.get(urls[0], timeout=10).status_code == 200:
+                break
+        except Exception:
+            pass
+        time.sleep(2)
+    return urls
+
+
 def build_caption(data):
     lines = [f"🍱 {data['date']} ({data['weekday']}) 라온고 오늘의 급식", ""]
     for meal in MEAL_ORDER:
