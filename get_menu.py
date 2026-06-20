@@ -37,7 +37,8 @@ class FlexibleSslAdapter(HTTPAdapter):
         return super().init_poolmanager(*args, **kwargs)
 
 
-def fetch_html():
+def fetch_html(schdt=None):
+    """schdt(datetime.date) 를 주면 그 날짜가 속한 주(일~토)의 식단표를 가져온다."""
     session = requests.Session()
     session.mount("https://", FlexibleSslAdapter())
     headers = {
@@ -46,11 +47,12 @@ def fetch_html():
             "(KHTML, like Gecko) Chrome/120.0 Safari/537.36"
         )
     }
+    url = URL if schdt is None else f"{URL}&schDt={schdt.strftime('%Y-%m-%d')}"
     # 해외(GitHub 러너)에서 학교 서버 응답이 느릴 수 있어 타임아웃을 넉넉히 + 재시도
     last_err = None
     for attempt in range(4):
         try:
-            resp = session.get(URL, headers=headers, timeout=60)
+            resp = session.get(url, headers=headers, timeout=60)
             resp.raise_for_status()
             resp.encoding = resp.apparent_encoding or "utf-8"
             return resp.text

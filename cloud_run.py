@@ -25,7 +25,8 @@ STORY = os.path.join(SCRIPT_DIR, "menu_story.jpg")
 MARKER = os.path.join(SCRIPT_DIR, "last_posted.txt")
 
 # 급식을 올릴 계정(라벨은 secrets.json 의 키).
-TARGETS = ["ha_miltonian", "phyedu_net"]
+# ha_miltonian 은 세팅/토큰은 유지하되 게시는 안 함(다시 올리려면 리스트에 추가).
+TARGETS = ["phyedu_net"]
 POST_STORY = True
 MEAL_ORDER = ["중식", "석식"]
 
