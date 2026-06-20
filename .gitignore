@@ -1,0 +1,10 @@
+# 비밀/산출물은 커밋하지 않음
+secrets.json
+menu_today.json
+menu_card.jpg
+menu_card.html
+menu_story.jpg
+menu_story.html
+*.log
+__pycache__/
+*.pyc

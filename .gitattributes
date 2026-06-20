@@ -1,0 +1,2 @@
+# GitHub 러너(리눅스)에서 줄바꿈 문제 방지 — 모든 텍스트 LF 고정
+* text=auto eol=lf
