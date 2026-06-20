@@ -11,6 +11,10 @@ menu_week.json
 knowledge.jpg
 knowledge.html
 knowledge_today.json
+news_photo.jpg
+news_card.jpg
+news.html
+news_today.json
 # 호스팅 이미지(워크플로가 -f로 커밋) + 렌더/시안 임시
 img/
 _card_*.html
