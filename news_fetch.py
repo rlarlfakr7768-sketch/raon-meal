@@ -17,7 +17,7 @@ H = {"User-Agent": "Mozilla/5.0 (raon-edu science digest)"}
 def _clean(s):
     s = re.sub(r"<[^>]+>", "", s or "")
     s = re.sub(r"\s+", " ", s).strip()
-    return s[:280]
+    return s[:500]
 
 
 def fetch(limit_per=10):
