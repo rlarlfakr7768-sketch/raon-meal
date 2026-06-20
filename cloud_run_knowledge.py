@@ -84,9 +84,20 @@ def build_caption(today):
             "#오늘의지식 #공부스타그램 #과학상식 #고등학생 #라온고 #수능 #공부자극 #하루공부")
 
 
-def main():
+def load_pools():
+    """content.json + content2.json 을 카테고리별로 합친다."""
     with open(CONTENT, "r", encoding="utf-8") as f:
         c = json.load(f)
+    extra = os.path.join(SCRIPT_DIR, "content2.json")
+    if os.path.exists(extra):
+        with open(extra, "r", encoding="utf-8") as f:
+            for k, v in json.load(f).items():
+                c.setdefault(k, []).extend(v)
+    return c
+
+
+def main():
+    c = load_pools()
     today = datetime.date.today()
 
     slides = build_slides(c, today)
