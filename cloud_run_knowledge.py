@@ -85,12 +85,12 @@ def build_caption(today):
 
 
 def load_pools():
-    """content.json + content2.json 을 카테고리별로 합친다."""
-    with open(CONTENT, "r", encoding="utf-8") as f:
-        c = json.load(f)
-    extra = os.path.join(SCRIPT_DIR, "content2.json")
-    if os.path.exists(extra):
-        with open(extra, "r", encoding="utf-8") as f:
+    """content*.json(content.json, content2.json, content3.json …)을 모두 합친다.
+    기간을 늘리려면 같은 형식의 content3.json 등을 폴더에 추가하면 자동 병합됨."""
+    import glob
+    c = {}
+    for path in sorted(glob.glob(os.path.join(SCRIPT_DIR, "content*.json"))):
+        with open(path, "r", encoding="utf-8") as f:
             for k, v in json.load(f).items():
                 c.setdefault(k, []).extend(v)
     return c
