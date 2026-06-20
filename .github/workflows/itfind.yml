@@ -2,8 +2,8 @@ name: 이주의 IT 트렌드 (주간기술동향)
 
 on:
   schedule:
-    # 11:00 UTC = 20:00 KST 매일 확인 — 새 호가 나왔을 때만 게시(중복방지)
-    - cron: '0 11 * * *'
+    # 매주 일요일 02:00 UTC = 일요일 11:00 KST (주간 레터) — 새 호일 때만 게시
+    - cron: '0 2 * * 0'
   workflow_dispatch: {}
 
 permissions:
@@ -33,9 +33,8 @@ jobs:
           IG_SECRETS_JSON: ${{ secrets.IG_SECRETS_JSON }}
         run: printf '%s' "$IG_SECRETS_JSON" > secrets.json
 
-      - name: IT 트렌드 게시
+      - name: IT 트렌드 게시 (AI 미사용 — 공식 초록 그대로)
         env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
         run: python cloud_run_itfind.py
 

@@ -1,15 +1,12 @@
 """
 이주의 IT 트렌드 — IITP 주간기술동향 최신호를 카드 캐러셀로 게시(phyedu_net).
-흐름: 최신호 수집(초록) → gpt-5-mini가 학생용 원작성 요약 → Pexels 사진 →
-     사진카드 렌더 → 캐러셀 게시. 같은 호는 재게시 안 함(itfind_last.txt 추적).
-라이선스: 공공누리 제2유형 → 출처표시 필수(캡션에 자동 명시) + 비상업적.
+주간 레터: 매주 일요일 실행, 같은 호는 재게시 안 함(itfind_last.txt 추적).
+AI 미사용 — 공공누리 제2유형(출처표시+비상업적)이라 공식 초록을 그대로 싣는다.
+흐름: 최신호 수집(제목+공식 초록) → 키워드로 Pexels 사진 → 카드 렌더 → 캐러셀.
 """
 import os
 import sys
-import json
 import subprocess
-
-import requests
 
 import itfind_fetch
 import render_news
@@ -25,55 +22,53 @@ except Exception:
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 MARKER = os.path.join(SCRIPT_DIR, "itfind_last.txt")
 TARGETS = ["phyedu_net"]
-OPENAI_MODEL = "gpt-5-mini"
-N_ITEMS = 5
+CAP_LIMIT = 2150  # 인스타 캡션 한도(2,200) 여유
 
-SYS_PROMPT = "너는 한국 고등학생용 과학·기술 인스타그램 편집자다."
-USER_TMPL = (
-    "아래는 IITP 주간기술동향 최신호 기사들의 제목과 초록이다. 각 기사를 학생이 흥미를 갖도록 "
-    "JSON으로 정리하라. items 배열, 각 항목은:\n"
-    "- headline: 한국어 헤드라인(낚시·과장 금지, 24자 이내)\n"
-    "- summary: 한국어 3~4문장으로 이 기술 트렌드가 무엇이고 왜 중요한지 고등학생이 "
-    "배경지식 없이 이해하게 풀어라. 초록 내용을 바탕으로 하되 모든 문장을 네 말로 완전히 "
-    "새로 쓰고, 초록에 없는 수치·사실·해석은 추가하지 마라(불확실하면 생략).\n"
-    "- photo_query: 내용에 맞는 영어 스톡사진 검색어(2~4단어)\n"
-    'JSON만: {"items":[{"headline":"","summary":"","photo_query":""}]}\n\n'
-    "기사:\n{items}"
-)
-
-
-def curate(articles):
-    key = os.environ["OPENAI_API_KEY"]
-    lines = [f"{i+1}. 제목: {a['title']}\n   초록: {a['abstract']}"
-             for i, a in enumerate(articles)]
-    body = USER_TMPL.replace("{items}", "\n".join(lines))
-    r = requests.post(
-        "https://api.openai.com/v1/chat/completions",
-        headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json"},
-        json={"model": OPENAI_MODEL,
-              "messages": [{"role": "system", "content": SYS_PROMPT},
-                           {"role": "user", "content": body}],
-              "response_format": {"type": "json_object"}},
-        timeout=120,
-    ).json()
-    if "choices" not in r:
-        raise RuntimeError(f"OpenAI 응답 오류: {r}")
-    return json.loads(r["choices"][0]["message"]["content"]).get("items", [])
+# 제목 키워드 → Pexels 영어 검색어(앞에서부터 매칭, AI 불필요)
+PHOTO_MAP = [
+    (("반도체", "소자", "칩"), "semiconductor chip"),
+    (("데이터센터", "서버"), "data center servers"),
+    (("메모리",), "computer memory hardware"),
+    (("방송", "미디어", "콘텐츠"), "broadcast studio"),
+    (("로봇",), "robotics technology"),
+    (("자율주행", "모빌리티", "자동차"), "autonomous vehicle"),
+    (("양자",), "quantum computing"),
+    (("보안", "해킹"), "cyber security"),
+    (("네트워크", "통신", "6G", "5G"), "network technology"),
+    (("배터리", "에너지"), "battery energy technology"),
+    (("디스플레이",), "display screen technology"),
+    (("바이오", "의료", "헬스"), "medical technology"),
+    (("위성", "우주"), "satellite space"),
+    (("클라우드",), "cloud computing"),
+    (("생성형", "에이전트", "인공지능", "AI", "지능"), "artificial intelligence"),
+]
 
 
-def build_caption(items, issue):
+def photo_query_for(title):
+    for kws, q in PHOTO_MAP:
+        if any(k in title for k in kws):
+            return q
+    return "technology abstract"
+
+
+def build_caption(articles, issue):
+    """캡션 본문(공식 초록 그대로)을 한도 안에서 채우고, 실린 기사 수도 반환."""
     nums = "①②③④⑤⑥⑦⑧⑨⑩"
-    lines = [f"📡 이주의 IT 트렌드 · 주간기술동향 {issue}호",
-             "넘겨보세요 →", ""]
-    for i, it in enumerate(items):
-        mark = nums[i] if i < len(nums) else f"{i+1}."
-        lines.append(f"{mark} {it.get('headline','')}")
-        lines.append(it.get("summary", ""))
-        lines.append("")
-    lines += ["#IT트렌드 #인공지능 #반도체 #과학기술 #고등학생 #진로 #라온고",
-              "",
+    header = [f"📡 이주의 IT 트렌드 · 주간기술동향 {issue}호",
+              "이번 주 핵심 기술 동향을 정리했어요. 넘겨보세요 →", ""]
+    footer = ["#IT트렌드 #인공지능 #반도체 #과학기술 #고등학생 #진로 #라온고", "",
               f"📌 출처: 정보통신기획평가원(IITP) 주간기술동향 {issue}호 (공공누리 제2유형)"]
-    return "\n".join(lines)
+    base = len("\n".join(header)) + len("\n".join(footer)) + 4
+    body, used, n = [], base, 0
+    for i, a in enumerate(articles):
+        mark = nums[i] if i < len(nums) else f"{i+1}."
+        block = f"{mark} {a['title']}\n{a['abstract']}\n"
+        if used + len(block) > CAP_LIMIT:
+            break
+        body.append(block)
+        used += len(block) + 1
+        n += 1
+    return "\n".join(header + body + footer), n
 
 
 def last_issue():
@@ -109,25 +104,22 @@ def main():
     if issue and issue == last_issue():
         print(f"주간기술동향 {issue}호 이미 게시함 — 건너뜀")
         return
-    articles = articles[:N_ITEMS]
-    print(f"주간기술동향 {issue}호 · 기사 {len(articles)}건 → 요약…")
-    items = curate(articles)
-    if not items:
-        print("요약 결과 없음 — 건너뜀")
-        return
-    print(f"요약 {len(items)}건")
+
+    caption, n = build_caption(articles, issue)
+    items = articles[:max(1, n)]
+    print(f"주간기술동향 {issue}호 · 기사 {len(articles)}건 중 {len(items)}건 게시")
 
     for i, it in enumerate(items):
         photo = os.path.join(SCRIPT_DIR, f"itf_photo_{i:02d}.jpg")
-        fetch_photo(it.get("photo_query") or "technology", photo)
+        fetch_photo(photo_query_for(it["title"]), photo)
         it["photo"] = f"itf_photo_{i:02d}.jpg"
+        it["headline"] = it["title"]
 
-    paths = render_news.render(items, label=f"주간기술동향 {issue}호")
+    paths = render_news.render(items, label=f"주간기술동향 {issue}호", head_size=52)
     pairs = [(p, f"itf_{i:02d}.jpg") for i, p in enumerate(paths)]
     urls = upload_images(pairs)
     print(f"호스팅 {len(urls)}장")
 
-    caption = build_caption(items, issue)
     posted = False
     for label in TARGETS:
         try:

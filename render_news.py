@@ -37,18 +37,19 @@ def esc(s):
     return html_lib.escape(str(s))
 
 
-def build_html(item, idx, total, label="오늘의 과학뉴스"):
+def build_html(item, idx, total, label="오늘의 과학뉴스", head_size=80):
     photo = item.get("photo", "")
     return (HEAD +
             f'<div class="bg" style="background-image:url(\'{photo}\')"></div>'
             '<div class="shade"></div><div class="wrap">'
             f'<div class="top"><div class="label">{esc(label)}</div>'
             f'<div class="num">{idx}/{total}</div></div>'
-            f'<div class="bottom"><h1>{esc(item.get("headline",""))}</h1></div>'
+            f'<div class="bottom"><h1 style="font-size:{head_size}px">'
+            f'{esc(item.get("headline",""))}</h1></div>'
             '</div></body></html>')
 
 
-def render(items, label="오늘의 과학뉴스"):
+def render(items, label="오늘의 과학뉴스", head_size=80):
     paths = []
     with sync_playwright() as pw:
         browser = pw.chromium.launch()
@@ -58,7 +59,7 @@ def render(items, label="오늘의 과학뉴스"):
             htmlp = os.path.join(SCRIPT_DIR, f"_news_{i:02d}.html")
             imgp = os.path.join(SCRIPT_DIR, f"news_card_{i:02d}.jpg")
             with open(htmlp, "w", encoding="utf-8") as f:
-                f.write(build_html(it, i + 1, total, label))
+                f.write(build_html(it, i + 1, total, label, head_size))
             page.goto("file:///" + htmlp.replace("\\", "/"))
             page.wait_for_timeout(2000)
             page.screenshot(path=imgp, type="jpeg", quality=92,
