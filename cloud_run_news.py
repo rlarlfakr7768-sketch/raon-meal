@@ -90,10 +90,8 @@ def build_caption(items):
         mark = nums[i] if i < len(nums) else f"{i+1}."
         lines.append(f"{mark} {it.get('headline','')}")
         lines.append(it.get("summary", ""))
-        lines.append(f"· 출처 {it.get('source','')}")
         lines.append("")
-    lines += ["#과학뉴스 #오늘의과학 #science #고등학생 #라온고 #과학상식 #지식스타그램",
-              "📷 사진 Pexels"]
+    lines += ["#과학뉴스 #오늘의과학 #science #고등학생 #라온고 #과학상식 #지식스타그램"]
     return "\n".join(lines)
 
 
