@@ -66,7 +66,7 @@ def main():
         json.dump({"week_label": week_label, "days": days}, f, ensure_ascii=False, indent=2)
 
     render_week.render()
-    url = upload_image(IMG)
+    url = upload_image(IMG, "week.jpg")
     print("주간 이미지 URL:", url)
     caption = build_caption(days, week_label)
 

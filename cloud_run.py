@@ -39,27 +39,41 @@ def already_posted_today(today):
         return f.read().strip() == today
 
 
-def upload_image(path):
-    """이미지를 공개 URL로 올린다(인스타가 가져갈 수 있게). catbox → 0x0.st 폴백."""
-    try:
-        with open(path, "rb") as f:
-            r = requests.post("https://catbox.moe/user/api.php",
-                              data={"reqtype": "fileupload"},
-                              files={"fileToUpload": f}, timeout=90)
-        u = r.text.strip()
-        if u.startswith("http"):
-            return u
-        print("catbox 응답 이상:", u[:200])
-    except Exception as e:
-        print("catbox 실패:", e)
-    # 폴백
-    with open(path, "rb") as f:
-        r = requests.post("https://0x0.st", files={"file": f},
-                          headers={"User-Agent": "raon-meal-bot/1.0"}, timeout=90)
-    u = r.text.strip()
-    if u.startswith("http"):
-        return u
-    raise SystemExit(f"이미지 호스팅 전부 실패: {u[:200]}")
+def upload_image(path, name):
+    """렌더한 이미지를 레포 img/ 에 커밋·푸시하고 jsDelivr 공개 URL을 반환.
+    공개 레포 + GitHub Actions(contents:write) 전제. 인스타가 그 URL을 가져간다."""
+    import subprocess
+    import shutil
+    import time
+    repo = os.environ.get("GITHUB_REPOSITORY")
+    if not repo:
+        raise RuntimeError("이미지 호스팅은 GitHub Actions(공개 레포)에서만 동작")
+    rel = f"img/{name}"
+    dest = os.path.join(SCRIPT_DIR, rel)
+    os.makedirs(os.path.dirname(dest), exist_ok=True)
+    shutil.copy(path, dest)
+
+    def git(*a, check=True):
+        return subprocess.run(["git", *a], cwd=SCRIPT_DIR, check=check,
+                              capture_output=True, text=True)
+
+    git("config", "user.name", "github-actions[bot]")
+    git("config", "user.email", "41898282+github-actions[bot]@users.noreply.github.com")
+    git("add", rel)
+    committed = git("commit", "-m", f"host {name} [skip ci]", check=False)
+    if committed.returncode == 0:
+        git("push")
+    sha = git("rev-parse", "HEAD").stdout.strip()
+    url = f"https://cdn.jsdelivr.net/gh/{repo}@{sha}/{rel}"
+    # jsDelivr가 새 커밋을 받아올 때까지 워밍업(최대 ~30초)
+    for _ in range(15):
+        try:
+            if requests.get(url, timeout=10).status_code == 200:
+                break
+        except Exception:
+            pass
+        time.sleep(2)
+    return url
 
 
 def build_caption(data):
@@ -100,9 +114,9 @@ def main():
     render_card.render()
 
     # 3) 공개 호스팅
-    feed_url = upload_image(CARD)
+    feed_url = upload_image(CARD, "feed.jpg")
     print("피드 이미지:", feed_url)
-    story_url = upload_image(STORY) if POST_STORY else None
+    story_url = upload_image(STORY, "story.jpg") if POST_STORY else None
     if story_url:
         print("스토리 이미지:", story_url)
 
