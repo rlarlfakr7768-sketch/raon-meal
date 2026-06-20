@@ -59,7 +59,7 @@ def upload_image(path, name):
 
     git("config", "user.name", "github-actions[bot]")
     git("config", "user.email", "41898282+github-actions[bot]@users.noreply.github.com")
-    git("add", rel)
+    git("add", "-f", rel)  # img/ 호스팅 파일은 gitignore여도 강제 추가
     committed = git("commit", "-m", f"host {name} [skip ci]", check=False)
     if committed.returncode == 0:
         git("push")
