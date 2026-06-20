@@ -56,8 +56,7 @@ def build_html(card):
     <div class="label">오늘의 과학뉴스<span>SCIENCE</span></div>
     <div class="bottom">
       <h1>{esc(card.get('headline',''))}</h1>
-      <div class="meta">출처 · {esc(card.get('source',''))}</div>
-      <div class="credit">사진 Pexels · 자세한 내용은 캡션에서</div>
+      <div class="credit">자세한 내용은 캡션에서 →</div>
     </div>
   </div>
 </body></html>"""
