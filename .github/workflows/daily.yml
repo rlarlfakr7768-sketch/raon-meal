@@ -33,8 +33,13 @@ jobs:
       - name: 급식 게시
         run: python cloud_run.py
 
-      - name: 갱신된 토큰을 Secret에 다시 저장
+      - name: 갱신된 토큰을 Secret에 다시 저장 (GH_PAT 있을 때만)
         if: always()
         env:
           GH_TOKEN: ${{ secrets.GH_PAT }}
-        run: gh secret set IG_SECRETS_JSON --repo "$GITHUB_REPOSITORY" < secrets.json
+        run: |
+          if [ -z "$GH_TOKEN" ]; then
+            echo "GH_PAT 미설정 — 토큰 자동갱신 저장 생략(약 60일마다 IG_SECRETS_JSON 재설정 필요)"
+            exit 0
+          fi
+          gh secret set IG_SECRETS_JSON --repo "$GITHUB_REPOSITORY" < secrets.json
