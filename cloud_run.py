@@ -22,11 +22,20 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 JSON_PATH = os.path.join(SCRIPT_DIR, "menu_today.json")
 CARD = os.path.join(SCRIPT_DIR, "menu_card.jpg")
 STORY = os.path.join(SCRIPT_DIR, "menu_story.jpg")
+MARKER = os.path.join(SCRIPT_DIR, "last_posted.txt")
 
-# 급식을 올릴 계정(라벨은 secrets.json 의 키). phyedu_net 도 올리려면 리스트에 추가.
-TARGETS = ["ha_miltonian"]
+# 급식을 올릴 계정(라벨은 secrets.json 의 키).
+TARGETS = ["ha_miltonian", "phyedu_net"]
 POST_STORY = True
 MEAL_ORDER = ["중식", "석식"]
+
+
+def already_posted_today(today):
+    # 로컬 스케줄러용 중복방지. (GitHub 러너는 파일이 없어 항상 진행)
+    if not os.path.exists(MARKER):
+        return False
+    with open(MARKER, "r", encoding="utf-8") as f:
+        return f.read().strip() == today
 
 
 def upload_image(path):
@@ -67,6 +76,12 @@ def build_caption(data):
 
 
 def main():
+    import datetime
+    today = datetime.date.today().isoformat()
+    if already_posted_today(today):
+        print(f"{today} 이미 게시함 — 건너뜀")
+        return
+
     # 1) 파싱
     html = get_menu.fetch_html()
     data = get_menu.parse_menu(html)
@@ -93,13 +108,23 @@ def main():
     caption = build_caption(data)
 
     # 4) 공식 API 게시
+    posted_any = False
     for label in TARGETS:
-        publish_ig.post(label, feed_url, caption, is_story=False)
+        try:
+            publish_ig.post(label, feed_url, caption, is_story=False)
+            posted_any = True
+        except Exception as e:
+            print(f"[{label}] 피드 실패: {e}")
         if story_url:
             try:
                 publish_ig.post(label, story_url, None, is_story=True)
             except Exception as e:
                 print(f"[{label}] 스토리 실패(무시): {e}")
+
+    # 중복방지 마커(하나라도 성공 시)
+    if posted_any:
+        with open(MARKER, "w", encoding="utf-8") as f:
+            f.write(today)
 
     # 5) 토큰 갱신(가능할 때만; 24시간 미만 토큰은 스킵됨)
     for label in TARGETS:

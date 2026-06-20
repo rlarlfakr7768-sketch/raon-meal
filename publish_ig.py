@@ -42,7 +42,7 @@ def get_account(label):
     s = load_secrets()
     acc = s["accounts"].get(label)
     if not acc or not acc.get("ok"):
-        raise SystemExit(f"[중단] secrets.json 에 '{label}' 계정 토큰이 없음")
+        raise RuntimeError(f"secrets.json 에 '{label}' 계정 토큰이 없음")
     return s, acc
 
 
@@ -71,7 +71,7 @@ def create_container(user_id, token, image_url, caption=None, is_story=False):
         params["caption"] = caption
     r = requests.post(f"{GRAPH}/{VERSION}/{user_id}/media", data=params, timeout=60).json()
     if "id" not in r:
-        raise SystemExit(f"[컨테이너 실패] {r}")
+        raise RuntimeError(f"컨테이너 실패: {r}")
     return r["id"]
 
 
@@ -80,7 +80,7 @@ def publish_container(user_id, token, creation_id):
                       data={"creation_id": creation_id, "access_token": token},
                       timeout=60).json()
     if "id" not in r:
-        raise SystemExit(f"[게시 실패] {r}")
+        raise RuntimeError(f"게시 실패: {r}")
     return r["id"]
 
 

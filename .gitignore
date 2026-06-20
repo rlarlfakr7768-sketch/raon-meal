@@ -6,5 +6,7 @@ menu_card.html
 menu_story.jpg
 menu_story.html
 *.log
+last_posted.txt
+*.vbs
 __pycache__/
 *.pyc
