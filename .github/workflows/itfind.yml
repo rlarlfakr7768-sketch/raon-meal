@@ -33,9 +33,7 @@ jobs:
           IG_SECRETS_JSON: ${{ secrets.IG_SECRETS_JSON }}
         run: printf '%s' "$IG_SECRETS_JSON" > secrets.json
 
-      - name: IT 트렌드 게시 (AI 미사용 — 공식 초록 그대로)
-        env:
-          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+      - name: IT 트렌드 게시 (AI·스톡사진 미사용 — 공식 초록 + 에디토리얼 카드)
         run: python cloud_run_itfind.py
 
       - name: 갱신된 토큰을 Secret에 다시 저장 (GH_PAT 있을 때만)

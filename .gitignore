@@ -17,6 +17,8 @@ news.html
 _news_*.html
 news_today.json
 itf_photo*.jpg
+itf_card*.jpg
+_itf_*.html
 # 호스팅 이미지(워크플로가 -f로 커밋) + 렌더/시안 임시
 img/
 _card_*.html

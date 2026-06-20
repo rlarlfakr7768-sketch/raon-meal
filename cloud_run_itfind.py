@@ -9,10 +9,9 @@ import sys
 import subprocess
 
 import itfind_fetch
-import render_news
+import render_itfind
 import publish_ig
 from cloud_run import upload_images
-from cloud_run_news import fetch_photo
 
 try:
     sys.stdout.reconfigure(encoding="utf-8")
@@ -23,32 +22,6 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 MARKER = os.path.join(SCRIPT_DIR, "itfind_last.txt")
 TARGETS = ["phyedu_net"]
 CAP_LIMIT = 2150  # 인스타 캡션 한도(2,200) 여유
-
-# 제목 키워드 → Pexels 영어 검색어(앞에서부터 매칭, AI 불필요)
-PHOTO_MAP = [
-    (("반도체", "소자", "칩"), "semiconductor chip"),
-    (("데이터센터", "서버"), "data center servers"),
-    (("메모리",), "computer memory hardware"),
-    (("방송", "미디어", "콘텐츠"), "broadcast studio"),
-    (("로봇",), "robotics technology"),
-    (("자율주행", "모빌리티", "자동차"), "autonomous vehicle"),
-    (("양자",), "quantum computing"),
-    (("보안", "해킹"), "cyber security"),
-    (("네트워크", "통신", "6G", "5G"), "network technology"),
-    (("배터리", "에너지"), "battery energy technology"),
-    (("디스플레이",), "display screen technology"),
-    (("바이오", "의료", "헬스"), "medical technology"),
-    (("위성", "우주"), "satellite space"),
-    (("클라우드",), "cloud computing"),
-    (("생성형", "에이전트", "인공지능", "AI", "지능"), "artificial intelligence"),
-]
-
-
-def photo_query_for(title):
-    for kws, q in PHOTO_MAP:
-        if any(k in title for k in kws):
-            return q
-    return "technology abstract"
 
 
 def build_caption(articles, issue):
@@ -109,13 +82,7 @@ def main():
     items = articles[:max(1, n)]
     print(f"주간기술동향 {issue}호 · 기사 {len(articles)}건 중 {len(items)}건 게시")
 
-    for i, it in enumerate(items):
-        photo = os.path.join(SCRIPT_DIR, f"itf_photo_{i:02d}.jpg")
-        fetch_photo(photo_query_for(it["title"]), photo)
-        it["photo"] = f"itf_photo_{i:02d}.jpg"
-        it["headline"] = it["title"]
-
-    paths = render_news.render(items, label=f"주간기술동향 {issue}호", head_size=52)
+    paths = render_itfind.render(items, issue)
     pairs = [(p, f"itf_{i:02d}.jpg") for i, p in enumerate(paths)]
     urls = upload_images(pairs)
     print(f"호스팅 {len(urls)}장")
