@@ -57,7 +57,7 @@ def curate(items):
         json={"model": OPENAI_MODEL,
               "messages": [{"role": "system", "content": SYS_PROMPT},
                            {"role": "user", "content": body}],
-              "response_format": {"type": "json_object"}, "temperature": 0.5},
+              "response_format": {"type": "json_object"}},
         timeout=90,
     ).json()
     if "choices" not in r:
