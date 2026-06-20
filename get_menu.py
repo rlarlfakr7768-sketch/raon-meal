@@ -46,10 +46,18 @@ def fetch_html():
             "(KHTML, like Gecko) Chrome/120.0 Safari/537.36"
         )
     }
-    resp = session.get(URL, headers=headers, timeout=20)
-    resp.raise_for_status()
-    resp.encoding = resp.apparent_encoding or "utf-8"
-    return resp.text
+    # 해외(GitHub 러너)에서 학교 서버 응답이 느릴 수 있어 타임아웃을 넉넉히 + 재시도
+    last_err = None
+    for attempt in range(4):
+        try:
+            resp = session.get(URL, headers=headers, timeout=60)
+            resp.raise_for_status()
+            resp.encoding = resp.apparent_encoding or "utf-8"
+            return resp.text
+        except Exception as e:
+            last_err = e
+            print(f"[fetch 재시도 {attempt + 1}/4] {type(e).__name__}")
+    raise last_err
 
 
 def parse_menu(html, target_date=None):
