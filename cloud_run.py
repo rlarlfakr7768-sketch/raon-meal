@@ -132,14 +132,18 @@ def build_caption(data):
 
 def main():
     import datetime
-    today = datetime.date.today().isoformat()
+    # KST 기준 날짜 — 러너는 UTC라 그냥 date.today()를 쓰면 한국 새벽(06시) 게시 때
+    # UTC가 아직 전날이라 '어제'(일요일 등) 급식을 찾다가 못 찾고 건너뛴다.
+    KST = datetime.timezone(datetime.timedelta(hours=9))
+    today_date = datetime.datetime.now(KST).date()
+    today = today_date.isoformat()
     if already_posted_today(today):
         print(f"{today} 이미 게시함 — 건너뜀")
         return
 
-    # 1) 파싱
-    html = get_menu.fetch_html()
-    data = get_menu.parse_menu(html)
+    # 1) 파싱 (KST 오늘 날짜로 그 주 식단표를 받아 해당 칸을 찾는다)
+    html = get_menu.fetch_html(today_date)
+    data = get_menu.parse_menu(html, today_date)
     with open(JSON_PATH, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
