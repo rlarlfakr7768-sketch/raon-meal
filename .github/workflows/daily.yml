@@ -2,8 +2,8 @@ name: 라온고 급식 자동 게시
 
 on:
   schedule:
-    # 22:30 UTC = 07:30 KST (매일). 주말/방학은 스크립트가 알아서 건너뜀.
-    - cron: '30 22 * * *'
+    # 21:00 UTC = 06:00 KST (매일). 주말/방학은 스크립트가 알아서 건너뜀.
+    - cron: '0 21 * * *'
   workflow_dispatch: {}   # Actions 탭에서 수동 실행 버튼
 
 permissions:
