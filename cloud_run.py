@@ -22,7 +22,7 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 JSON_PATH = os.path.join(SCRIPT_DIR, "menu_today.json")
 CARD = os.path.join(SCRIPT_DIR, "menu_card.jpg")
 STORY = os.path.join(SCRIPT_DIR, "menu_story.jpg")
-MARKER = os.path.join(SCRIPT_DIR, "last_posted.txt")
+MARKER = os.path.join(SCRIPT_DIR, "meal_last.txt")  # 커밋되는 중복방지 마커(백업 cron 안전)
 
 # 급식을 올릴 계정(라벨은 secrets.json 의 키).
 # ha_miltonian 은 세팅/토큰은 유지하되 게시는 안 함(다시 올리려면 리스트에 추가).
@@ -32,11 +32,30 @@ MEAL_ORDER = ["중식", "석식"]
 
 
 def already_posted_today(today):
-    # 로컬 스케줄러용 중복방지. (GitHub 러너는 파일이 없어 항상 진행)
+    # 오늘 이미 게시했는지 — 마커가 레포에 커밋되므로 백업 cron이 중복 게시하지 않는다.
     if not os.path.exists(MARKER):
         return False
     with open(MARKER, "r", encoding="utf-8") as f:
         return f.read().strip() == today
+
+
+def mark_posted(today):
+    """오늘 게시 완료를 기록·커밋(백업 cron이 같은 날 또 올리지 않게)."""
+    import subprocess
+    with open(MARKER, "w", encoding="utf-8") as f:
+        f.write(today)
+
+    def git(*a):
+        return subprocess.run(["git", *a], cwd=SCRIPT_DIR,
+                              capture_output=True, text=True)
+
+    git("config", "user.name", "github-actions[bot]")
+    git("config", "user.email",
+        "41898282+github-actions[bot]@users.noreply.github.com")
+    git("add", "meal_last.txt")
+    c = git("commit", "-m", f"meal {today} 게시 [skip ci]")
+    if c.returncode == 0:
+        git("push")
 
 
 def upload_image(path, name):
@@ -180,10 +199,9 @@ def main():
             except Exception as e:
                 print(f"[{label}] 스토리 실패(무시): {e}")
 
-    # 중복방지 마커(하나라도 성공 시)
+    # 중복방지 마커(하나라도 성공 시) — 커밋해서 백업 cron 이중게시 차단
     if posted_any:
-        with open(MARKER, "w", encoding="utf-8") as f:
-            f.write(today)
+        mark_posted(today)
 
     # 5) 토큰 갱신(가능할 때만; 24시간 미만 토큰은 스킵됨)
     for label in TARGETS:

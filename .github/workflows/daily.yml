@@ -2,8 +2,10 @@ name: 라온고 급식 자동 게시
 
 on:
   schedule:
-    # 21:00 UTC = 06:00 KST (매일). 주말/방학은 스크립트가 알아서 건너뜀.
-    - cron: '0 21 * * *'
+    # 21:08 UTC=06:08 KST(1차) + 21:38 UTC=06:38 KST(백업). GitHub 정각 누락 회피용으로
+    # 분을 비키고 백업을 둠. 둘 다 떠도 meal_last.txt 마커로 이중게시 차단. 주말/방학은 스킵.
+    - cron: '8 21 * * *'
+    - cron: '38 21 * * *'
   workflow_dispatch: {}   # Actions 탭에서 수동 실행 버튼
 
 permissions:
