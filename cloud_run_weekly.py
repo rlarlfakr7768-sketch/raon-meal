@@ -52,7 +52,7 @@ def gather_days(dates):
     return [get_menu.parse_menu(html, dt) for dt in dates]
 
 
-def build_caption(days, week_label):
+def build_caption(days, week_label, sched_map=None):
     lines = [f"📅 다음 주 점심 급식 ({week_label})", ""]
     for d in days:
         wd = d.get("weekday", "")
@@ -64,6 +64,24 @@ def build_caption(days, week_label):
         items = d.get("meals", {}).get("중식", {}).get("items", [])
         menu = " · ".join(items) if items else "급식 없음"
         lines.append(f"[{wd} {datetxt}] {menu}")
+
+    # 다음 주 학사일정(있는 날만)
+    sched_map = sched_map or {}
+    sched_lines = []
+    for d in days:
+        evs = sched_map.get(d.get("date", ""), [])
+        if evs:
+            try:
+                dd = datetime.date.fromisoformat(d["date"])
+                dt = f"{dd.month}/{dd.day}"
+            except Exception:
+                dt = d.get("date", "")
+            sched_lines.append(f"· {dt} {' · '.join(evs)}")
+    if sched_lines:
+        lines.append("")
+        lines.append("🗓️ 다음 주 학사일정")
+        lines.extend(sched_lines)
+
     lines.append("")
     lines.append("#라온고 #라온고등학교 #주간급식 #이번주급식 #급식스타그램")
     return "\n".join(lines).strip()
@@ -87,7 +105,8 @@ def main():
     render_week.render()
     url = upload_image(IMG, "week.jpg")
     print("주간 이미지 URL:", url)
-    caption = build_caption(days, week_label)
+    sched_map = neis_menu.schedule_range(dates[0], dates[-1])
+    caption = build_caption(days, week_label, sched_map)
 
     for label in TARGETS:
         try:

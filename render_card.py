@@ -56,6 +56,9 @@ def build_html(data, p):
     except Exception:
         date_big = date_str
 
+    sched = data.get("schedule", "")
+    sched_html = f'<div class="sched">📅 오늘 일정 · {esc(sched)}</div>' if sched else ""
+
     cards = []
     for meal in MEAL_ORDER:
         m = data.get("meals", {}).get(meal)
@@ -99,6 +102,9 @@ def build_html(data, p):
   .date {{ margin-top:22px; font-size:{p['date']}px; font-weight:800; line-height:1.05; color:#7c2d12; }}
   .weekday {{ font-size:{p['date']}px; font-weight:800; color:#ea580c; }}
   .sub {{ margin-top:10px; font-size:{p['sub']}px; font-weight:600; color:#9a3412; }}
+  .sched {{ margin-top:14px; display:inline-block; font-size:{p['sub']}px; font-weight:700;
+    color:#9a3412; background:rgba(234,88,12,0.12); border:1px solid rgba(234,88,12,0.28);
+    padding:8px 18px; border-radius:14px; }}
 
   .cards {{ display:flex; flex-direction:column; gap:{p['cgap']}px; flex:1; justify-content:{p['justify']}; }}
   .card {{
@@ -121,6 +127,7 @@ def build_html(data, p):
     <span class="eyebrow">라온고 오늘의 급식</span>
     <div class="date">{esc(date_big)} <span class="weekday">{esc(weekday)}요일</span></div>
     <div class="sub">맛있게 드세요! 🍱</div>
+    {sched_html}
   </header>
   <div class="cards">
     {cards_html}

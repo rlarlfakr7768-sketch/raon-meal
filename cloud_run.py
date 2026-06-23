@@ -146,6 +146,10 @@ def build_caption(data):
         lines.append(f"[{meal}]{kcal}")
         lines.append(" · ".join(m["items"]))
         lines.append("")
+    sched = data.get("schedule", "")
+    if sched:
+        lines.append(f"📅 오늘 학사일정: {sched}")
+        lines.append("")
     lines.append("#라온고 #라온고등학교 #오늘의급식 #학교급식 #급식스타그램 #고등학교급식")
     return "\n".join(lines).strip()
 
@@ -177,6 +181,15 @@ def main():
             print(f"학교사이트 폴백 오류: {e}")
             if data is None:
                 raise
+
+    # 오늘 학사일정(시험·행사·휴업일) — 있으면 카드/캡션에 함께 표시
+    try:
+        data["schedule"] = neis_menu.schedule_label(today_date)
+    except Exception:
+        data["schedule"] = ""
+    if data.get("schedule"):
+        print("오늘 학사일정:", data["schedule"])
+
     with open(JSON_PATH, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 

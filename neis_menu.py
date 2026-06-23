@@ -89,6 +89,25 @@ def schedule_label(d):
         return ""
 
 
+def schedule_range(d_from, d_to):
+    """{'YYYY-MM-DD': ['행사명', ...]} — 기간 학사일정(휴업일/시험/행사). 실패 시 {}."""
+    try:
+        j = requests.get(f"{HUB}/SchoolSchedule",
+                         params=_params(AA_FROM_YMD=d_from.strftime("%Y%m%d"),
+                                        AA_TO_YMD=d_to.strftime("%Y%m%d")),
+                         headers=H, timeout=20).json()
+        out = {}
+        for r in _rows(j, "SchoolSchedule"):
+            y = r.get("AA_YMD", "")
+            iso = f"{y[:4]}-{y[4:6]}-{y[6:8]}"
+            ev = (r.get("EVENT_NM", "") or "").strip()
+            if ev and ev not in out.get(iso, []):
+                out.setdefault(iso, []).append(ev)
+        return out
+    except Exception:
+        return {}
+
+
 if __name__ == "__main__":
     import json
     today = datetime.date.today()
