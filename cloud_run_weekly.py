@@ -8,6 +8,7 @@ import json
 import datetime
 
 import get_menu
+import neis_menu
 import render_week
 import publish_ig
 from cloud_run import upload_image
@@ -25,11 +26,30 @@ TARGETS = ["phyedu_net"]
 
 
 def next_week_dates():
-    """다음 주 월~금 날짜 리스트."""
-    today = datetime.date.today()
+    """다음 주 월~금 날짜 리스트. (KST 기준 — 러너 UTC 오차 방지)"""
+    KST = datetime.timezone(datetime.timedelta(hours=9))
+    today = datetime.datetime.now(KST).date()
     days = (7 - today.weekday()) % 7 or 7   # 다음 월요일까지
     monday = today + datetime.timedelta(days=days)
     return [monday + datetime.timedelta(days=i) for i in range(5)]
+
+
+def gather_days(dates):
+    """주간 급식 수집 — 인증키 있으면 NEIS(중식+석식 전부), 없거나 실패하면 학교사이트 폴백."""
+    if os.environ.get("NEIS_KEY", "").strip():
+        try:
+            rng = neis_menu.fetch_range(dates[0], dates[-1])
+            days = [{"date": dt.isoformat(), "weekday": neis_menu.WD[dt.weekday()],
+                     "found": bool(rng.get(dt.isoformat())),
+                     "meals": rng.get(dt.isoformat(), {})} for dt in dates]
+            if any(d["found"] for d in days):
+                print("주간: NEIS 사용")
+                return days
+        except Exception as e:
+            print(f"NEIS 주간 오류({e}) — 학교사이트 폴백")
+    print("주간: 학교사이트 사용")
+    html = get_menu.fetch_html(schdt=dates[0])
+    return [get_menu.parse_menu(html, dt) for dt in dates]
 
 
 def build_caption(days, week_label):
@@ -54,8 +74,7 @@ def main():
     week_label = f"{dates[0].month}/{dates[0].day}~{dates[-1].month}/{dates[-1].day}"
     print("다음 주:", week_label)
 
-    html = get_menu.fetch_html(schdt=dates[0])
-    days = [get_menu.parse_menu(html, dt) for dt in dates]
+    days = gather_days(dates)
 
     any_lunch = any(d.get("meals", {}).get("중식", {}).get("items") for d in days)
     if not any_lunch:

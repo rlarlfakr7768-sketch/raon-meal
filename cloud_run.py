@@ -10,6 +10,7 @@ import json
 import requests
 
 import get_menu
+import neis_menu
 import render_card
 import publish_ig
 
@@ -160,9 +161,22 @@ def main():
         print(f"{today} 이미 게시함 — 건너뜀")
         return
 
-    # 1) 파싱 (KST 오늘 날짜로 그 주 식단표를 받아 해당 칸을 찾는다)
-    html = get_menu.fetch_html(today_date)
-    data = get_menu.parse_menu(html, today_date)
+    # 1) 급식 데이터 — NEIS 공식 API 우선, 안 되면 학교 홈페이지 폴백
+    data = None
+    try:
+        data = neis_menu.fetch_day(today_date)
+        print(f"NEIS 조회: found={data.get('found')}")
+    except Exception as e:
+        print(f"NEIS 오류({type(e).__name__}: {e}) — 학교사이트 폴백")
+    if not (data and data.get("found")):
+        try:
+            sd = get_menu.parse_menu(get_menu.fetch_html(today_date), today_date)
+            if sd.get("found") or data is None:
+                data = sd
+        except Exception as e:
+            print(f"학교사이트 폴백 오류: {e}")
+            if data is None:
+                raise
     with open(JSON_PATH, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 

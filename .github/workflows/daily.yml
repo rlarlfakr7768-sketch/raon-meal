@@ -36,6 +36,8 @@ jobs:
         run: printf '%s' "$IG_SECRETS_JSON" > secrets.json
 
       - name: 급식 게시
+        env:
+          NEIS_KEY: ${{ secrets.NEIS_KEY }}
         run: python cloud_run.py
 
       - name: 갱신된 토큰을 Secret에 다시 저장 (GH_PAT 있을 때만)
