@@ -82,7 +82,9 @@ def upload_image(path, name):
     git("add", "-f", rel)  # img/ 호스팅 파일은 gitignore여도 강제 추가
     committed = git("commit", "-m", f"host {name} [skip ci]", check=False)
     if committed.returncode == 0:
-        git("push")
+        if git("push", check=False).returncode != 0:   # 리모트가 그새 바뀌면 rebase 후 재시도
+            git("pull", "--rebase", check=False)
+            git("push")
     sha = git("rev-parse", "HEAD").stdout.strip()
     url = f"https://cdn.jsdelivr.net/gh/{repo}@{sha}/{rel}"
     # jsDelivr가 새 커밋을 받아올 때까지 워밍업(최대 ~30초)
@@ -123,7 +125,9 @@ def upload_images(pairs):
         rels.append(rel)
     committed = git("commit", "-m", "host carousel [skip ci]", check=False)
     if committed.returncode == 0:
-        git("push")
+        if git("push", check=False).returncode != 0:   # 리모트가 그새 바뀌면 rebase 후 재시도
+            git("pull", "--rebase", check=False)
+            git("push")
     sha = git("rev-parse", "HEAD").stdout.strip()
     urls = [f"https://cdn.jsdelivr.net/gh/{repo}@{sha}/{rel}" for rel in rels]
     for _ in range(15):  # jsDelivr 워밍업
