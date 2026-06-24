@@ -2,11 +2,11 @@ name: 라온고 급식 자동 게시
 
 on:
   schedule:
-    # GitHub 예약이 보통 ~60~80분 지연돼서, 6시쯤 도착하도록 cron을 앞당김.
-    # 19:50 UTC=04:50 KST(1차) + 20:20 UTC=05:20 KST(백업). 지연 감안 실제 게시 ~06:00~06:40 KST.
-    # 둘 다 떠도 meal_last.txt 마커로 이중게시 차단. 주말/방학은 스크립트가 스킵.
-    - cron: '50 19 * * *'
-    - cron: '20 20 * * *'
+    # ★ 주 게시는 로컬 PC 작업스케줄러(05:30 KST, RaonHigh Meal Local). 클라우드는 'PC 꺼진 날' 백업.
+    # 로컬(05:30)보다 뒤인 06:08/06:38 KST에 떠서, 로컬이 이미 올렸으면 meal_last.txt 마커로 스킵(충돌 방지).
+    # 21:08 UTC=06:08 KST + 21:38 UTC=06:38 KST. 주말/방학은 스크립트가 스킵.
+    - cron: '8 21 * * *'
+    - cron: '38 21 * * *'
   workflow_dispatch: {}   # Actions 탭에서 수동 실행 버튼
 
 permissions:
