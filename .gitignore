@@ -27,5 +27,6 @@ design_sample.jpg
 *.log
 last_posted.txt
 *.vbs
+run_meal_local.bat
 __pycache__/
 *.pyc
