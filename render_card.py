@@ -124,7 +124,7 @@ def build_html(data, p):
 </head>
 <body>
   <header>
-    <span class="eyebrow">라온고 오늘의 급식</span>
+    <span class="eyebrow">오늘의 급식</span>
     <div class="date">{esc(date_big)} <span class="weekday">{esc(weekday)}요일</span></div>
     <div class="sub">맛있게 드세요! 🍱</div>
     {sched_html}
@@ -132,7 +132,7 @@ def build_html(data, p):
   <div class="cards">
     {cards_html}
   </div>
-  <footer>· 라온고등학교 급식실 ·</footer>
+  <footer>· 급식실 ·</footer>
 </body>
 </html>"""
 

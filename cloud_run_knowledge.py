@@ -78,10 +78,10 @@ def build_slides(c, today):
 
 def build_caption(today):
     wd = WD[today.weekday()]
-    return (f"📚 라온고 오늘의 지식 · {today.month}/{today.day} ({wd})\n\n"
+    return (f"📚 오늘의 지식 · {today.month}/{today.day} ({wd})\n\n"
             "한 장씩 넘겨보세요 →\n"
             "역사의 오늘 · 물리 · 수학 · 과학 상식 · 명언 · 어휘 · 공부법 · 퀴즈\n\n"
-            "#오늘의지식 #공부스타그램 #과학상식 #고등학생 #라온고 #수능 #공부자극 #하루공부")
+            "#오늘의지식 #공부스타그램 #과학상식 #고등학생 #phyedu #수능 #공부자극 #하루공부")
 
 
 def load_pools():

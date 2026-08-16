@@ -224,7 +224,7 @@ def build_caption(items):
             if it.get("subject"):
                 lines.append(f"교과 연결: {it['subject']}")
             lines.append("")
-        lines += ["#과학뉴스 #오늘의과학 #science #고등학생 #라온고 #과학상식 #지식스타그램"]
+        lines += ["#과학뉴스 #오늘의과학 #science #고등학생 #phyedu #과학상식 #지식스타그램"]
         return "\n".join(lines)
 
     cap = assemble(sums)

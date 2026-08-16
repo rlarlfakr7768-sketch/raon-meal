@@ -83,7 +83,7 @@ def build_caption(days, week_label, sched_map=None):
         lines.extend(sched_lines)
 
     lines.append("")
-    lines.append("#라온고 #라온고등학교 #주간급식 #이번주급식 #급식스타그램")
+    lines.append("#주간급식 #이번주급식 #급식스타그램")
     return "\n".join(lines).strip()
 
 

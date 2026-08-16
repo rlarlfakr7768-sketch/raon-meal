@@ -82,13 +82,13 @@ def _emph(title, em):
 def build_html(s):
     kind = s["kind"]
     idx = f"{s.get('idx', 0):02d}"
-    fl, fr = "라온고 · 오늘의 지식", "phyedu.net"
+    fl, fr = "오늘의 지식", "phyedu.net"
     cls = "cover" if kind == "cover" else ("q" if kind == "quiz" else "")
     head = HEAD.replace("{cls}", cls)
     inner = f'<div class="index">{idx}</div>'
 
     if kind == "cover":
-        inner += (f'<div class="kicker"><span class="ko">라온고 데일리</span></div>'
+        inner += (f'<div class="kicker"><span class="ko">phyedu 데일리</span></div>'
                   f'<h1>오늘의<br><em>지식</em></h1>'
                   f'<div class="rule"></div>'
                   f'<div class="datel">{esc(s["date"])} · {esc(s["weekday"])}요일</div>')

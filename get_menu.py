@@ -1,5 +1,5 @@
 """
-라온고 급식 파서 -> JSON
+학교 급식 파서 -> JSON
 학교 홈페이지 HTML 식단표에서 오늘 날짜의 조식/중식/석식을 긁어
 구조화된 JSON(menu_today.json)으로 저장한다.
 (원본 get_info.py의 Rainmeter 텍스트 출력 대신, 이미지 렌더링용 JSON을 만든다.)

@@ -75,12 +75,12 @@ def build_html(data):
   footer {{ margin-top:30px; text-align:center; font-size:26px; font-weight:600; color:#b45309; }}
 </style></head><body>
   <header>
-    <span class="eyebrow">라온고 주간 급식</span>
+    <span class="eyebrow">주간 급식</span>
     <div class="title">다음 주 점심</div>
     <div class="range">{week_label}</div>
   </header>
   <div class="days">{rows_html}</div>
-  <footer>· 라온고등학교 급식실 ·</footer>
+  <footer>· 급식실 ·</footer>
 </body></html>"""
 
 

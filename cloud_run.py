@@ -141,7 +141,7 @@ def upload_images(pairs):
 
 
 def build_caption(data):
-    lines = [f"🍱 {data['date']} ({data['weekday']}) 라온고 오늘의 급식", ""]
+    lines = [f"🍱 {data['date']} ({data['weekday']}) 오늘의 급식", ""]
     for meal in MEAL_ORDER:
         m = data.get("meals", {}).get(meal)
         if not m or not m.get("items"):
@@ -154,7 +154,7 @@ def build_caption(data):
     if sched:
         lines.append(f"📅 오늘 학사일정: {sched}")
         lines.append("")
-    lines.append("#라온고 #라온고등학교 #오늘의급식 #학교급식 #급식스타그램 #고등학교급식")
+    lines.append("#오늘의급식 #학교급식 #급식스타그램 #고등학교급식")
     return "\n".join(lines).strip()
 
 

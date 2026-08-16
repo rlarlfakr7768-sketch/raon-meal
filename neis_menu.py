@@ -1,5 +1,5 @@
 """
-NEIS(교육정보 개방 포털) 공식 Open API로 라온고 급식·학사일정 조회.
+NEIS(교육정보 개방 포털) 공식 Open API로 급식, 학사일정 조회.
 학교 홈페이지 긁기(get_menu.py)의 안정 대체재. JSON이라 파싱이 안 깨진다.
 - 인증키는 환경변수 NEIS_KEY (없으면 응답 5건 샘플 제한: 하루치 중식+석식은 OK, 주간은 키 필요).
 - 반환 구조는 get_menu.parse_menu 와 동일 → render_card/build_caption 그대로 사용.
@@ -12,7 +12,7 @@ import requests
 
 HUB = "https://open.neis.go.kr/hub"
 ATPT = "J10"        # 경기도교육청
-SCHOOL = "7531294"  # 라온고등학교
+SCHOOL = "7531294"  # 학교 표준코드
 H = {"User-Agent": "raon-meal-neis/1.0"}
 WD = ["월", "화", "수", "목", "금", "토", "일"]
 

@@ -30,7 +30,7 @@ def build_caption(articles, issue):
     header = [f"📡 이주의 IT 트렌드 · 주간기술동향 {issue}호",
               "이번 주 핵심 기술 동향을 정리했어요. 넘겨보세요 →", ""]
     footer = ["📖 각 기사 전문 해설은 phyedu.net ‘ICT 동향 브리핑’ 에서 (위 링크).",
-              "#IT트렌드 #인공지능 #반도체 #과학기술 #고등학생 #진로 #라온고", "",
+              "#IT트렌드 #인공지능 #반도체 #과학기술 #고등학생 #진로 #phyedu", "",
               f"📌 출처: 정보통신기획평가원(IITP) 주간기술동향 {issue}호 (공공누리 제2유형)"]
     base = len("\n".join(header)) + len("\n".join(footer)) + 4
     body, used, n = [], base, 0

@@ -49,7 +49,7 @@ def build_html(card):
   <div class="hook">{esc(card.get('hook',''))}</div>
   <div class="body">{esc(card.get('body',''))}</div>
   <div class="spacer"></div>
-  <footer>라온고 · 더 알아보기 phyedu.net</footer>
+  <footer>더 알아보기 phyedu.net</footer>
 </body></html>"""
 
 
