@@ -1,0 +1,56 @@
+name: 오늘의 지식 콘텐츠 채우기
+
+# 자동으로 돌지 않는다. Actions 탭에서 손으로 실행할 때만 돈다.
+# 목표 개수까지 모자란 만큼만 만들어 content3.json 에 쌓고, 검사를 통과하면 커밋한다.
+on:
+  workflow_dispatch:
+    inputs:
+      target:
+        description: '카테고리당 총 개수(기존 60일치 포함). 420 = 360일치 추가'
+        required: false
+        default: '420'
+      only:
+        description: '일부만 채울 때 카테고리 이름(쉼표로 구분, 비우면 전부)'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: 파이썬 의존성
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
+      - name: 콘텐츠 생성
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          ARGS="${{ inputs.target }}"
+          if [ -n "${{ inputs.only }}" ]; then ARGS="$ARGS --only=${{ inputs.only }}"; fi
+          python gen_content.py $ARGS
+
+      - name: 전수 검사
+        run: python check_content.py
+
+      - name: 커밋
+        if: always()
+        run: |
+          git config user.name  "raon-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add content3.json
+          git diff --cached --quiet && echo "바뀐 것 없음" && exit 0
+          git commit -m "오늘의 지식 콘텐츠 채우기 [skip ci]"
+          git pull --rebase --autostash || true
+          git push
