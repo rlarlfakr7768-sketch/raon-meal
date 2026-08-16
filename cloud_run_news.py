@@ -31,8 +31,22 @@ RECENT_PATH = os.path.join(SCRIPT_DIR, "news_recent.json")
 TARGETS = ["phyedu_net"]
 OPENAI_MODEL = "gpt-5-mini"
 N_ITEMS = 5
+POST_STORY = True         # 캐러셀 첫 장을 스토리로도 올릴지(9:16으로 따로 렌더한다)
 RECENT_DAYS = 10          # 며칠치 게시 이력을 기억해 중복 선택을 막을지
 CAP_LIMIT = 2150          # 인스타 캡션 한도 2,200자에 여유를 둔 값
+
+# 카드에 붙일 교과 연결. 모델이 이 목록 안에서만 고르게 해서 없는 단원명을 지어내지 못하게 한다.
+# 2022 개정 교육과정 과목과 영역이다. 교육과정이 바뀌면 여기만 손보면 된다.
+SUBJECTS = [
+    "통합과학1, 과학의 기초", "통합과학1, 물질과 규칙성", "통합과학1, 시스템과 상호작용",
+    "통합과학2, 변화와 다양성", "통합과학2, 환경과 에너지", "통합과학2, 과학과 미래 사회",
+    "물리학, 힘과 에너지", "물리학, 전기와 자기", "물리학, 빛과 물질",
+    "화학, 화학의 언어", "화학, 물질의 구조와 성질", "화학, 화학 반응",
+    "생명과학, 생명 시스템의 구성", "생명과학, 항상성과 몸의 조절",
+    "생명과학, 생명의 연속성과 진화",
+    "지구과학, 대기와 해양의 상호작용", "지구과학, 지구의 역사", "지구과학, 우주 탐사와 천체",
+    "기후변화와 환경생태", "과학의 역사와 문화", "융합과학 탐구",
+]
 
 SYS_PROMPT = "너는 한국 고등학생용 과학 인스타그램 편집자다."
 USER_TMPL = (
@@ -44,11 +58,17 @@ USER_TMPL = (
     "고등학생이 배경지식 없이도 이해하게 풀어라. 단 모든 문장은 원문 표현·구조를 따르지 말고 "
     "네 말로 완전히 새로 쓰고, 후보에 없는 수치·인용·해석은 추가하지 마라(불확실하면 생략). "
     "단위를 바꿔 새 수치를 만들지도 마라.\n"
+    "- blurb: 카드에 헤드라인 아래로 들어갈 한 줄(26자 이내). 헤드라인을 되풀이하지 말고 "
+    "핵심 사실이나 규모를 한 조각 더 얹어라. 마침표 없이 끝내도 된다.\n"
+    "- subject: 아래 '교과 연결 목록'에서 이 뉴스와 가장 가까운 것 하나를 그대로 골라라. "
+    "억지로 끼워 맞추지 말고 마땅한 게 없으면 '융합과학 탐구'로.\n"
     "- source: 후보의 출처명 그대로\n"
     "- photo_query: 내용에 맞는 영어 스톡사진 검색어(2~4단어). 추상어 말고 찍을 수 있는 "
     "구체적 피사체로(예: telescope dome night, coral reef fish).\n"
-    "연구 성과, 관측, 발견을 우선하고 인사·행사·정책·구인 같은 소식은 고르지 마라.\n"
-    'JSON만: {"items":[{"id":0,"headline":"","summary":"","source":"","photo_query":""}]}\n\n'
+    "연구 성과, 관측, 발견을 우선하고 인사, 행사, 정책, 구인 같은 소식은 고르지 마라.\n"
+    'JSON만: {"items":[{"id":0,"headline":"","blurb":"","summary":"","subject":"",'
+    '"source":"","photo_query":""}]}\n\n'
+    "교과 연결 목록:\n{subjects}\n\n"
     "{recent}"
     "후보:\n{items}"
 )
@@ -102,6 +122,7 @@ def curate(items, recent):
     lines = [f"{i}. [{it['source']}] {it['title']} | {it['desc']}"
              for i, it in enumerate(items)]
     body = (USER_TMPL.replace("{recent}", recent_block(recent))
+                     .replace("{subjects}", "\n".join(f"- {s}" for s in SUBJECTS))
                      .replace("{items}", "\n".join(lines)))
     r = requests.post(
         "https://api.openai.com/v1/chat/completions",
@@ -116,6 +137,15 @@ def curate(items, recent):
         raise RuntimeError(f"OpenAI 응답 오류: {r}")
     data = json.loads(r["choices"][0]["message"]["content"])
     out = data.get("items", [])[:N_ITEMS]
+
+    for it in out:
+        # 교과 연결은 목록 안의 값만 인정한다(없는 단원명을 지어내면 그게 더 나쁘다).
+        if it.get("subject") not in SUBJECTS:
+            if it.get("subject"):
+                print(f"  [교과 연결] 목록에 없는 값 '{it['subject']}' → 융합과학 탐구로")
+            it["subject"] = "융합과학 탐구"
+        b = (it.get("blurb") or "").strip()
+        it["blurb"] = b if len(b) <= 30 else b[:29].rstrip() + "…"
 
     # 고른 후보의 원문을 항목에 붙여 둔다(수치 점검·이력 기록용).
     for it in out:
@@ -191,6 +221,8 @@ def build_caption(items):
             mark = nums[i] if i < len(nums) else f"{i+1}."
             lines.append(f"{mark} {it.get('headline','')}")
             lines.append(sums[i])
+            if it.get("subject"):
+                lines.append(f"교과 연결: {it['subject']}")
             lines.append("")
         lines += ["#과학뉴스 #오늘의과학 #science #고등학생 #라온고 #과학상식 #지식스타그램"]
         return "\n".join(lines)
@@ -231,8 +263,17 @@ def main():
     paths = render_news.render(items)
 
     pairs = [(p, f"news_{i:02d}.jpg") for i, p in enumerate(paths)]
+    story_url = None
+    if POST_STORY:
+        try:
+            spath = render_news.render(items[:1], height=1920, prefix="news_story")[0]
+            pairs.append((spath, "news_story.jpg"))
+        except Exception as e:
+            print(f"스토리 렌더 실패(넘어감): {e}")
     urls = upload_images(pairs)
-    print(f"호스팅 {len(urls)}장")
+    if POST_STORY and len(urls) == len(pairs):
+        story_url = urls.pop()          # 마지막이 스토리용
+    print(f"호스팅 {len(urls)}장" + (" + 스토리 1장" if story_url else ""))
 
     caption = build_caption(items)
     print(f"캡션 {len(caption)}자")
@@ -243,6 +284,12 @@ def main():
             posted = True
         except Exception as e:
             print(f"[{label}] 캐러셀 게시 실패: {e}")
+        if story_url:       # 스토리는 덤이라, 실패해도 피드 게시는 그대로 둔다
+            try:
+                publish_ig.post(label, story_url, is_story=True)
+                print(f"[{label}] 스토리 게시 완료")
+            except Exception as e:
+                print(f"[{label}] 스토리 게시 실패(넘어감): {e}")
     if posted:
         try:
             remember(items, datetime.date.today().isoformat())
