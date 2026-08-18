@@ -1,10 +1,13 @@
-name: 오늘의 지식
+name: 오늘의 지식 (중단됨)
 
+# 2026-08-18 캐러셀 게시 중단. 예약을 끄고 수동 실행만 남겼다.
+# 이유: 릴스 평균 조회 12,891에 견줘 캐러셀은 평균 307로 계정 도달에 기여가 없었다.
+# 다시 켜려면 아래 cron 한 줄의 주석을 풀면 된다.
 on:
-  schedule:
-    # 10:00 UTC = 19:00 KST 매일. 큐레이션 풀에서 1장 게시.
-    - cron: '0 10 * * *'
-  workflow_dispatch: {}
+  # schedule:
+  #   10:00 UTC = 19:00 KST 매일. 큐레이션 풀에서 1장 게시.
+  #   - cron: '0 10 * * *'
+  workflow_dispatch: {}   # Actions 탭에서 수동 실행 버튼
 
 permissions:
   contents: write
