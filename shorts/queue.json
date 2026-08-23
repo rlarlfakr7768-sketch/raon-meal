@@ -46,7 +46,7 @@
       "slug": "glasses-fog",
       "title": "안경에김이확서리는이유",
       "cue": "안경에 김이 확 서리는 이유",
-      "slot": "B",
+      "slot": "A",
       "fails": 0,
       "next_cue": "라면 물이 꼭 넘치는 이유"
     },
@@ -55,7 +55,7 @@
       "slug": "ramen-boil",
       "title": "라면물이꼭넘치는이유",
       "cue": "라면 물이 꼭 넘치는 이유",
-      "slot": "A",
+      "slot": "B",
       "fails": 0,
       "next_cue": "비행기에서 귀가 먹먹해지는 이유"
     },
@@ -64,7 +64,7 @@
       "slug": "plane-ear",
       "title": "비행기에서귀가먹먹해지는이유",
       "cue": "비행기에서 귀가 먹먹해지는 이유",
-      "slot": "B",
+      "slot": "A",
       "fails": 0,
       "next_cue": "선풍기가 멈춰 보이는 이유"
     },
@@ -73,7 +73,7 @@
       "slug": "strobe-fan",
       "title": "선풍기가멈춰보이는이유",
       "cue": "선풍기가 멈춰 보이는 이유",
-      "slot": "A",
+      "slot": "B",
       "fails": 0,
       "next_cue": "겨울에 폰이 갑자기 꺼지는 이유"
     },
@@ -82,7 +82,7 @@
       "slug": "cold-battery",
       "title": "겨울에폰이갑자기꺼지는이유",
       "cue": "겨울에 폰이 갑자기 꺼지는 이유",
-      "slot": "B",
+      "slot": "A",
       "fails": 0,
       "next_cue": "피자를 접어 먹는 이유"
     },
@@ -91,7 +91,7 @@
       "slug": "pizza-fold",
       "title": "피자를접어먹는이유",
       "cue": "피자를 접어 먹는 이유",
-      "slot": "A",
+      "slot": "B",
       "fails": 0,
       "next_cue": "눈 오는 날이 유난히 조용한 이유"
     },
@@ -100,7 +100,7 @@
       "slug": "snow-quiet",
       "title": "눈오는날이조용한이유",
       "cue": "눈 오는 날이 유난히 조용한 이유",
-      "slot": "B",
+      "slot": "A",
       "fails": 0,
       "next_cue": "밤에 먼 소리가 잘 들리는 이유"
     },
@@ -109,7 +109,7 @@
       "slug": "night-sound",
       "title": "밤에먼소리가잘들리는이유",
       "cue": "밤에 먼 소리가 잘 들리는 이유",
-      "slot": "A",
+      "slot": "B",
       "fails": 0,
       "next_cue": "세면대 물이 도는 방향"
     },
@@ -118,7 +118,7 @@
       "slug": "sink-coriolis",
       "title": "세면대물이도는방향",
       "cue": "세면대 물이 도는 방향",
-      "slot": "B",
+      "slot": "A",
       "fails": 0,
       "next_cue": "지하철에서 몸이 앞으로 가는 이유"
     },
@@ -127,7 +127,7 @@
       "slug": "subway-lean",
       "title": "지하철이설때몸은앞으로",
       "cue": "지하철에서 몸이 앞으로 가는 이유",
-      "slot": "A",
+      "slot": "B",
       "fails": 0,
       "next_cue": "물 붓는 소리로 높이를 아는 이유"
     },
@@ -136,7 +136,7 @@
       "slug": "cup-pitch",
       "title": "물붓는소리로높이를아는이유",
       "cue": "물 붓는 소리로 높이를 아는 이유",
-      "slot": "B",
+      "slot": "A",
       "fails": 0,
       "next_cue": "새 병뚜껑이 데우면 열리는 이유"
     },
@@ -145,7 +145,7 @@
       "slug": "jar-lid",
       "title": "새병뚜껑이데우면열리는이유",
       "cue": "새 병뚜껑이 데우면 열리는 이유",
-      "slot": "A",
+      "slot": "B",
       "fails": 0,
       "next_cue": "손잡이만 안 뜨거운 이유"
     },
@@ -154,7 +154,7 @@
       "slug": "pot-handle",
       "title": "냄비는100도인데손잡이는잡힌다",
       "cue": "손잡이만 안 뜨거운 이유",
-      "slot": "B",
+      "slot": "A",
       "fails": 0,
       "next_cue": "유리컵이 뜨거운 물에 깨지는 이유"
     },
@@ -163,7 +163,7 @@
       "slug": "glass-crack",
       "title": "유리컵이뜨거운물에깨지는이유",
       "cue": "유리컵이 뜨거운 물에 깨지는 이유",
-      "slot": "A",
+      "slot": "B",
       "fails": 0,
       "next_cue": "문이 저절로 닫히는 이유"
     },
@@ -172,7 +172,7 @@
       "slug": "door-self-close",
       "title": "문이저절로닫히는이유",
       "cue": "문이 저절로 닫히는 이유",
-      "slot": "B",
+      "slot": "A",
       "fails": 0,
       "next_cue": "빨래가 영하에서도 마르는 이유"
     },
@@ -181,7 +181,7 @@
       "slug": "frozen-laundry",
       "title": "빨래가영하에서도마르는이유",
       "cue": "빨래가 영하에서도 마르는 이유",
-      "slot": "A",
+      "slot": "B",
       "fails": 0,
       "next_cue": "꿀이 실처럼 이어져 떨어지는 이유"
     },
@@ -190,7 +190,7 @@
       "slug": "honey-thread",
       "title": "꿀이실처럼이어지는이유",
       "cue": "꿀이 실처럼 이어져 떨어지는 이유",
-      "slot": "B",
+      "slot": "A",
       "fails": 0,
       "next_cue": "우산이 한꺼번에 뒤집히는 이유"
     },
@@ -199,7 +199,7 @@
       "slug": "umbrella-flip",
       "title": "우산이한꺼번에뒤집히는이유",
       "cue": "우산이 한꺼번에 뒤집히는 이유",
-      "slot": "A",
+      "slot": "B",
       "fails": 0,
       "next_cue": null
     }
