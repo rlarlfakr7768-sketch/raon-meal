@@ -1,0 +1,71 @@
+name: 쇼츠 자동 게시
+
+# 집 컴퓨터가 꺼져 있어도 나가게 한다. 하루 한 편이고, 대기열 맨 위의 편에
+# 붙은 슬롯(A 저녁 / B 점심)과 맞는 시각에만 실제로 올라간다.
+#
+# ⚠ cron 은 UTC 다.  20:00 KST = 11:00 UTC,  12:30 KST = 03:30 UTC
+# ⚠ 깃헙 예약은 몇 분에서 십몇 분 늦게 뜬다. 정확한 시각을 요구하지 않는다.
+on:
+  schedule:
+    - cron: '0 11 * * *'      # A 슬롯 · 20:00 KST
+    - cron: '30 3 * * *'      # B 슬롯 · 12:30 KST
+  workflow_dispatch:
+    inputs:
+      slot:
+        description: '슬롯 (A 저녁 / B 점심). 비우면 슬롯 검사 없이 맨 위를 올린다'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+concurrency:
+  group: shorts-post
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: 의존성
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
+      - name: secrets.json 작성
+        env:
+          IG_SECRETS_JSON: ${{ secrets.IG_SECRETS_JSON }}
+        run: printf '%s' "$IG_SECRETS_JSON" > secrets.json
+
+      - name: 슬롯 정하기
+        id: slot
+        run: |
+          if [ -n "${{ github.event.inputs.slot }}" ]; then
+            echo "arg=--slot ${{ github.event.inputs.slot }}" >> "$GITHUB_OUTPUT"
+          elif [ "${{ github.event.schedule }}" = "0 11 * * *" ]; then
+            echo "arg=--slot A" >> "$GITHUB_OUTPUT"
+          elif [ "${{ github.event.schedule }}" = "30 3 * * *" ]; then
+            echo "arg=--slot B" >> "$GITHUB_OUTPUT"
+          else
+            echo "arg=" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: 한 편 올리기
+        run: python cloud_shorts.py ${{ steps.slot.outputs.arg }}
+
+      - name: 갱신된 토큰을 Secret 에 다시 저장 (GH_PAT 있을 때만)
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          if [ -z "$GH_TOKEN" ]; then
+            echo "GH_PAT 미설정 — 토큰 자동 갱신 저장 생략"
+            exit 0
+          fi
+          gh secret set IG_SECRETS_JSON --repo "$GITHUB_REPOSITORY" < secrets.json
