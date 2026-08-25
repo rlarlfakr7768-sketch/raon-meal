@@ -6,15 +6,6 @@
   "paused": false,
   "queue": [
     {
-      "num": "57",
-      "slug": "microwave",
-      "title": "전자레인지가가운데를남기는이유",
-      "cue": "전자레인지가 가운데를 남기는 이유",
-      "slot": "A",
-      "fails": 0,
-      "next_cue": "계산대에서 내 줄만 느린 이유"
-    },
-    {
       "num": "58",
       "slug": "checkout-queue",
       "title": "계산대에서내줄만느린이유",
@@ -237,6 +228,18 @@
       "at": "2026-08-23T22:46:18+09:00",
       "permalink": null,
       "note": "손으로 올렸다"
+    },
+    {
+      "num": "57",
+      "slug": "microwave",
+      "title": "전자레인지가가운데를남기는이유",
+      "cue": "전자레인지가 가운데를 남기는 이유",
+      "slot": "A",
+      "fails": 0,
+      "next_cue": "계산대에서 내 줄만 느린 이유",
+      "at": "2026-08-25T20:30:21.245801+09:00",
+      "media_id": "18073827008412367",
+      "permalink": "https://www.instagram.com/reel/DcdiGYmCMv0/"
     }
   ]
 }
