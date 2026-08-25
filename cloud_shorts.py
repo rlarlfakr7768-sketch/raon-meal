@@ -208,12 +208,7 @@ def check(q, item, caption, video):
     return bad
 
 
-def main():
-    ap = argparse.ArgumentParser()
-    ap.add_argument("--slot", choices=["A", "B"])
-    ap.add_argument("--plan", action="store_true")
-    args = ap.parse_args()
-
+def run(args):
     q = load()
     if q.get("paused"):
         say("멈춤 상태다. 아무것도 안 한다")
@@ -251,7 +246,8 @@ def main():
     items = recent(uid, token)
     n = posted_today(items)
     if n:
-        say("[%s] 건너뜀 — 오늘 이미 %d편 올렸다" % (args.slot or "-", n))
+        say("[%s] 건너뜀 — 오늘 이미 %d편 올렸다 (맨 위는 %s %s)"
+            % (args.slot or "-", n, item["num"], item["slug"]))
         return 0
 
     dup = already_posted(items, caption)
@@ -307,6 +303,21 @@ def main():
     save(q)
     commit("shorts: %s %s 게시" % (item["num"], item["slug"]))
     return 0
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--slot", choices=["A", "B"])
+    ap.add_argument("--plan", action="store_true")
+    args = ap.parse_args()
+    if args.plan:
+        return run(args)
+    try:
+        return run(args)
+    finally:
+        # ⚠ 건너뛴 길에서도 기록을 남긴다. 러너는 실행이 끝나면 사라지므로
+        #    여기서 커밋하지 않으면 「왜 안 올라갔는지」가 통째로 없어진다.
+        commit("shorts: 기록")
 
 
 if __name__ == "__main__":
