@@ -6,15 +6,6 @@
   "paused": false,
   "queue": [
     {
-      "num": "59",
-      "slug": "straw-limit",
-      "title": "빨대로못올리는높이가있다",
-      "cue": "빨대로 못 올리는 높이가 있는 이유",
-      "slot": "A",
-      "fails": 0,
-      "next_cue": "덜컹이는 식탁을 받침 없이 잡는 법"
-    },
-    {
       "num": "60",
       "slug": "wobbly-table",
       "title": "덜컹이는식탁은돌리면멎는다",
@@ -270,6 +261,18 @@
       "at": "2026-08-26T13:12:33.216110+09:00",
       "media_id": "17877706293534129",
       "permalink": "https://www.instagram.com/reel/DcfUzgXDRF0/"
+    },
+    {
+      "num": "59",
+      "slug": "straw-limit",
+      "title": "빨대로못올리는높이가있다",
+      "cue": "빨대로 못 올리는 높이가 있는 이유",
+      "slot": "A",
+      "fails": 0,
+      "next_cue": "덜컹이는 식탁을 받침 없이 잡는 법",
+      "at": "2026-08-28T05:56:16.997715+09:00",
+      "media_id": "18124676155763797",
+      "permalink": "https://www.instagram.com/reel/DcjsdWFjnLX/"
     }
   ]
 }
