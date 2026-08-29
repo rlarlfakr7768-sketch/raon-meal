@@ -6,15 +6,6 @@
   "paused": false,
   "queue": [
     {
-      "num": "64",
-      "slug": "plane-ear",
-      "title": "비행기에서귀가먹먹해지는이유",
-      "cue": "비행기에서 귀가 먹먹해지는 이유",
-      "slot": "A",
-      "fails": 0,
-      "next_cue": "선풍기가 멈춰 보이는 이유"
-    },
-    {
       "num": "65",
       "slug": "strobe-fan",
       "title": "선풍기가멈춰보이는이유",
@@ -525,6 +516,18 @@
       "at": "2026-08-29T13:26:30.977993+09:00",
       "media_id": "17950109448036117",
       "permalink": "https://www.instagram.com/reel/DcnExq1iDcp/"
+    },
+    {
+      "num": "64",
+      "slug": "plane-ear",
+      "title": "비행기에서귀가먹먹해지는이유",
+      "cue": "비행기에서 귀가 먹먹해지는 이유",
+      "slot": "A",
+      "fails": 0,
+      "next_cue": "선풍기가 멈춰 보이는 이유",
+      "at": "2026-08-29T13:27:39.810905+09:00",
+      "media_id": "18026456414902564",
+      "permalink": "https://www.instagram.com/reel/DcnE3-ugqpn/"
     }
   ]
 }
