@@ -6,15 +6,6 @@
   "paused": false,
   "queue": [
     {
-      "num": "66",
-      "slug": "cold-battery",
-      "title": "겨울에폰이갑자기꺼지는이유",
-      "cue": "겨울에 폰이 갑자기 꺼지는 이유",
-      "slot": "A",
-      "fails": 0,
-      "next_cue": "피자를 접어 먹는 이유"
-    },
-    {
       "num": "67",
       "slug": "pizza-fold",
       "title": "피자를접어먹는이유",
@@ -531,6 +522,18 @@
       "at": "2026-08-29T13:28:47.709950+09:00",
       "media_id": "17984479005059737",
       "permalink": "https://www.instagram.com/reel/DcnFARkEe9j/"
+    },
+    {
+      "num": "66",
+      "slug": "cold-battery",
+      "title": "겨울에폰이갑자기꺼지는이유",
+      "cue": "겨울에 폰이 갑자기 꺼지는 이유",
+      "slot": "A",
+      "fails": 0,
+      "next_cue": "피자를 접어 먹는 이유",
+      "at": "2026-08-29T13:29:37.225816+09:00",
+      "media_id": "17981926098097038",
+      "permalink": "https://www.instagram.com/reel/DcnFIdklTN1/"
     }
   ]
 }
