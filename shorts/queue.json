@@ -6,15 +6,6 @@
   "paused": false,
   "queue": [
     {
-      "num": "65",
-      "slug": "strobe-fan",
-      "title": "선풍기가멈춰보이는이유",
-      "cue": "선풍기가 멈춰 보이는 이유",
-      "slot": "B",
-      "fails": 0,
-      "next_cue": "겨울에 폰이 갑자기 꺼지는 이유"
-    },
-    {
       "num": "66",
       "slug": "cold-battery",
       "title": "겨울에폰이갑자기꺼지는이유",
@@ -528,6 +519,18 @@
       "at": "2026-08-29T13:27:39.810905+09:00",
       "media_id": "18026456414902564",
       "permalink": "https://www.instagram.com/reel/DcnE3-ugqpn/"
+    },
+    {
+      "num": "65",
+      "slug": "strobe-fan",
+      "title": "선풍기가멈춰보이는이유",
+      "cue": "선풍기가 멈춰 보이는 이유",
+      "slot": "B",
+      "fails": 0,
+      "next_cue": "겨울에 폰이 갑자기 꺼지는 이유",
+      "at": "2026-08-29T13:28:47.709950+09:00",
+      "media_id": "17984479005059737",
+      "permalink": "https://www.instagram.com/reel/DcnFARkEe9j/"
     }
   ]
 }
