@@ -6,15 +6,6 @@
   "paused": false,
   "queue": [
     {
-      "num": "68",
-      "slug": "snow-quiet",
-      "title": "눈오는날이조용한이유",
-      "cue": "눈 오는 날이 유난히 조용한 이유",
-      "slot": "A",
-      "fails": 0,
-      "next_cue": "밤에 먼 소리가 잘 들리는 이유"
-    },
-    {
       "num": "69",
       "slug": "night-sound",
       "title": "밤에먼소리가잘들리는이유",
@@ -537,6 +528,18 @@
       "at": "2026-08-29T13:30:27.166459+09:00",
       "media_id": "18114004684989455",
       "permalink": "https://www.instagram.com/reel/DcnFOTtjSio/"
+    },
+    {
+      "num": "68",
+      "slug": "snow-quiet",
+      "title": "눈오는날이조용한이유",
+      "cue": "눈 오는 날이 유난히 조용한 이유",
+      "slot": "A",
+      "fails": 0,
+      "next_cue": "밤에 먼 소리가 잘 들리는 이유",
+      "at": "2026-08-30T00:32:48.000027+09:00",
+      "media_id": "17991504294033929",
+      "permalink": "https://www.instagram.com/reel/DcoQ_j8D65W/"
     }
   ]
 }
