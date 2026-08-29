@@ -6,15 +6,6 @@
   "paused": false,
   "queue": [
     {
-      "num": "67",
-      "slug": "pizza-fold",
-      "title": "피자를접어먹는이유",
-      "cue": "피자를 접어 먹는 이유",
-      "slot": "B",
-      "fails": 0,
-      "next_cue": "눈 오는 날이 유난히 조용한 이유"
-    },
-    {
       "num": "68",
       "slug": "snow-quiet",
       "title": "눈오는날이조용한이유",
@@ -534,6 +525,18 @@
       "at": "2026-08-29T13:29:37.225816+09:00",
       "media_id": "17981926098097038",
       "permalink": "https://www.instagram.com/reel/DcnFIdklTN1/"
+    },
+    {
+      "num": "67",
+      "slug": "pizza-fold",
+      "title": "피자를접어먹는이유",
+      "cue": "피자를 접어 먹는 이유",
+      "slot": "B",
+      "fails": 0,
+      "next_cue": "눈 오는 날이 유난히 조용한 이유",
+      "at": "2026-08-29T13:30:27.166459+09:00",
+      "media_id": "18114004684989455",
+      "permalink": "https://www.instagram.com/reel/DcnFOTtjSio/"
     }
   ]
 }
