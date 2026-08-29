@@ -42,6 +42,12 @@ LOG = os.path.join(SHORTS, "SHORTS.log")
 KST = dt.timezone(dt.timedelta(hours=9))
 ACCOUNT = "phyedu_net"
 MAX_FAILS = 3
+# 하루에 올릴 편수. 슬롯이 둘(점심 B 12:30 / 저녁 A 20:00)이므로 2 다.
+#
+# ⚠ 이 문턱을 1 로 두면 저녁 슬롯이 매일 헛돈다. 끝 카드가 다음 편 제목을
+#    부르는 구조라 한 번에 여러 편을 몰아 올리면 예고가 무의미해진다.
+#    올리는 속도를 더 내고 싶으면 슬롯을 늘리고 이 값을 같이 올린다.
+PER_DAY = 2
 CAPTION_LIMIT = 2200
 
 # 인스타는 영상을 못 받아도 사유를 안 준다. CDN 이 안 퍼진 것이 대부분이라
@@ -245,9 +251,9 @@ def run(args):
     uid, token = account()
     items = recent(uid, token)
     n = posted_today(items)
-    if n:
-        say("[%s] 건너뜀 — 오늘 이미 %d편 올렸다 (맨 위는 %s %s)"
-            % (args.slot or "-", n, item["num"], item["slug"]))
+    if n >= PER_DAY:
+        say("[%s] 건너뜀 — 오늘 이미 %d편 올렸다 (하루 %d편까지, 맨 위는 %s %s)"
+            % (args.slot or "-", n, PER_DAY, item["num"], item["slug"]))
         return 0
 
     dup = already_posted(items, caption)
