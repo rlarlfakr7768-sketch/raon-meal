@@ -251,7 +251,7 @@ def run(args):
     uid, token = account()
     items = recent(uid, token)
     n = posted_today(items)
-    if n >= PER_DAY:
+    if n >= PER_DAY and not args.force:
         say("[%s] 건너뜀 — 오늘 이미 %d편 올렸다 (하루 %d편까지, 맨 위는 %s %s)"
             % (args.slot or "-", n, PER_DAY, item["num"], item["slug"]))
         return 0
@@ -315,11 +315,23 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--slot", choices=["A", "B"])
     ap.add_argument("--plan", action="store_true")
+    # 손으로 몰아 올릴 때만 쓴다. 예약 실행은 이 둘을 절대 주지 않는다.
+    ap.add_argument("--count", type=int, default=1, help="한 번에 올릴 편수")
+    ap.add_argument("--force", action="store_true",
+                    help="하루 %d편 캡을 무시한다" % PER_DAY)
     args = ap.parse_args()
     if args.plan:
         return run(args)
     try:
-        return run(args)
+        # 여러 편이면 한 편씩 되풀이한다. run() 은 매번 대기열을 다시 읽으므로
+        # 맨 위가 저절로 다음 편으로 넘어간다.
+        for k in range(max(1, args.count)):
+            if args.count > 1:
+                say("=== %d/%d" % (k + 1, args.count))
+            rc = run(args)
+            if rc:
+                return rc
+        return 0
     finally:
         # ⚠ 건너뛴 길에서도 기록을 남긴다. 러너는 실행이 끝나면 사라지므로
         #    여기서 커밋하지 않으면 「왜 안 올라갔는지」가 통째로 없어진다.
