@@ -6,15 +6,6 @@
   "paused": false,
   "queue": [
     {
-      "num": "62",
-      "slug": "glasses-fog",
-      "title": "안경에김이확서리는이유",
-      "cue": "안경에 김이 확 서리는 이유",
-      "slot": "A",
-      "fails": 0,
-      "next_cue": "라면 물이 꼭 넘치는 이유"
-    },
-    {
       "num": "63",
       "slug": "ramen-boil",
       "title": "라면물이꼭넘치는이유",
@@ -276,6 +267,18 @@
       "at": "2026-08-29T00:37:45.189251+09:00",
       "media_id": "18116514172819778",
       "permalink": "https://www.instagram.com/reel/DclsxI0EdpU/"
+    },
+    {
+      "num": "62",
+      "slug": "glasses-fog",
+      "title": "안경에김이확서리는이유",
+      "cue": "안경에 김이 확 서리는 이유",
+      "slot": "A",
+      "fails": 0,
+      "next_cue": "라면 물이 꼭 넘치는 이유",
+      "at": "2026-08-29T13:01:53.069118+09:00",
+      "media_id": "17864573283663172",
+      "permalink": "https://www.instagram.com/reel/DcnB9vJDyo6/"
     }
   ]
 }
