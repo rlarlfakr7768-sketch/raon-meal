@@ -6,15 +6,6 @@
   "paused": false,
   "queue": [
     {
-      "num": "63",
-      "slug": "ramen-boil",
-      "title": "라면물이꼭넘치는이유",
-      "cue": "라면 물이 꼭 넘치는 이유",
-      "slot": "B",
-      "fails": 0,
-      "next_cue": "비행기에서 귀가 먹먹해지는 이유"
-    },
-    {
       "num": "64",
       "slug": "plane-ear",
       "title": "비행기에서귀가먹먹해지는이유",
@@ -522,6 +513,18 @@
       "at": "2026-08-29T13:01:53.069118+09:00",
       "media_id": "17864573283663172",
       "permalink": "https://www.instagram.com/reel/DcnB9vJDyo6/"
+    },
+    {
+      "num": "63",
+      "slug": "ramen-boil",
+      "title": "라면물이꼭넘치는이유",
+      "cue": "라면 물이 꼭 넘치는 이유",
+      "slot": "B",
+      "fails": 0,
+      "next_cue": "비행기에서 귀가 먹먹해지는 이유",
+      "at": "2026-08-29T13:26:30.977993+09:00",
+      "media_id": "17950109448036117",
+      "permalink": "https://www.instagram.com/reel/DcnExq1iDcp/"
     }
   ]
 }
