@@ -6,15 +6,6 @@
   "paused": false,
   "queue": [
     {
-      "num": "70",
-      "slug": "sink-coriolis",
-      "title": "세면대물이도는방향",
-      "cue": "세면대 물이 도는 방향",
-      "slot": "A",
-      "fails": 0,
-      "next_cue": "지하철에서 몸이 앞으로 가는 이유"
-    },
-    {
       "num": "71",
       "slug": "subway-lean",
       "title": "지하철이설때몸은앞으로",
@@ -543,6 +534,18 @@
       "at": "2026-08-31T19:03:21.578271+09:00",
       "media_id": "18082657883694986",
       "permalink": "https://www.instagram.com/reel/Dcs07ZIjJJ0/"
+    },
+    {
+      "num": "70",
+      "slug": "sink-coriolis",
+      "title": "세면대물이도는방향",
+      "cue": "세면대 물이 도는 방향",
+      "slot": "A",
+      "fails": 0,
+      "next_cue": "지하철에서 몸이 앞으로 가는 이유",
+      "at": "2026-09-01T02:57:36.797855+09:00",
+      "media_id": "17933629152126720",
+      "permalink": "https://www.instagram.com/reel/DctrMNGAeu2/"
     }
   ]
 }
