@@ -6,15 +6,6 @@
   "paused": false,
   "queue": [
     {
-      "num": "69",
-      "slug": "night-sound",
-      "title": "밤에먼소리가잘들리는이유",
-      "cue": "밤에 먼 소리가 잘 들리는 이유",
-      "slot": "B",
-      "fails": 0,
-      "next_cue": "세면대 물이 도는 방향"
-    },
-    {
       "num": "70",
       "slug": "sink-coriolis",
       "title": "세면대물이도는방향",
@@ -540,6 +531,18 @@
       "at": "2026-08-30T00:32:48.000027+09:00",
       "media_id": "17991504294033929",
       "permalink": "https://www.instagram.com/reel/DcoQ_j8D65W/"
+    },
+    {
+      "num": "69",
+      "slug": "night-sound",
+      "title": "밤에먼소리가잘들리는이유",
+      "cue": "밤에 먼 소리가 잘 들리는 이유",
+      "slot": "B",
+      "fails": 0,
+      "next_cue": "세면대 물이 도는 방향",
+      "at": "2026-08-31T19:03:21.578271+09:00",
+      "media_id": "18082657883694986",
+      "permalink": "https://www.instagram.com/reel/Dcs07ZIjJJ0/"
     }
   ]
 }
