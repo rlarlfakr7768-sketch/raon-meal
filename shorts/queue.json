@@ -6,15 +6,6 @@
   "paused": false,
   "queue": [
     {
-      "num": "72",
-      "slug": "cup-pitch",
-      "title": "물붓는소리로높이를아는이유",
-      "cue": "물 붓는 소리로 높이를 아는 이유",
-      "slot": "A",
-      "fails": 0,
-      "next_cue": "새 병뚜껑이 데우면 열리는 이유"
-    },
-    {
       "num": "73",
       "slug": "jar-lid",
       "title": "새병뚜껑이데우면열리는이유",
@@ -549,6 +540,18 @@
       "at": "2026-09-01T17:52:57.420343+09:00",
       "media_id": "18156497251443509",
       "permalink": "https://www.instagram.com/reel/DcvRqUvAYxh/"
+    },
+    {
+      "num": "72",
+      "slug": "cup-pitch",
+      "title": "물붓는소리로높이를아는이유",
+      "cue": "물 붓는 소리로 높이를 아는 이유",
+      "slot": "A",
+      "fails": 0,
+      "next_cue": "새 병뚜껑이 데우면 열리는 이유",
+      "at": "2026-09-02T00:25:18.450117+09:00",
+      "media_id": "18136887310614730",
+      "permalink": "https://www.instagram.com/reel/Dcv-kBqASko/"
     }
   ]
 }
