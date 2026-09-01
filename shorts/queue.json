@@ -6,15 +6,6 @@
   "paused": false,
   "queue": [
     {
-      "num": "71",
-      "slug": "subway-lean",
-      "title": "지하철이설때몸은앞으로",
-      "cue": "지하철에서 몸이 앞으로 가는 이유",
-      "slot": "B",
-      "fails": 0,
-      "next_cue": "물 붓는 소리로 높이를 아는 이유"
-    },
-    {
       "num": "72",
       "slug": "cup-pitch",
       "title": "물붓는소리로높이를아는이유",
@@ -546,6 +537,18 @@
       "at": "2026-09-01T02:57:36.797855+09:00",
       "media_id": "17933629152126720",
       "permalink": "https://www.instagram.com/reel/DctrMNGAeu2/"
+    },
+    {
+      "num": "71",
+      "slug": "subway-lean",
+      "title": "지하철이설때몸은앞으로",
+      "cue": "지하철에서 몸이 앞으로 가는 이유",
+      "slot": "B",
+      "fails": 0,
+      "next_cue": "물 붓는 소리로 높이를 아는 이유",
+      "at": "2026-09-01T17:52:57.420343+09:00",
+      "media_id": "18156497251443509",
+      "permalink": "https://www.instagram.com/reel/DcvRqUvAYxh/"
     }
   ]
 }
