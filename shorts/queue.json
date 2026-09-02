@@ -6,15 +6,6 @@
   "paused": false,
   "queue": [
     {
-      "num": "73",
-      "slug": "jar-lid",
-      "title": "새병뚜껑이데우면열리는이유",
-      "cue": "새 병뚜껑이 데우면 열리는 이유",
-      "slot": "B",
-      "fails": 0,
-      "next_cue": "손잡이만 안 뜨거운 이유"
-    },
-    {
       "num": "74",
       "slug": "pot-handle",
       "title": "냄비는100도인데손잡이는잡힌다",
@@ -552,6 +543,18 @@
       "at": "2026-09-02T00:25:18.450117+09:00",
       "media_id": "18136887310614730",
       "permalink": "https://www.instagram.com/reel/Dcv-kBqASko/"
+    },
+    {
+      "num": "73",
+      "slug": "jar-lid",
+      "title": "새병뚜껑이데우면열리는이유",
+      "cue": "새 병뚜껑이 데우면 열리는 이유",
+      "slot": "B",
+      "fails": 0,
+      "next_cue": "손잡이만 안 뜨거운 이유",
+      "at": "2026-09-02T17:06:47.420898+09:00",
+      "media_id": "18114482611972852",
+      "permalink": "https://www.instagram.com/reel/DcxxK8FlPDA/"
     }
   ]
 }
