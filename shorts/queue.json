@@ -6,15 +6,6 @@
   "paused": false,
   "queue": [
     {
-      "num": "74",
-      "slug": "pot-handle",
-      "title": "냄비는100도인데손잡이는잡힌다",
-      "cue": "손잡이만 안 뜨거운 이유",
-      "slot": "A",
-      "fails": 0,
-      "next_cue": "유리컵이 뜨거운 물에 깨지는 이유"
-    },
-    {
       "num": "75",
       "slug": "glass-crack",
       "title": "유리컵이뜨거운물에깨지는이유",
@@ -555,6 +546,18 @@
       "at": "2026-09-02T17:06:47.420898+09:00",
       "media_id": "18114482611972852",
       "permalink": "https://www.instagram.com/reel/DcxxK8FlPDA/"
+    },
+    {
+      "num": "74",
+      "slug": "pot-handle",
+      "title": "냄비는100도인데손잡이는잡힌다",
+      "cue": "손잡이만 안 뜨거운 이유",
+      "slot": "A",
+      "fails": 0,
+      "next_cue": "유리컵이 뜨거운 물에 깨지는 이유",
+      "at": "2026-09-03T00:00:57.201175+09:00",
+      "media_id": "18083252951296112",
+      "permalink": "https://www.instagram.com/reel/Dcygkz0DRSF/"
     }
   ]
 }
