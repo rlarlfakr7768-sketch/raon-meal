@@ -6,15 +6,6 @@
   "paused": false,
   "queue": [
     {
-      "num": "75",
-      "slug": "glass-crack",
-      "title": "유리컵이뜨거운물에깨지는이유",
-      "cue": "유리컵이 뜨거운 물에 깨지는 이유",
-      "slot": "B",
-      "fails": 0,
-      "next_cue": "문이 저절로 닫히는 이유"
-    },
-    {
       "num": "76",
       "slug": "door-self-close",
       "title": "문이저절로닫히는이유",
@@ -558,6 +549,18 @@
       "at": "2026-09-03T00:00:57.201175+09:00",
       "media_id": "18083252951296112",
       "permalink": "https://www.instagram.com/reel/Dcygkz0DRSF/"
+    },
+    {
+      "num": "75",
+      "slug": "glass-crack",
+      "title": "유리컵이뜨거운물에깨지는이유",
+      "cue": "유리컵이 뜨거운 물에 깨지는 이유",
+      "slot": "B",
+      "fails": 0,
+      "next_cue": "문이 저절로 닫히는 이유",
+      "at": "2026-09-03T17:17:19.976394+09:00",
+      "media_id": "18094636814386090",
+      "permalink": "https://www.instagram.com/reel/Dc0XJfaF8Pb/"
     }
   ]
 }
