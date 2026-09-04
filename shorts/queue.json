@@ -6,15 +6,6 @@
   "paused": false,
   "queue": [
     {
-      "num": "76",
-      "slug": "door-self-close",
-      "title": "문이저절로닫히는이유",
-      "cue": "문이 저절로 닫히는 이유",
-      "slot": "A",
-      "fails": 0,
-      "next_cue": "빨래가 영하에서도 마르는 이유"
-    },
-    {
       "num": "77",
       "slug": "frozen-laundry",
       "title": "빨래가영하에서도마르는이유",
@@ -561,6 +552,18 @@
       "at": "2026-09-03T17:17:19.976394+09:00",
       "media_id": "18094636814386090",
       "permalink": "https://www.instagram.com/reel/Dc0XJfaF8Pb/"
+    },
+    {
+      "num": "76",
+      "slug": "door-self-close",
+      "title": "문이저절로닫히는이유",
+      "cue": "문이 저절로 닫히는 이유",
+      "slot": "A",
+      "fails": 0,
+      "next_cue": "빨래가 영하에서도 마르는 이유",
+      "at": "2026-09-04T23:52:59.591153+09:00",
+      "media_id": "18111279527017690",
+      "permalink": "https://www.instagram.com/reel/Dc3pNt7AVuV/"
     }
   ]
 }
