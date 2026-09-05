@@ -6,15 +6,6 @@
   "paused": false,
   "queue": [
     {
-      "num": "77",
-      "slug": "frozen-laundry",
-      "title": "빨래가영하에서도마르는이유",
-      "cue": "빨래가 영하에서도 마르는 이유",
-      "slot": "B",
-      "fails": 0,
-      "next_cue": "꿀이 실처럼 이어져 떨어지는 이유"
-    },
-    {
       "num": "78",
       "slug": "honey-thread",
       "title": "꿀이실처럼이어지는이유",
@@ -564,6 +555,18 @@
       "at": "2026-09-04T23:52:59.591153+09:00",
       "media_id": "18111279527017690",
       "permalink": "https://www.instagram.com/reel/Dc3pNt7AVuV/"
+    },
+    {
+      "num": "77",
+      "slug": "frozen-laundry",
+      "title": "빨래가영하에서도마르는이유",
+      "cue": "빨래가 영하에서도 마르는 이유",
+      "slot": "B",
+      "fails": 0,
+      "next_cue": "꿀이 실처럼 이어져 떨어지는 이유",
+      "at": "2026-09-05T16:50:42.947291+09:00",
+      "media_id": "18109691651156817",
+      "permalink": "https://www.instagram.com/reel/Dc5dt5zAcsE/"
     }
   ]
 }
