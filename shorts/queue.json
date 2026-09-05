@@ -6,15 +6,6 @@
   "paused": false,
   "queue": [
     {
-      "num": "78",
-      "slug": "honey-thread",
-      "title": "꿀이실처럼이어지는이유",
-      "cue": "꿀이 실처럼 이어져 떨어지는 이유",
-      "slot": "A",
-      "fails": 0,
-      "next_cue": "우산이 한꺼번에 뒤집히는 이유"
-    },
-    {
       "num": "79",
       "slug": "umbrella-flip",
       "title": "우산이한꺼번에뒤집히는이유",
@@ -567,6 +558,18 @@
       "at": "2026-09-05T16:50:42.947291+09:00",
       "media_id": "18109691651156817",
       "permalink": "https://www.instagram.com/reel/Dc5dt5zAcsE/"
+    },
+    {
+      "num": "78",
+      "slug": "honey-thread",
+      "title": "꿀이실처럼이어지는이유",
+      "cue": "꿀이 실처럼 이어져 떨어지는 이유",
+      "slot": "A",
+      "fails": 0,
+      "next_cue": "우산이 한꺼번에 뒤집히는 이유",
+      "at": "2026-09-05T22:44:29.221128+09:00",
+      "media_id": "18123519079873075",
+      "permalink": "https://www.instagram.com/reel/Dc6GL_cgiic/"
     }
   ]
 }
