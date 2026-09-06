@@ -6,15 +6,6 @@
   "paused": false,
   "queue": [
     {
-      "num": "79",
-      "slug": "umbrella-flip",
-      "title": "우산이한꺼번에뒤집히는이유",
-      "cue": "우산이 한꺼번에 뒤집히는 이유",
-      "slot": "B",
-      "fails": 0,
-      "next_cue": null
-    },
-    {
       "num": "80",
       "slug": "hot-air-vs-water",
       "title": "같은100도에서화상이다른이유",
@@ -570,6 +561,18 @@
       "at": "2026-09-05T22:44:29.221128+09:00",
       "media_id": "18123519079873075",
       "permalink": "https://www.instagram.com/reel/Dc6GL_cgiic/"
+    },
+    {
+      "num": "79",
+      "slug": "umbrella-flip",
+      "title": "우산이한꺼번에뒤집히는이유",
+      "cue": "우산이 한꺼번에 뒤집히는 이유",
+      "slot": "B",
+      "fails": 0,
+      "next_cue": null,
+      "at": "2026-09-06T17:06:26.634801+09:00",
+      "media_id": "17988599580044747",
+      "permalink": "https://www.instagram.com/reel/Dc8EUH_Dhyr/"
     }
   ]
 }
