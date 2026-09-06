@@ -6,15 +6,6 @@
   "paused": false,
   "queue": [
     {
-      "num": "80",
-      "slug": "hot-air-vs-water",
-      "title": "같은100도에서화상이다른이유",
-      "cue": "같은100도에서화상이다른이유",
-      "slot": "A",
-      "fails": 0,
-      "next_cue": "고기가 두 배 두꺼우면 네 배 걸리는 이유"
-    },
-    {
       "num": "81",
       "slug": "thickness-squared",
       "title": "두께두배에시간이네배인이유",
@@ -573,6 +564,18 @@
       "at": "2026-09-06T17:06:26.634801+09:00",
       "media_id": "17988599580044747",
       "permalink": "https://www.instagram.com/reel/Dc8EUH_Dhyr/"
+    },
+    {
+      "num": "80",
+      "slug": "hot-air-vs-water",
+      "title": "같은100도에서화상이다른이유",
+      "cue": "같은100도에서화상이다른이유",
+      "slot": "A",
+      "fails": 0,
+      "next_cue": "고기가 두 배 두꺼우면 네 배 걸리는 이유",
+      "at": "2026-09-06T23:00:52.132480+09:00",
+      "media_id": "18094732880395276",
+      "permalink": "https://www.instagram.com/reel/Dc8s1TuiZkT/"
     }
   ]
 }
