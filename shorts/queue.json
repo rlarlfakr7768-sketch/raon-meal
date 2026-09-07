@@ -6,15 +6,6 @@
   "paused": false,
   "queue": [
     {
-      "num": "82",
-      "slug": "burn-outside-raw-inside",
-      "title": "겉은타고속은설익는이유",
-      "cue": "겉이 타는데 속이 안 익는 이유",
-      "slot": "A",
-      "fails": 0,
-      "next_cue": "컨벡션 오븐이 생각만큼 안 빠른 이유"
-    },
-    {
       "num": "83",
       "slug": "convection-oven",
       "title": "열은여섯배인데시간이비슷한이유",
@@ -579,6 +570,18 @@
       "at": "2026-09-07T17:37:04.671248+09:00",
       "media_id": "17929017534400605",
       "permalink": "https://www.instagram.com/reel/Dc-snamiG_4/"
+    },
+    {
+      "num": "82",
+      "slug": "burn-outside-raw-inside",
+      "title": "겉은타고속은설익는이유",
+      "cue": "겉이 타는데 속이 안 익는 이유",
+      "slot": "A",
+      "fails": 0,
+      "next_cue": "컨벡션 오븐이 생각만큼 안 빠른 이유",
+      "at": "2026-09-08T01:19:29.970888+09:00",
+      "media_id": "18427432441179494",
+      "permalink": "https://www.instagram.com/reel/Dc_hiaJj4fo/"
     }
   ]
 }
