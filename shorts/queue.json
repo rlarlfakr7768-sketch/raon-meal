@@ -6,15 +6,6 @@
   "paused": false,
   "queue": [
     {
-      "num": "81",
-      "slug": "thickness-squared",
-      "title": "두께두배에시간이네배인이유",
-      "cue": "고기가 두 배 두꺼우면 네 배 걸리는 이유",
-      "slot": "B",
-      "fails": 0,
-      "next_cue": "겉이 타는데 속이 안 익는 이유"
-    },
-    {
       "num": "82",
       "slug": "burn-outside-raw-inside",
       "title": "겉은타고속은설익는이유",
@@ -576,6 +567,18 @@
       "at": "2026-09-06T23:00:52.132480+09:00",
       "media_id": "18094732880395276",
       "permalink": "https://www.instagram.com/reel/Dc8s1TuiZkT/"
+    },
+    {
+      "num": "81",
+      "slug": "thickness-squared",
+      "title": "두께두배에시간이네배인이유",
+      "cue": "고기가 두 배 두꺼우면 네 배 걸리는 이유",
+      "slot": "B",
+      "fails": 0,
+      "next_cue": "겉이 타는데 속이 안 익는 이유",
+      "at": "2026-09-07T17:37:04.671248+09:00",
+      "media_id": "17929017534400605",
+      "permalink": "https://www.instagram.com/reel/Dc-snamiG_4/"
     }
   ]
 }
