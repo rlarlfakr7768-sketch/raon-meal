@@ -6,15 +6,6 @@
   "paused": false,
   "queue": [
     {
-      "num": "83",
-      "slug": "convection-oven",
-      "title": "열은여섯배인데시간이비슷한이유",
-      "cue": "컨벡션 오븐이 생각만큼 안 빠른 이유",
-      "slot": "B",
-      "fails": 0,
-      "next_cue": "팬에 재료를 많이 올리면 안 되는 이유"
-    },
-    {
       "num": "84",
       "slug": "crowded-pan",
       "title": "재료가늘면팬온도가무너지는이유",
@@ -582,6 +573,18 @@
       "at": "2026-09-08T01:19:29.970888+09:00",
       "media_id": "18427432441179494",
       "permalink": "https://www.instagram.com/reel/Dc_hiaJj4fo/"
+    },
+    {
+      "num": "83",
+      "slug": "convection-oven",
+      "title": "열은여섯배인데시간이비슷한이유",
+      "cue": "컨벡션 오븐이 생각만큼 안 빠른 이유",
+      "slot": "B",
+      "fails": 0,
+      "next_cue": "팬에 재료를 많이 올리면 안 되는 이유",
+      "at": "2026-09-08T17:18:28.325263+09:00",
+      "media_id": "18097253915417359",
+      "permalink": "https://www.instagram.com/reel/DdBPSfNDj17/"
     }
   ]
 }
