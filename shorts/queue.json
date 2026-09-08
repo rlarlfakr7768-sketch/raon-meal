@@ -1,10 +1,407 @@
 {
   "slots": {
-    "A": "20:00",
-    "B": "12:30"
+    "B": "12:00",
+    "A": "18:00"
   },
-  "paused": true,
-  "queue": [],
+  "paused": false,
+  "queue": [
+    {
+      "num": "84",
+      "slug": "crowded-pan",
+      "title": "팬을 꽉 채우면 생기는 일",
+      "cue": null,
+      "next_cue": null,
+      "slot": "B",
+      "fails": 0,
+      "scheduled_at": "2026-09-09T12:00:00+09:00",
+      "sha256": "4236d557d81dfe563e5252e05229c6f9b2316ff7f8a54011bcf91abdd19bdad5"
+    },
+    {
+      "num": "85",
+      "slug": "boiled-never-browns",
+      "title": "삶은 고기는 왜 갈색 껍질이 없을까",
+      "cue": null,
+      "next_cue": null,
+      "slot": "A",
+      "fails": 0,
+      "scheduled_at": "2026-09-09T18:00:00+09:00",
+      "sha256": "33e6741b62feec6f3ee5bbf6e6cc55922bcb6948680e95daa85c0c0ef948d1a7"
+    },
+    {
+      "num": "86",
+      "slug": "pressure-cooker-21k",
+      "title": "압력솥 안의 물은 더 뜨겁다",
+      "cue": null,
+      "next_cue": null,
+      "slot": "B",
+      "fails": 0,
+      "scheduled_at": "2026-09-10T12:00:00+09:00",
+      "sha256": "a2175e7d79228c4519b38fb7b6f0266871a4faa98380ace2536d596538ef31fb"
+    },
+    {
+      "num": "87",
+      "slug": "fried-not-oily",
+      "title": "튀김은 건져 낸 뒤에도 기름을 먹는다",
+      "cue": null,
+      "next_cue": null,
+      "slot": "A",
+      "fails": 0,
+      "scheduled_at": "2026-09-10T18:00:00+09:00",
+      "sha256": "13a7a54a5208b3970a953beff30e174fb2ee8faa49ee59b40c54056292845e0e"
+    },
+    {
+      "num": "88",
+      "slug": "steam-vs-boil",
+      "title": "수증기가 물방울이 될 때 건네는 열",
+      "cue": null,
+      "next_cue": null,
+      "slot": "B",
+      "fails": 0,
+      "scheduled_at": "2026-09-11T12:00:00+09:00",
+      "sha256": "354450f042d42d51dd27696996acad61ab96e9edaffda8d8c7137f9fdd0312bc"
+    },
+    {
+      "num": "89",
+      "slug": "sous-vide-ceiling",
+      "title": "물 온도에 가까워지는 고기",
+      "cue": null,
+      "next_cue": null,
+      "slot": "A",
+      "fails": 0,
+      "scheduled_at": "2026-09-11T18:00:00+09:00",
+      "sha256": "f73a67c541e8188c541fe87281590543a5ff40d72955ee1738a36b9834df6ea8"
+    },
+    {
+      "num": "90",
+      "slug": "salt-eight-days",
+      "title": "겉은 짠데 속은 싱거운 이유",
+      "cue": null,
+      "next_cue": null,
+      "slot": "B",
+      "fails": 0,
+      "scheduled_at": "2026-09-12T12:00:00+09:00",
+      "sha256": "c51e349cf0924e2acabfcebe64e07e2c52ec27ade51e1381c2de98905943d704"
+    },
+    {
+      "num": "91",
+      "slug": "fish-flakes-45",
+      "title": "생선살이 결대로 떨어지는 이유",
+      "cue": null,
+      "next_cue": null,
+      "slot": "A",
+      "fails": 0,
+      "scheduled_at": "2026-09-12T18:00:00+09:00",
+      "sha256": "204916a21d96ed4e688045fb6de9a271def100afbbd4f7f90fb41f2cf6da4199"
+    },
+    {
+      "num": "92",
+      "slug": "against-the-grain",
+      "title": "고기를 써는 방향이 식감을 바꾼다",
+      "cue": null,
+      "next_cue": null,
+      "slot": "B",
+      "fails": 0,
+      "scheduled_at": "2026-09-13T12:00:00+09:00",
+      "sha256": "71ccf3ea9019e0c55b71a8f173f6e62cd870ee5c63c4ef0dfd24c651624503a9"
+    },
+    {
+      "num": "93",
+      "slug": "meat-loses-30g",
+      "title": "구운 고기는 왜 작아질까",
+      "cue": null,
+      "next_cue": null,
+      "slot": "A",
+      "fails": 0,
+      "scheduled_at": "2026-09-13T18:00:00+09:00",
+      "sha256": "55c5414f0028b23eed1a3a9f794fc1a17902e22b9d815bd012e3a8ffd3c032d2"
+    },
+    {
+      "num": "94",
+      "slug": "resting-meat",
+      "title": "불에서 내렸는데 중심 온도가 오른다",
+      "cue": null,
+      "next_cue": null,
+      "slot": "B",
+      "fails": 0,
+      "scheduled_at": "2026-09-14T12:00:00+09:00",
+      "sha256": "09dc931a25f0ecbebb033e942a06e50a8781ef1c977df67ede6a89035b8eb493"
+    },
+    {
+      "num": "95",
+      "slug": "aging-two-weeks",
+      "title": "고기는 숙성하면서 왜 부드러워질까",
+      "cue": null,
+      "next_cue": null,
+      "slot": "A",
+      "fails": 0,
+      "scheduled_at": "2026-09-14T18:00:00+09:00",
+      "sha256": "4ea3de2ebe91043925d48d4489a9ee22cb2f8c1ebb7823e610b02c19759e1803"
+    },
+    {
+      "num": "96",
+      "slug": "rigor-mortis",
+      "title": "근육은 에너지가 없어도 풀리지 않는다",
+      "cue": null,
+      "next_cue": null,
+      "slot": "B",
+      "fails": 0,
+      "scheduled_at": "2026-09-15T12:00:00+09:00",
+      "sha256": "48a1801660bf1eb0aedce1cb1f7dcda65c133a97464e4fb86744e2f79613f519"
+    },
+    {
+      "num": "97",
+      "slug": "yolk-first",
+      "title": "흰자는 묽은데 노른자는 걸쭉한 달걀",
+      "cue": null,
+      "next_cue": null,
+      "slot": "A",
+      "fails": 0,
+      "scheduled_at": "2026-09-15T18:00:00+09:00",
+      "sha256": "731b6f6d94c5cfc6bbb8b85709b75e9e4f3965f5b2f706db758b80480416ba1c"
+    },
+    {
+      "num": "98",
+      "slug": "rennet-cold",
+      "title": "우유가 굳기 전에 일어나는 일",
+      "cue": null,
+      "next_cue": null,
+      "slot": "B",
+      "fails": 0,
+      "scheduled_at": "2026-09-16T12:00:00+09:00",
+      "sha256": "82c8068e27d680898211efe79dc5a3db5f49f8464467dd9951238b72616bdf81"
+    },
+    {
+      "num": "99",
+      "slug": "cream-rises",
+      "title": "우유 위로 크림이 떠오르는 이유",
+      "cue": null,
+      "next_cue": null,
+      "slot": "A",
+      "fails": 0,
+      "scheduled_at": "2026-09-16T18:00:00+09:00",
+      "sha256": "ccbfdcfbd7e061fc9bff3a59d9b0151bd3eb2354aafae041acf4dfba50491cba"
+    },
+    {
+      "num": "100",
+      "slug": "icecream-sandy",
+      "title": "아이스크림 속 모래 같은 감촉",
+      "cue": null,
+      "next_cue": null,
+      "slot": "B",
+      "fails": 0,
+      "scheduled_at": "2026-09-17T12:00:00+09:00",
+      "sha256": "252b73f7d4ffabd749bc08dad6d7428988d901ac2b93ec404105950aab160b06"
+    },
+    {
+      "num": "101",
+      "slug": "custard-dilution",
+      "title": "달걀에 우유를 섞으면 굳는 모습이 달라진다",
+      "cue": null,
+      "next_cue": null,
+      "slot": "A",
+      "fails": 0,
+      "scheduled_at": "2026-09-17T18:00:00+09:00",
+      "sha256": "12ca50919b6ea8d6370869972336ce22b0cb1d6b60e5673daeca711806e4f883"
+    },
+    {
+      "num": "102",
+      "slug": "mayonnaise-75",
+      "title": "흐르는 기름이 되직한 마요네즈가 된다",
+      "cue": null,
+      "next_cue": null,
+      "slot": "B",
+      "fails": 0,
+      "scheduled_at": "2026-09-18T12:00:00+09:00",
+      "sha256": "21012e220fbdc2d4ca79480941558af79db868663b01b406845faf69f299a97a"
+    },
+    {
+      "num": "103",
+      "slug": "jelly-98",
+      "title": "물이 대부분인 젤리가 서 있는 이유",
+      "cue": null,
+      "next_cue": null,
+      "slot": "A",
+      "fails": 0,
+      "scheduled_at": "2026-09-18T18:00:00+09:00",
+      "sha256": "3bc64bb725182ef0d3044f9e76d7ef7d6a7e0bb41a0b41a80295f6880ea5e3fb"
+    },
+    {
+      "num": "104",
+      "slug": "gel-strength",
+      "title": "젤라틴을 더 넣으면 왜 단단해질까",
+      "cue": null,
+      "next_cue": null,
+      "slot": "B",
+      "fails": 0,
+      "scheduled_at": "2026-09-19T12:00:00+09:00",
+      "sha256": "97b342fbc1126b89497fefc392b51d811bec0a0c5fe5b7004be749ce3499c686"
+    },
+    {
+      "num": "105",
+      "slug": "meringue-drains",
+      "title": "가만히 둔 거품에서 물이 빠진다",
+      "cue": null,
+      "next_cue": null,
+      "slot": "A",
+      "fails": 0,
+      "scheduled_at": "2026-09-19T18:00:00+09:00",
+      "sha256": "c88762883e998d9879a8c5412f24ebb326a05ed9b5278f5d3155720525856085"
+    },
+    {
+      "num": "106",
+      "slug": "whipping-waste",
+      "title": "거품기로 쓴 힘은 어디로 갈까",
+      "cue": null,
+      "next_cue": null,
+      "slot": "B",
+      "fails": 0,
+      "scheduled_at": "2026-09-20T12:00:00+09:00",
+      "sha256": "3ebee76405a1f1d2b6db8db32dc06af53dc3dbed96e17acba540f21245333863"
+    },
+    {
+      "num": "107",
+      "slug": "bread-fridge",
+      "title": "빵은 냉장고에서 더 빨리 굳기도 한다",
+      "cue": null,
+      "next_cue": null,
+      "slot": "A",
+      "fails": 0,
+      "scheduled_at": "2026-09-20T18:00:00+09:00",
+      "sha256": "90ddff336ee9596ad94019458436a050f232ecbdf18fa9577b90559a821ce25c"
+    },
+    {
+      "num": "108",
+      "slug": "bread-is-air",
+      "title": "커다란 빵이 가벼운 이유",
+      "cue": null,
+      "next_cue": null,
+      "slot": "B",
+      "fails": 0,
+      "scheduled_at": "2026-09-21T12:00:00+09:00",
+      "sha256": "cab730566089546da18ccbc0522173124c26f721688665ee7dae6300fc4b8955"
+    },
+    {
+      "num": "109",
+      "slug": "starch-60",
+      "title": "전분물은 데우면 왜 되직해질까",
+      "cue": null,
+      "next_cue": null,
+      "slot": "A",
+      "fails": 0,
+      "scheduled_at": "2026-09-21T18:00:00+09:00",
+      "sha256": "17e7689e7c050640d26613472d8cc614a0abc5adc79c125e5452016a23bd36b1"
+    },
+    {
+      "num": "110",
+      "slug": "aurora-color",
+      "title": "오로라의 초록과 빨강은 어디서 올까",
+      "cue": null,
+      "next_cue": null,
+      "slot": "B",
+      "fails": 0,
+      "scheduled_at": "2026-09-22T12:00:00+09:00",
+      "sha256": "4ab5ec37e14b14c158c7ca3fe7ae51d895ae84ccd3e6eff32b603cc4ef94f2db"
+    },
+    {
+      "num": "111",
+      "slug": "aurora-oval",
+      "title": "오로라는 왜 극점 주위에 고리로 생길까",
+      "cue": null,
+      "next_cue": null,
+      "slot": "A",
+      "fails": 0,
+      "scheduled_at": "2026-09-22T18:00:00+09:00",
+      "sha256": "394b5ee0248b89153af0f724dcab24eb4a91f0026cf2858be48c01c7a8deabdb"
+    },
+    {
+      "num": "112",
+      "slug": "am-night",
+      "title": "밤에는 먼 AM 방송이 잡힌다",
+      "cue": null,
+      "next_cue": null,
+      "slot": "B",
+      "fails": 0,
+      "scheduled_at": "2026-09-23T12:00:00+09:00",
+      "sha256": "0428bbd80781360e0f5d6919b7996172026c3e6da724fd5cb6fb10c90fadfdb2"
+    },
+    {
+      "num": "113",
+      "slug": "shortwave-fm",
+      "title": "단파는 먼 나라까지 가는데 FM은 왜 다를까",
+      "cue": null,
+      "next_cue": null,
+      "slot": "A",
+      "fails": 0,
+      "scheduled_at": "2026-09-23T18:00:00+09:00",
+      "sha256": "e66627f432b67fff9bb2853d5f4cb903f2e4ebad51dce1ac2cae8a6ba2c6bb3e"
+    },
+    {
+      "num": "114",
+      "slug": "sporadic-e",
+      "title": "갑자기 먼 FM 방송이 잡히는 날",
+      "cue": null,
+      "next_cue": null,
+      "slot": "B",
+      "fails": 0,
+      "scheduled_at": "2026-09-24T12:00:00+09:00",
+      "sha256": "1b4ab7a9fcbe2f3a02f29d63053473924ec0a57bb2e7fb83788eea2191f16b6d"
+    },
+    {
+      "num": "115",
+      "slug": "flare-blackout",
+      "title": "태양이 번쩍이면 단파 통신이 끊기기도 한다",
+      "cue": null,
+      "next_cue": null,
+      "slot": "A",
+      "fails": 0,
+      "scheduled_at": "2026-09-24T18:00:00+09:00",
+      "sha256": "ab540c3c219f81586e8439a51cc3b1de1e05dade120d6b66f915257216f34d70"
+    },
+    {
+      "num": "116",
+      "slug": "meteor-100km",
+      "title": "별똥별은 왜 높은 하늘에서 빛날까",
+      "cue": null,
+      "next_cue": null,
+      "slot": "B",
+      "fails": 0,
+      "scheduled_at": "2026-09-25T12:00:00+09:00",
+      "sha256": "76d2ef97e3fbbbc2d2b7d356b8baf09528118322e1b7ee504a645e57a2f86b47"
+    },
+    {
+      "num": "117",
+      "slug": "noctilucent",
+      "title": "해가 졌는데 높은 구름은 빛난다",
+      "cue": null,
+      "next_cue": null,
+      "slot": "A",
+      "fails": 0,
+      "scheduled_at": "2026-09-25T18:00:00+09:00",
+      "sha256": "9906685fe52b22c586e641305a4f9648cb0d668aac2aa23a8f20568d71ad64ba"
+    },
+    {
+      "num": "118",
+      "slug": "shadow-zone",
+      "title": "지진파가 비어 있는 곳에서 지구 속을 읽는다",
+      "cue": null,
+      "next_cue": null,
+      "slot": "B",
+      "fails": 0,
+      "scheduled_at": "2026-09-26T12:00:00+09:00",
+      "sha256": "7968fc8b0394831c53f7ae1574017be12aa8a96f93d3b3b54451ecfd954ea992"
+    },
+    {
+      "num": "119",
+      "slug": "star-twinkle",
+      "title": "별은 반짝이는데 목성은 덜 반짝이는 이유",
+      "cue": null,
+      "next_cue": null,
+      "slot": "A",
+      "fails": 0,
+      "scheduled_at": "2026-09-26T18:00:00+09:00",
+      "sha256": "da52f9c3e3e28830d4093c120e735139a2bf03bdc7f7dec5621a96ef77353d7c"
+    }
+  ],
   "done": [
     {
       "num": "55",
@@ -593,5 +990,6 @@
         }
       ]
     }
-  ]
+  ],
+  "resumed_at": "2026-09-09T08:05:59.713108+09:00"
 }

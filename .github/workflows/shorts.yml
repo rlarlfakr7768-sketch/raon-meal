@@ -1,14 +1,14 @@
 name: 쇼츠 자동 게시
 
-# 집 컴퓨터가 꺼져 있어도 나가게 한다. 하루 한 편이고, 대기열 맨 위의 편에
-# 붙은 슬롯(A 저녁 / B 점심)과 맞는 시각에만 실제로 올라간다.
+# 집 컴퓨터가 꺼져 있어도 하루 두 편을 올린다.
+# B 점심 12:00, A 퇴근 18:00 (한국 시간).
 #
-# ⚠ cron 은 UTC 다.  20:00 KST = 11:00 UTC,  12:30 KST = 03:30 UTC
+# cron 은 UTC 다. 18:00 KST = 09:00 UTC, 12:00 KST = 03:00 UTC
 # ⚠ 깃헙 예약은 몇 분에서 십몇 분 늦게 뜬다. 정확한 시각을 요구하지 않는다.
 on:
   schedule:
-    - cron: '0 11 * * *'      # A 슬롯 · 20:00 KST
-    - cron: '30 3 * * *'      # B 슬롯 · 12:30 KST
+    - cron: '0 9 * * *'       # A 슬롯 · 18:00 KST
+    - cron: '0 3 * * *'       # B 슬롯 · 12:00 KST
   workflow_dispatch:
     inputs:
       slot:
@@ -48,9 +48,9 @@ jobs:
         run: |
           if [ -n "${{ github.event.inputs.slot }}" ]; then
             echo "arg=--slot ${{ github.event.inputs.slot }}" >> "$GITHUB_OUTPUT"
-          elif [ "${{ github.event.schedule }}" = "0 11 * * *" ]; then
+          elif [ "${{ github.event.schedule }}" = "0 9 * * *" ]; then
             echo "arg=--slot A" >> "$GITHUB_OUTPUT"
-          elif [ "${{ github.event.schedule }}" = "30 3 * * *" ]; then
+          elif [ "${{ github.event.schedule }}" = "0 3 * * *" ]; then
             echo "arg=--slot B" >> "$GITHUB_OUTPUT"
           else
             echo "arg=" >> "$GITHUB_OUTPUT"

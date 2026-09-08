@@ -16,7 +16,7 @@
 
 안전장치는 로컬과 같다.
   1. 순서 잠금 — 이 편 끝 카드의 예고(cue)가 대기열 다음 편과 다르면 멈춘다
-  2. 하루 한 편 — 오늘 이미 올린 게 있으면 그냥 끝낸다
+  2. 하루 두 편, 같은 슬롯은 하루 한 번만 게시한다
   3. 같은 캡션이 올라가 있으면 대기열에서 빼고 넘어간다
   4. 슬롯이 안 맞으면 건너뛴다
   5. 실패해도 대기열에서 안 뺀다. 세 번 연속 실패하면 멈춘다
@@ -42,7 +42,7 @@ LOG = os.path.join(SHORTS, "SHORTS.log")
 KST = dt.timezone(dt.timedelta(hours=9))
 ACCOUNT = "phyedu_net"
 MAX_FAILS = 3
-# 하루에 올릴 편수. 슬롯이 둘(점심 B 12:30 / 저녁 A 20:00)이므로 2 다.
+# 하루에 올릴 편수. 점심 B 12:00, 퇴근 A 18:00에 한 편씩이다.
 #
 # ⚠ 이 문턱을 1 로 두면 저녁 슬롯이 매일 헛돈다. 끝 카드가 다음 편 제목을
 #    부르는 구조라 한 번에 여러 편을 몰아 올리면 예고가 무의미해진다.
@@ -103,8 +103,9 @@ def recent(uid, token, limit=25):
     r = requests.get("%s/%s/%s/media" % (IG.GRAPH, IG.VERSION, uid),
                      params={"fields": "timestamp,caption,permalink",
                              "limit": limit, "access_token": token},
-                     timeout=30).json()
-    return r.get("data", [])
+                     timeout=30)
+    r.raise_for_status()
+    return r.json()["data"]
 
 
 def posted_today(items):
@@ -240,6 +241,18 @@ def run(args):
     if args.slot and item.get("slot") != args.slot:
         say("[%s] 건너뜀 — 맨 위 %s %s 는 %s 슬롯이다"
             % (args.slot, item["num"], item["slug"], item.get("slot")))
+        return 0
+
+    now = dt.datetime.now(KST)
+    if item.get("scheduled_at") and now < dt.datetime.fromisoformat(item["scheduled_at"]):
+        say("아직 예약 시각 전이다: " + item["scheduled_at"])
+        return 0
+    if args.slot and any(
+        x.get("slot") == args.slot and x.get("at")
+        and dt.datetime.fromisoformat(x["at"]).astimezone(KST).date() == now.date()
+        for x in q.get("done", [])
+    ):
+        say("오늘 이 슬롯은 이미 게시했다: " + args.slot)
         return 0
 
     bad = check(q, item, caption, video)
