@@ -6,17 +6,6 @@
   "paused": false,
   "queue": [
     {
-      "num": "84",
-      "slug": "crowded-pan",
-      "title": "팬을 꽉 채우면 생기는 일",
-      "cue": null,
-      "next_cue": null,
-      "slot": "B",
-      "fails": 0,
-      "scheduled_at": "2026-09-09T12:00:00+09:00",
-      "sha256": "4236d557d81dfe563e5252e05229c6f9b2316ff7f8a54011bcf91abdd19bdad5"
-    },
-    {
       "num": "85",
       "slug": "boiled-never-browns",
       "title": "삶은 고기는 왜 갈색 껍질이 없을까",
@@ -747,6 +736,20 @@
       "at": "2026-09-08T17:18:28.325263+09:00",
       "media_id": "18097253915417359",
       "permalink": "https://www.instagram.com/reel/DdBPSfNDj17/"
+    },
+    {
+      "num": "84",
+      "slug": "crowded-pan",
+      "title": "팬을 꽉 채우면 생기는 일",
+      "cue": null,
+      "next_cue": null,
+      "slot": "B",
+      "fails": 0,
+      "scheduled_at": "2026-09-09T12:00:00+09:00",
+      "sha256": "4236d557d81dfe563e5252e05229c6f9b2316ff7f8a54011bcf91abdd19bdad5",
+      "at": "2026-09-09T13:08:47.300478+09:00",
+      "media_id": "18141101515505495",
+      "permalink": "https://www.instagram.com/reel/DdDXfv5iRVS/"
     }
   ],
   "cancelled_for_remake": [
