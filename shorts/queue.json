@@ -6,17 +6,6 @@
   "paused": false,
   "queue": [
     {
-      "num": "85",
-      "slug": "boiled-never-browns",
-      "title": "삶은 고기는 왜 갈색 껍질이 없을까",
-      "cue": null,
-      "next_cue": null,
-      "slot": "A",
-      "fails": 0,
-      "scheduled_at": "2026-09-09T18:00:00+09:00",
-      "sha256": "33e6741b62feec6f3ee5bbf6e6cc55922bcb6948680e95daa85c0c0ef948d1a7"
-    },
-    {
       "num": "86",
       "slug": "pressure-cooker-21k",
       "title": "압력솥 안의 물은 더 뜨겁다",
@@ -750,6 +739,20 @@
       "at": "2026-09-09T13:08:47.300478+09:00",
       "media_id": "18141101515505495",
       "permalink": "https://www.instagram.com/reel/DdDXfv5iRVS/"
+    },
+    {
+      "num": "85",
+      "slug": "boiled-never-browns",
+      "title": "삶은 고기는 왜 갈색 껍질이 없을까",
+      "cue": null,
+      "next_cue": null,
+      "slot": "A",
+      "fails": 0,
+      "scheduled_at": "2026-09-09T18:00:00+09:00",
+      "sha256": "33e6741b62feec6f3ee5bbf6e6cc55922bcb6948680e95daa85c0c0ef948d1a7",
+      "at": "2026-09-09T22:32:00.145235+09:00",
+      "media_id": "18116046584291112",
+      "permalink": "https://www.instagram.com/reel/DdEX9ImlR2s/"
     }
   ],
   "cancelled_for_remake": [
