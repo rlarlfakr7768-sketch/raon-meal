@@ -14,7 +14,8 @@
       "slot": "B",
       "fails": 0,
       "scheduled_at": "2026-09-10T12:00:00+09:00",
-      "sha256": "a2175e7d79228c4519b38fb7b6f0266871a4faa98380ace2536d596538ef31fb"
+      "sha256": "9d0549e01469b22759a4cb7ef5730bcb50aaa7330b35722b4e7bb7b55e704677",
+      "visual_revision": "2026-09-10"
     },
     {
       "num": "87",
@@ -47,7 +48,8 @@
       "slot": "A",
       "fails": 0,
       "scheduled_at": "2026-09-11T18:00:00+09:00",
-      "sha256": "f73a67c541e8188c541fe87281590543a5ff40d72955ee1738a36b9834df6ea8"
+      "sha256": "810ff22df959c6ef0d901b06fe6ff044542f6128453cde5f75277518e5d716ac",
+      "visual_revision": "2026-09-10"
     },
     {
       "num": "90",
@@ -102,7 +104,8 @@
       "slot": "B",
       "fails": 0,
       "scheduled_at": "2026-09-14T12:00:00+09:00",
-      "sha256": "09dc931a25f0ecbebb033e942a06e50a8781ef1c977df67ede6a89035b8eb493"
+      "sha256": "038d9e646bdc453b4d95254006efd498a58df655a112f09f20ec4c00e7dc07d7",
+      "visual_revision": "2026-09-10"
     },
     {
       "num": "95",
@@ -113,7 +116,8 @@
       "slot": "A",
       "fails": 0,
       "scheduled_at": "2026-09-14T18:00:00+09:00",
-      "sha256": "4ea3de2ebe91043925d48d4489a9ee22cb2f8c1ebb7823e610b02c19759e1803"
+      "sha256": "228b7774537a53e44ff9feedc542e9edbc7cead0387be4f118a1587d3847c789",
+      "visual_revision": "2026-09-10"
     },
     {
       "num": "96",
@@ -124,7 +128,8 @@
       "slot": "B",
       "fails": 0,
       "scheduled_at": "2026-09-15T12:00:00+09:00",
-      "sha256": "48a1801660bf1eb0aedce1cb1f7dcda65c133a97464e4fb86744e2f79613f519"
+      "sha256": "6728c3f33c357b0b758411c598add74c0dd06929dda931535282d7e9ba42e85f",
+      "visual_revision": "2026-09-10"
     },
     {
       "num": "97",
@@ -234,7 +239,8 @@
       "slot": "B",
       "fails": 0,
       "scheduled_at": "2026-09-20T12:00:00+09:00",
-      "sha256": "3ebee76405a1f1d2b6db8db32dc06af53dc3dbed96e17acba540f21245333863"
+      "sha256": "1a7947c57d3065593364ba4f61130ffff00ba02b78d3896c45fad75a5f56fbfd",
+      "visual_revision": "2026-09-10"
     },
     {
       "num": "107",
@@ -289,7 +295,8 @@
       "slot": "A",
       "fails": 0,
       "scheduled_at": "2026-09-22T18:00:00+09:00",
-      "sha256": "394b5ee0248b89153af0f724dcab24eb4a91f0026cf2858be48c01c7a8deabdb"
+      "sha256": "a2d169d707e99f01ff0bc4f554ee9dd1e9455dcc5a281d6afbfff6920db29939",
+      "visual_revision": "2026-09-10"
     },
     {
       "num": "112",
@@ -311,7 +318,8 @@
       "slot": "A",
       "fails": 0,
       "scheduled_at": "2026-09-23T18:00:00+09:00",
-      "sha256": "e66627f432b67fff9bb2853d5f4cb903f2e4ebad51dce1ac2cae8a6ba2c6bb3e"
+      "sha256": "1f8160a4ca63b08462902669b2a3218f1c8cacdd269a5c96be6483583877e276",
+      "visual_revision": "2026-09-10"
     },
     {
       "num": "114",
@@ -322,7 +330,8 @@
       "slot": "B",
       "fails": 0,
       "scheduled_at": "2026-09-24T12:00:00+09:00",
-      "sha256": "1b4ab7a9fcbe2f3a02f29d63053473924ec0a57bb2e7fb83788eea2191f16b6d"
+      "sha256": "29ef90bbdaae81e6b921c59f3d7c9ccdc7e02bb8fbaa3df9e5cd3de707d92979",
+      "visual_revision": "2026-09-10"
     },
     {
       "num": "115",
