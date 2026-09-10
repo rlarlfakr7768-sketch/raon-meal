@@ -6,18 +6,6 @@
   "paused": false,
   "queue": [
     {
-      "num": "86",
-      "slug": "pressure-cooker-21k",
-      "title": "압력솥 안의 물은 더 뜨겁다",
-      "cue": null,
-      "next_cue": null,
-      "slot": "B",
-      "fails": 0,
-      "scheduled_at": "2026-09-10T12:00:00+09:00",
-      "sha256": "9d0549e01469b22759a4cb7ef5730bcb50aaa7330b35722b4e7bb7b55e704677",
-      "visual_revision": "2026-09-10"
-    },
-    {
       "num": "87",
       "slug": "fried-not-oily",
       "title": "튀김은 건져 낸 뒤에도 기름을 먹는다",
@@ -762,6 +750,21 @@
       "at": "2026-09-09T22:32:00.145235+09:00",
       "media_id": "18116046584291112",
       "permalink": "https://www.instagram.com/reel/DdEX9ImlR2s/"
+    },
+    {
+      "num": "86",
+      "slug": "pressure-cooker-21k",
+      "title": "압력솥 안의 물은 더 뜨겁다",
+      "cue": null,
+      "next_cue": null,
+      "slot": "B",
+      "fails": 0,
+      "scheduled_at": "2026-09-10T12:00:00+09:00",
+      "sha256": "9d0549e01469b22759a4cb7ef5730bcb50aaa7330b35722b4e7bb7b55e704677",
+      "visual_revision": "2026-09-10",
+      "at": "2026-09-10T12:23:09.805638+09:00",
+      "media_id": "18093130472140000",
+      "permalink": "https://www.instagram.com/reel/DdF3E_JEZsB/"
     }
   ],
   "cancelled_for_remake": [
