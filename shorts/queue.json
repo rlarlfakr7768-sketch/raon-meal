@@ -6,18 +6,6 @@
   "paused": false,
   "queue": [
     {
-      "num": "89",
-      "slug": "sous-vide-ceiling",
-      "title": "물 온도에 가까워지는 고기",
-      "cue": null,
-      "next_cue": null,
-      "slot": "A",
-      "fails": 0,
-      "scheduled_at": "2026-09-11T18:00:00+09:00",
-      "sha256": "810ff22df959c6ef0d901b06fe6ff044542f6128453cde5f75277518e5d716ac",
-      "visual_revision": "2026-09-10"
-    },
-    {
       "num": "90",
       "slug": "salt-eight-days",
       "title": "겉은 짠데 속은 싱거운 이유",
@@ -771,6 +759,21 @@
       "at": "2026-09-11T16:35:10.847694+09:00",
       "media_id": "18085852238448884",
       "permalink": "https://www.instagram.com/reel/DdI4tqEiVTM/"
+    },
+    {
+      "num": "89",
+      "slug": "sous-vide-ceiling",
+      "title": "물 온도에 가까워지는 고기",
+      "cue": null,
+      "next_cue": null,
+      "slot": "A",
+      "fails": 0,
+      "scheduled_at": "2026-09-11T18:00:00+09:00",
+      "sha256": "810ff22df959c6ef0d901b06fe6ff044542f6128453cde5f75277518e5d716ac",
+      "visual_revision": "2026-09-10",
+      "at": "2026-09-11T22:06:43.112085+09:00",
+      "media_id": "18161608468470418",
+      "permalink": "https://www.instagram.com/reel/DdJepq7lQ5C/"
     }
   ],
   "cancelled_for_remake": [
