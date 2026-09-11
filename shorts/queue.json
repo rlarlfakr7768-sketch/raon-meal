@@ -6,17 +6,6 @@
   "paused": false,
   "queue": [
     {
-      "num": "88",
-      "slug": "steam-vs-boil",
-      "title": "수증기가 물방울이 될 때 건네는 열",
-      "cue": null,
-      "next_cue": null,
-      "slot": "B",
-      "fails": 0,
-      "scheduled_at": "2026-09-11T12:00:00+09:00",
-      "sha256": "354450f042d42d51dd27696996acad61ab96e9edaffda8d8c7137f9fdd0312bc"
-    },
-    {
       "num": "89",
       "slug": "sous-vide-ceiling",
       "title": "물 온도에 가까워지는 고기",
@@ -768,6 +757,20 @@
       "at": "2026-09-10T22:12:27.297778+09:00",
       "media_id": "17926004760410036",
       "permalink": "https://www.instagram.com/reel/DdG6f8_gsiD/"
+    },
+    {
+      "num": "88",
+      "slug": "steam-vs-boil",
+      "title": "수증기가 물방울이 될 때 건네는 열",
+      "cue": null,
+      "next_cue": null,
+      "slot": "B",
+      "fails": 0,
+      "scheduled_at": "2026-09-11T12:00:00+09:00",
+      "sha256": "354450f042d42d51dd27696996acad61ab96e9edaffda8d8c7137f9fdd0312bc",
+      "at": "2026-09-11T16:35:10.847694+09:00",
+      "media_id": "18085852238448884",
+      "permalink": "https://www.instagram.com/reel/DdI4tqEiVTM/"
     }
   ],
   "cancelled_for_remake": [
