@@ -14,7 +14,9 @@
       "slot": "B",
       "fails": 0,
       "scheduled_at": "2026-09-12T12:00:00+09:00",
-      "sha256": "c51e349cf0924e2acabfcebe64e07e2c52ec27ade51e1381c2de98905943d704"
+      "sha256": "9386a0cac95088a08445d2607ed9702b3a262aa33c76bee3cfa51f1823578b62",
+      "voice": "Supertonic3 M2",
+      "voice_version": "native-m2-20260912"
     },
     {
       "num": "91",
@@ -25,7 +27,9 @@
       "slot": "A",
       "fails": 0,
       "scheduled_at": "2026-09-12T18:00:00+09:00",
-      "sha256": "204916a21d96ed4e688045fb6de9a271def100afbbd4f7f90fb41f2cf6da4199"
+      "sha256": "958f6f4cddca8370b5ee49e6934d11509ee5cbe8b7c87db4e5d318a4f2576854",
+      "voice": "Supertonic3 M2",
+      "voice_version": "native-m2-20260912"
     },
     {
       "num": "92",
@@ -36,7 +40,9 @@
       "slot": "B",
       "fails": 0,
       "scheduled_at": "2026-09-13T12:00:00+09:00",
-      "sha256": "71ccf3ea9019e0c55b71a8f173f6e62cd870ee5c63c4ef0dfd24c651624503a9"
+      "sha256": "5fbf823ec337fc1d576914fe4b8f0b7b60c31419a00824f93a59262d98dd78ee",
+      "voice": "Supertonic3 M2",
+      "voice_version": "native-m2-20260912"
     },
     {
       "num": "93",
@@ -47,7 +53,9 @@
       "slot": "A",
       "fails": 0,
       "scheduled_at": "2026-09-13T18:00:00+09:00",
-      "sha256": "55c5414f0028b23eed1a3a9f794fc1a17902e22b9d815bd012e3a8ffd3c032d2"
+      "sha256": "c4005e08d84c121a00f03a389a99f0e9bf5379e162eaf56b757f5b6b6a6b5a77",
+      "voice": "Supertonic3 M2",
+      "voice_version": "native-m2-20260912"
     },
     {
       "num": "94",
@@ -58,8 +66,10 @@
       "slot": "B",
       "fails": 0,
       "scheduled_at": "2026-09-14T12:00:00+09:00",
-      "sha256": "038d9e646bdc453b4d95254006efd498a58df655a112f09f20ec4c00e7dc07d7",
-      "visual_revision": "2026-09-10"
+      "sha256": "651e95b8276f40a7382d25f0d68a1d240c65c260d4ec5a0856e27b5a2330654d",
+      "visual_revision": "2026-09-10",
+      "voice": "Supertonic3 M2",
+      "voice_version": "native-m2-20260912"
     },
     {
       "num": "95",
@@ -70,8 +80,10 @@
       "slot": "A",
       "fails": 0,
       "scheduled_at": "2026-09-14T18:00:00+09:00",
-      "sha256": "228b7774537a53e44ff9feedc542e9edbc7cead0387be4f118a1587d3847c789",
-      "visual_revision": "2026-09-10"
+      "sha256": "fda7f437dd5b312281bf1c73900a17ac105901a55abdff46dbbdee2991b41aa1",
+      "visual_revision": "2026-09-10",
+      "voice": "Supertonic3 M2",
+      "voice_version": "native-m2-20260912"
     },
     {
       "num": "96",
@@ -82,8 +94,10 @@
       "slot": "B",
       "fails": 0,
       "scheduled_at": "2026-09-15T12:00:00+09:00",
-      "sha256": "6728c3f33c357b0b758411c598add74c0dd06929dda931535282d7e9ba42e85f",
-      "visual_revision": "2026-09-10"
+      "sha256": "1e726fac0e3b1c46525a00b01f9c533a47ab113ba49f6e97ac04c7bdd29323f4",
+      "visual_revision": "2026-09-10",
+      "voice": "Supertonic3 M2",
+      "voice_version": "native-m2-20260912"
     },
     {
       "num": "97",
@@ -94,7 +108,9 @@
       "slot": "A",
       "fails": 0,
       "scheduled_at": "2026-09-15T18:00:00+09:00",
-      "sha256": "731b6f6d94c5cfc6bbb8b85709b75e9e4f3965f5b2f706db758b80480416ba1c"
+      "sha256": "ad8174bb3b1082052a1bb93e1bde78d838f9b329e05da1bb71f9ce9e6b52aac6",
+      "voice": "Supertonic3 M2",
+      "voice_version": "native-m2-20260912"
     },
     {
       "num": "98",
@@ -105,7 +121,9 @@
       "slot": "B",
       "fails": 0,
       "scheduled_at": "2026-09-16T12:00:00+09:00",
-      "sha256": "82c8068e27d680898211efe79dc5a3db5f49f8464467dd9951238b72616bdf81"
+      "sha256": "2f0cc0e129eb723b2b873284a4f92f8ac10230b15b1619f804d34a7eaf29b165",
+      "voice": "Supertonic3 M2",
+      "voice_version": "native-m2-20260912"
     },
     {
       "num": "99",
@@ -116,7 +134,9 @@
       "slot": "A",
       "fails": 0,
       "scheduled_at": "2026-09-16T18:00:00+09:00",
-      "sha256": "ccbfdcfbd7e061fc9bff3a59d9b0151bd3eb2354aafae041acf4dfba50491cba"
+      "sha256": "5e45325bd53021b8c849f96caeed28964d61c68582f5ea0b76045d3015441b5d",
+      "voice": "Supertonic3 M2",
+      "voice_version": "native-m2-20260912"
     },
     {
       "num": "100",
@@ -127,7 +147,9 @@
       "slot": "B",
       "fails": 0,
       "scheduled_at": "2026-09-17T12:00:00+09:00",
-      "sha256": "252b73f7d4ffabd749bc08dad6d7428988d901ac2b93ec404105950aab160b06"
+      "sha256": "c93e2e13fa1d068ed0fca4a531f7fbf0d2097eac579fb443f68dd48db9b9408a",
+      "voice": "Supertonic3 M2",
+      "voice_version": "native-m2-20260912"
     },
     {
       "num": "101",
@@ -138,7 +160,9 @@
       "slot": "A",
       "fails": 0,
       "scheduled_at": "2026-09-17T18:00:00+09:00",
-      "sha256": "12ca50919b6ea8d6370869972336ce22b0cb1d6b60e5673daeca711806e4f883"
+      "sha256": "40c80fff2c0ee13aa67f00a304ad63b4bca9a9d65616d9ccc4ba83f2cb053ab9",
+      "voice": "Supertonic3 M2",
+      "voice_version": "native-m2-20260912"
     },
     {
       "num": "102",
@@ -149,7 +173,9 @@
       "slot": "B",
       "fails": 0,
       "scheduled_at": "2026-09-18T12:00:00+09:00",
-      "sha256": "21012e220fbdc2d4ca79480941558af79db868663b01b406845faf69f299a97a"
+      "sha256": "307a2643d02f2c3271957d953e438962440924e69ebfc82d0718a59f1e456a94",
+      "voice": "Supertonic3 M2",
+      "voice_version": "native-m2-20260912"
     },
     {
       "num": "103",
@@ -160,7 +186,9 @@
       "slot": "A",
       "fails": 0,
       "scheduled_at": "2026-09-18T18:00:00+09:00",
-      "sha256": "3bc64bb725182ef0d3044f9e76d7ef7d6a7e0bb41a0b41a80295f6880ea5e3fb"
+      "sha256": "c6d24597c213b3c72914d0053362b679213bc010b5c0f98f16f7df870b25b02d",
+      "voice": "Supertonic3 M2",
+      "voice_version": "native-m2-20260912"
     },
     {
       "num": "104",
@@ -171,7 +199,9 @@
       "slot": "B",
       "fails": 0,
       "scheduled_at": "2026-09-19T12:00:00+09:00",
-      "sha256": "97b342fbc1126b89497fefc392b51d811bec0a0c5fe5b7004be749ce3499c686"
+      "sha256": "84e36157581be12364d65827dbc6a99f39804df2dd5d350f0182772fb2264f7b",
+      "voice": "Supertonic3 M2",
+      "voice_version": "native-m2-20260912"
     },
     {
       "num": "105",
@@ -182,7 +212,9 @@
       "slot": "A",
       "fails": 0,
       "scheduled_at": "2026-09-19T18:00:00+09:00",
-      "sha256": "c88762883e998d9879a8c5412f24ebb326a05ed9b5278f5d3155720525856085"
+      "sha256": "d0bccbf89e3a1b003bdf40740f80882d106142ddbb6bc9dd41fc42bd5bcf79a7",
+      "voice": "Supertonic3 M2",
+      "voice_version": "native-m2-20260912"
     },
     {
       "num": "106",
@@ -193,8 +225,10 @@
       "slot": "B",
       "fails": 0,
       "scheduled_at": "2026-09-20T12:00:00+09:00",
-      "sha256": "1a7947c57d3065593364ba4f61130ffff00ba02b78d3896c45fad75a5f56fbfd",
-      "visual_revision": "2026-09-10"
+      "sha256": "7357526693421399b1b2f54d8fe6739012c1e1fefe9cef1636770f34c760e51b",
+      "visual_revision": "2026-09-10",
+      "voice": "Supertonic3 M2",
+      "voice_version": "native-m2-20260912"
     },
     {
       "num": "107",
@@ -205,7 +239,9 @@
       "slot": "A",
       "fails": 0,
       "scheduled_at": "2026-09-20T18:00:00+09:00",
-      "sha256": "90ddff336ee9596ad94019458436a050f232ecbdf18fa9577b90559a821ce25c"
+      "sha256": "982f5bb3ad6e07e317fdeaa82b5ad81d1e2fb30a3b0561a614fd0c0def0824bb",
+      "voice": "Supertonic3 M2",
+      "voice_version": "native-m2-20260912"
     },
     {
       "num": "108",
@@ -216,7 +252,9 @@
       "slot": "B",
       "fails": 0,
       "scheduled_at": "2026-09-21T12:00:00+09:00",
-      "sha256": "cab730566089546da18ccbc0522173124c26f721688665ee7dae6300fc4b8955"
+      "sha256": "5335822846b7b0e2df876f0cf4e34d5e5a8ee8c7f23cdc6057f6fda8ef035620",
+      "voice": "Supertonic3 M2",
+      "voice_version": "native-m2-20260912"
     },
     {
       "num": "109",
@@ -227,7 +265,9 @@
       "slot": "A",
       "fails": 0,
       "scheduled_at": "2026-09-21T18:00:00+09:00",
-      "sha256": "17e7689e7c050640d26613472d8cc614a0abc5adc79c125e5452016a23bd36b1"
+      "sha256": "6849c52bb4d59bd2b79fd4e942289ea58be2cbf9dadfce3251402335648bda99",
+      "voice": "Supertonic3 M2",
+      "voice_version": "native-m2-20260912"
     },
     {
       "num": "110",
@@ -238,7 +278,9 @@
       "slot": "B",
       "fails": 0,
       "scheduled_at": "2026-09-22T12:00:00+09:00",
-      "sha256": "4ab5ec37e14b14c158c7ca3fe7ae51d895ae84ccd3e6eff32b603cc4ef94f2db"
+      "sha256": "fc774efde6dd94a7bd7c75279c03e1d2bc2606edc6de16973db05bcaac7f1821",
+      "voice": "Supertonic3 M2",
+      "voice_version": "native-m2-20260912"
     },
     {
       "num": "111",
@@ -249,8 +291,10 @@
       "slot": "A",
       "fails": 0,
       "scheduled_at": "2026-09-22T18:00:00+09:00",
-      "sha256": "a2d169d707e99f01ff0bc4f554ee9dd1e9455dcc5a281d6afbfff6920db29939",
-      "visual_revision": "2026-09-10"
+      "sha256": "63b3c00a4a6d589cf3b9403955e28c9f750b59e058d026fa9f5f8ef0fc68381c",
+      "visual_revision": "2026-09-10",
+      "voice": "Supertonic3 M2",
+      "voice_version": "native-m2-20260912"
     },
     {
       "num": "112",
@@ -261,7 +305,9 @@
       "slot": "B",
       "fails": 0,
       "scheduled_at": "2026-09-23T12:00:00+09:00",
-      "sha256": "0428bbd80781360e0f5d6919b7996172026c3e6da724fd5cb6fb10c90fadfdb2"
+      "sha256": "539e33ac6a9da47a03404dad8212ce181ab3f626db19d853f10bd718b0cacb75",
+      "voice": "Supertonic3 M2",
+      "voice_version": "native-m2-20260912"
     },
     {
       "num": "113",
@@ -272,8 +318,10 @@
       "slot": "A",
       "fails": 0,
       "scheduled_at": "2026-09-23T18:00:00+09:00",
-      "sha256": "1f8160a4ca63b08462902669b2a3218f1c8cacdd269a5c96be6483583877e276",
-      "visual_revision": "2026-09-10"
+      "sha256": "2e766b48693125bb6db49d8b82f6694255cf1e648076e5829698fe159485c526",
+      "visual_revision": "2026-09-10",
+      "voice": "Supertonic3 M2",
+      "voice_version": "native-m2-20260912"
     },
     {
       "num": "114",
@@ -284,8 +332,10 @@
       "slot": "B",
       "fails": 0,
       "scheduled_at": "2026-09-24T12:00:00+09:00",
-      "sha256": "29ef90bbdaae81e6b921c59f3d7c9ccdc7e02bb8fbaa3df9e5cd3de707d92979",
-      "visual_revision": "2026-09-10"
+      "sha256": "6c8f534fe45e397154ad5b7da76d49cc7320f4932cb749d0fd3ab9e908f4c761",
+      "visual_revision": "2026-09-10",
+      "voice": "Supertonic3 M2",
+      "voice_version": "native-m2-20260912"
     },
     {
       "num": "115",
@@ -296,7 +346,9 @@
       "slot": "A",
       "fails": 0,
       "scheduled_at": "2026-09-24T18:00:00+09:00",
-      "sha256": "ab540c3c219f81586e8439a51cc3b1de1e05dade120d6b66f915257216f34d70"
+      "sha256": "0f1677f459c50bb9d3e75f4e9e26fea2b3ee1d95b04628af23898f8b2bbcdd67",
+      "voice": "Supertonic3 M2",
+      "voice_version": "native-m2-20260912"
     },
     {
       "num": "116",
@@ -307,7 +359,9 @@
       "slot": "B",
       "fails": 0,
       "scheduled_at": "2026-09-25T12:00:00+09:00",
-      "sha256": "76d2ef97e3fbbbc2d2b7d356b8baf09528118322e1b7ee504a645e57a2f86b47"
+      "sha256": "226c159f507f1ec22ce6d3428aa2e8e4db2d707f9f51516e0bdab05576d412cd",
+      "voice": "Supertonic3 M2",
+      "voice_version": "native-m2-20260912"
     },
     {
       "num": "117",
@@ -318,7 +372,9 @@
       "slot": "A",
       "fails": 0,
       "scheduled_at": "2026-09-25T18:00:00+09:00",
-      "sha256": "9906685fe52b22c586e641305a4f9648cb0d668aac2aa23a8f20568d71ad64ba"
+      "sha256": "15b95307e2a3494a111bc1bffbac9c4b9efdbbc1bda1ab273c514da72ff88a5b",
+      "voice": "Supertonic3 M2",
+      "voice_version": "native-m2-20260912"
     },
     {
       "num": "118",
@@ -329,7 +385,9 @@
       "slot": "B",
       "fails": 0,
       "scheduled_at": "2026-09-26T12:00:00+09:00",
-      "sha256": "7968fc8b0394831c53f7ae1574017be12aa8a96f93d3b3b54451ecfd954ea992"
+      "sha256": "48e09d9fde93e37948e2497ddbd02cb50d5cf62910ea0e670ce6138080089c8d",
+      "voice": "Supertonic3 M2",
+      "voice_version": "native-m2-20260912"
     },
     {
       "num": "119",
@@ -340,7 +398,9 @@
       "slot": "A",
       "fails": 0,
       "scheduled_at": "2026-09-26T18:00:00+09:00",
-      "sha256": "da52f9c3e3e28830d4093c120e735139a2bf03bdc7f7dec5621a96ef77353d7c"
+      "sha256": "1a78455eb8d1fe009106f629a7368cbe6081ebd2fbaaa1e8c7707eb57639aed5",
+      "voice": "Supertonic3 M2",
+      "voice_version": "native-m2-20260912"
     }
   ],
   "done": [
