@@ -6,19 +6,6 @@
   "paused": false,
   "queue": [
     {
-      "num": "91",
-      "slug": "fish-flakes-45",
-      "title": "생선살이 결대로 떨어지는 이유",
-      "cue": null,
-      "next_cue": null,
-      "slot": "A",
-      "fails": 0,
-      "scheduled_at": "2026-09-12T18:00:00+09:00",
-      "sha256": "958f6f4cddca8370b5ee49e6934d11509ee5cbe8b7c87db4e5d318a4f2576854",
-      "voice": "Supertonic3 M2",
-      "voice_version": "native-m2-20260912"
-    },
-    {
       "num": "92",
       "slug": "against-the-grain",
       "title": "같은 고기인데 왜 씹히는 느낌이 다를까?",
@@ -854,6 +841,22 @@
       "at": "2026-09-12T13:56:33.045134+09:00",
       "media_id": "18127382311809520",
       "permalink": "https://www.instagram.com/reel/DdLLWjRlTjG/"
+    },
+    {
+      "num": "91",
+      "slug": "fish-flakes-45",
+      "title": "생선살이 결대로 떨어지는 이유",
+      "cue": null,
+      "next_cue": null,
+      "slot": "A",
+      "fails": 0,
+      "scheduled_at": "2026-09-12T18:00:00+09:00",
+      "sha256": "958f6f4cddca8370b5ee49e6934d11509ee5cbe8b7c87db4e5d318a4f2576854",
+      "voice": "Supertonic3 M2",
+      "voice_version": "native-m2-20260912",
+      "at": "2026-09-12T21:32:21.148318+09:00",
+      "media_id": "18116179975996253",
+      "permalink": "https://www.instagram.com/reel/DdL_hdWiEwm/"
     }
   ],
   "cancelled_for_remake": [
