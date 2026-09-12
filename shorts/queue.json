@@ -6,19 +6,6 @@
   "paused": false,
   "queue": [
     {
-      "num": "90",
-      "slug": "salt-eight-days",
-      "title": "겉은 짠데 속은 싱거운 이유",
-      "cue": null,
-      "next_cue": null,
-      "slot": "B",
-      "fails": 0,
-      "scheduled_at": "2026-09-12T12:00:00+09:00",
-      "sha256": "9386a0cac95088a08445d2607ed9702b3a262aa33c76bee3cfa51f1823578b62",
-      "voice": "Supertonic3 M2",
-      "voice_version": "native-m2-20260912"
-    },
-    {
       "num": "91",
       "slug": "fish-flakes-45",
       "title": "생선살이 결대로 떨어지는 이유",
@@ -834,6 +821,22 @@
       "at": "2026-09-11T22:06:43.112085+09:00",
       "media_id": "18161608468470418",
       "permalink": "https://www.instagram.com/reel/DdJepq7lQ5C/"
+    },
+    {
+      "num": "90",
+      "slug": "salt-eight-days",
+      "title": "겉은 짠데 속은 싱거운 이유",
+      "cue": null,
+      "next_cue": null,
+      "slot": "B",
+      "fails": 0,
+      "scheduled_at": "2026-09-12T12:00:00+09:00",
+      "sha256": "9386a0cac95088a08445d2607ed9702b3a262aa33c76bee3cfa51f1823578b62",
+      "voice": "Supertonic3 M2",
+      "voice_version": "native-m2-20260912",
+      "at": "2026-09-12T13:56:33.045134+09:00",
+      "media_id": "18127382311809520",
+      "permalink": "https://www.instagram.com/reel/DdLLWjRlTjG/"
     }
   ],
   "cancelled_for_remake": [
