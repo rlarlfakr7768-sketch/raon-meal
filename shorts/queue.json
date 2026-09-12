@@ -3,7 +3,7 @@
     "B": "12:00",
     "A": "18:00"
   },
-  "paused": true,
+  "paused": false,
   "queue": [
     {
       "num": "90",
@@ -1079,5 +1079,5 @@
     }
   ],
   "resumed_at": "2026-09-09T08:05:59.713108+09:00",
-  "pause_reason": "Voice timbre inconsistency reported by user; repairing narration."
+  "voice_repair_completed_at": "2026-09-12T04:54:35.529738+00:00"
 }
