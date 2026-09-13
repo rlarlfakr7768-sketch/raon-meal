@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "account": "phyedu_en",
+  "timezone": "Asia/Seoul",
+  "slots": {"B": "12:00", "A": "18:00"},
+  "paused": false,
+  "queue": [],
+  "done": []
+}
