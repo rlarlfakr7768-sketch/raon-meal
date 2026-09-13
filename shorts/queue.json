@@ -6,20 +6,6 @@
   "paused": false,
   "queue": [
     {
-      "num": "92",
-      "slug": "against-the-grain",
-      "title": "같은 고기인데 왜 씹히는 느낌이 다를까?",
-      "cue": null,
-      "next_cue": null,
-      "slot": "B",
-      "fails": 0,
-      "scheduled_at": "2026-09-13T12:00:00+09:00",
-      "sha256": "6998be9752d316b4813ac5bbed77520c20ca7d49d2e1a2cb805f1e69a49e074e",
-      "voice": "Supertonic3 M2",
-      "voice_version": "native-m2-20260912",
-      "visual_version": "comparison-20260912"
-    },
-    {
       "num": "107",
       "slug": "bread-fridge",
       "title": "빵은 냉장고에서 더 빨리 굳기도 한다",
@@ -857,6 +843,23 @@
       "at": "2026-09-12T21:32:21.148318+09:00",
       "media_id": "18116179975996253",
       "permalink": "https://www.instagram.com/reel/DdL_hdWiEwm/"
+    },
+    {
+      "num": "92",
+      "slug": "against-the-grain",
+      "title": "같은 고기인데 왜 씹히는 느낌이 다를까?",
+      "cue": null,
+      "next_cue": null,
+      "slot": "B",
+      "fails": 0,
+      "scheduled_at": "2026-09-13T12:00:00+09:00",
+      "sha256": "6998be9752d316b4813ac5bbed77520c20ca7d49d2e1a2cb805f1e69a49e074e",
+      "voice": "Supertonic3 M2",
+      "voice_version": "native-m2-20260912",
+      "visual_version": "comparison-20260912",
+      "at": "2026-09-13T16:52:46.203780+09:00",
+      "media_id": "18113942501044788",
+      "permalink": "https://www.instagram.com/reel/DdOES9MDR5n/"
     }
   ],
   "cancelled_for_remake": [
