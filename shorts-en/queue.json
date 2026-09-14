@@ -9,22 +9,6 @@
   "paused": false,
   "queue": [
     {
-      "id": "toast-fall-en-20260914",
-      "video": "toast-fall-en-20260914.mp4",
-      "caption": "toast-fall-en-20260914.txt",
-      "language": "en",
-      "reviewed": true,
-      "slot": "A",
-      "scheduled_at": "2026-09-14T18:00:00+09:00",
-      "video_sha256": "73d9c3b3797561e500fc776d63d89e009edacd45928b52d60ba0d36ea16d310b",
-      "caption_sha256": "431dd2861eeb312c3e914d7639446e5e5df4d44b61abd51233bd517701d4826f",
-      "status": "pending",
-      "approval": "User explicitly requested publication of the delivered English batch on 2026-09-14.",
-      "creation_id": "18115941028768269",
-      "publish_requested_at": "2026-09-14T19:39:12.939371+09:00",
-      "media_id": "18115468678950812"
-    },
-    {
       "id": "bus-bunching-en-20260914",
       "video": "bus-bunching-en-20260914.mp4",
       "caption": "bus-bunching-en-20260914.txt",
@@ -51,5 +35,24 @@
       "approval": "User explicitly requested publication of the delivered English batch on 2026-09-14."
     }
   ],
-  "done": []
+  "done": [
+    {
+      "id": "toast-fall-en-20260914",
+      "video": "toast-fall-en-20260914.mp4",
+      "caption": "toast-fall-en-20260914.txt",
+      "language": "en",
+      "reviewed": true,
+      "slot": "A",
+      "scheduled_at": "2026-09-14T18:00:00+09:00",
+      "video_sha256": "73d9c3b3797561e500fc776d63d89e009edacd45928b52d60ba0d36ea16d310b",
+      "caption_sha256": "431dd2861eeb312c3e914d7639446e5e5df4d44b61abd51233bd517701d4826f",
+      "status": "published",
+      "approval": "User explicitly requested publication of the delivered English batch on 2026-09-14.",
+      "creation_id": "18115941028768269",
+      "publish_requested_at": "2026-09-14T19:39:12.939371+09:00",
+      "media_id": "18115468678950812",
+      "permalink": "https://www.instagram.com/reel/DdQ8LoAAAL8/",
+      "published_at": "2026-09-14T19:39:14+09:00"
+    }
+  ]
 }
