@@ -6,20 +6,6 @@
   "paused": false,
   "queue": [
     {
-      "num": "107",
-      "slug": "bread-fridge",
-      "title": "빵은 냉장고에서 더 빨리 굳기도 한다",
-      "cue": null,
-      "next_cue": null,
-      "slot": "A",
-      "fails": 0,
-      "scheduled_at": "2026-09-13T18:00:00+09:00",
-      "sha256": "da7da534fd7e7c5be68a7df352adf05963a46876aba94009abe4203aff3ae0ca",
-      "voice": "Supertonic3 M2",
-      "voice_version": "native-m2-20260912",
-      "visual_version": "comparison-20260912"
-    },
-    {
       "num": "120",
       "slug": "block-stack-compare",
       "cue": null,
@@ -860,6 +846,23 @@
       "at": "2026-09-13T16:52:46.203780+09:00",
       "media_id": "18113942501044788",
       "permalink": "https://www.instagram.com/reel/DdOES9MDR5n/"
+    },
+    {
+      "num": "107",
+      "slug": "bread-fridge",
+      "title": "빵은 냉장고에서 더 빨리 굳기도 한다",
+      "cue": null,
+      "next_cue": null,
+      "slot": "A",
+      "fails": 0,
+      "scheduled_at": "2026-09-13T18:00:00+09:00",
+      "sha256": "da7da534fd7e7c5be68a7df352adf05963a46876aba94009abe4203aff3ae0ca",
+      "voice": "Supertonic3 M2",
+      "voice_version": "native-m2-20260912",
+      "visual_version": "comparison-20260912",
+      "at": "2026-09-15T00:27:29.682771+09:00",
+      "media_id": "17899926654665121",
+      "permalink": "https://www.instagram.com/reel/DdRdJOPEocw/"
     }
   ],
   "cancelled_for_remake": [
