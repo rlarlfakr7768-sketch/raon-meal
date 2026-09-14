@@ -3,7 +3,11 @@ name: English science reels
 on:
   schedule:
     - cron: '0 3 * * *'
+    - cron: '17 3 * * *'
+    - cron: '47 3 * * *'
     - cron: '0 9 * * *'
+    - cron: '17 9 * * *'
+    - cron: '47 9 * * *'
   workflow_dispatch:
     inputs:
       mode:
@@ -30,6 +34,9 @@ jobs:
     timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
+        with:
+          # Read current queue state after this workflow acquires concurrency.
+          ref: main
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -55,10 +62,8 @@ jobs:
               publish) python cloud_shorts_en.py --slot "$MANUAL_SLOT" ;;
               *) exit 2 ;;
             esac
-          elif [ "$EVENT_SCHEDULE" = '0 3 * * *' ]; then
-            python cloud_shorts_en.py --slot B
-          elif [ "$EVENT_SCHEDULE" = '0 9 * * *' ]; then
-            python cloud_shorts_en.py --slot A
+          elif [ "$EVENT_NAME" = 'schedule' ]; then
+            python cloud_shorts_en.py --schedule "$EVENT_SCHEDULE"
           else
             exit 2
           fi

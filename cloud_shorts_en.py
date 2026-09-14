@@ -26,6 +26,12 @@ KST = dt.timezone(dt.timedelta(hours=9))
 GRAPH = "https://graph.instagram.com"
 VERSION = "v21.0"
 SECRET_NAME = "IG_EN_SECRETS_JSON"
+# Retry the same lunch/evening slots away from GitHub's busiest minute.
+# A scheduled event remains best-effort; these retries do not guarantee timing.
+SCHEDULE_SLOTS = {
+    "0 3 * * *": "B", "17 3 * * *": "B", "47 3 * * *": "B",
+    "0 9 * * *": "A", "17 9 * * *": "A", "47 9 * * *": "A",
+}
 
 
 class ProcessingError(RuntimeError):
@@ -129,6 +135,16 @@ class API:
         return self.call("GET", "/" + str(self.c["user_id"]) + "/media", params={
             "fields": "id,caption,timestamp,permalink", "limit": 100})["data"]
 
+    def publishing_limit(self):
+        data = self.call("GET", "/" + str(self.c["user_id"]) + "/content_publishing_limit",
+                         params={"fields": "quota_usage,config"})
+        rows = data.get("data")
+        if (not isinstance(rows, list) or not rows or not isinstance(rows[0], dict)
+                or type(rows[0].get("quota_usage")) is not int or rows[0]["quota_usage"] < 0
+                or not isinstance(rows[0].get("config"), dict)):
+            raise RuntimeError("English publishing-limit read check returned invalid quota data")
+        return rows[0]
+
     def create(self, url, caption):
         return self.call("POST", "/" + str(self.c["user_id"]) + "/media", data={
             "media_type": "REELS", "video_url": url, "caption": caption,
@@ -203,13 +219,30 @@ def media(item):
     return paths[0], caption
 
 
-def eligible(q, item, slot, at):
-    if item.get("slot") != slot:
-        return False
+def scheduled_time(q, item):
     scheduled = dt.datetime.fromisoformat(item["scheduled_at"])
     if scheduled.tzinfo is None:
         raise RuntimeError("English publication date requires an explicit timezone")
-    if at < scheduled:
+    scheduled = scheduled.astimezone(KST)
+    if scheduled.strftime("%H:%M") != q["slots"].get(item.get("slot")) or scheduled.second or scheduled.microsecond:
+        raise RuntimeError("English publication time does not match its configured slot")
+    return scheduled
+
+
+def slot_for_schedule(expression):
+    try:
+        return SCHEDULE_SLOTS[expression]
+    except KeyError:
+        raise RuntimeError("Unknown English schedule; publication refused") from None
+
+
+def eligible(q, item, slot, at):
+    if item.get("slot") != slot:
+        return False
+    scheduled = scheduled_time(q, item)
+    at = at.astimezone(KST)
+    # A delayed/replayed event must never catch up yesterday's reel today.
+    if at.date() != scheduled.date() or at < scheduled:
         return False
     today = [d for d in q["done"] if d.get("published_at") and
              dt.datetime.fromisoformat(d["published_at"]).astimezone(KST).date() == at.date()]
@@ -236,6 +269,8 @@ def host_url(video):
 
 def run(args):
     q = load_queue()
+    schedule = getattr(args, "schedule", None)
+    slot = slot_for_schedule(schedule) if schedule else args.slot
     if args.plan:
         print(json.dumps({"account": ACCOUNT, "pending": len(q["queue"]), "paused": q["paused"],
                           "slots": q["slots"]}, ensure_ascii=False))
@@ -243,7 +278,11 @@ def run(args):
     if args.check:
         api = API(credentials())
         api.verify()
+        print("English identity read check passed (@phyedu_en)")
         api.recent()
+        print("English media read check passed")
+        api.publishing_limit()
+        print("English content-publishing-limit access check passed")
         for item in q["queue"]:
             media(item)
         print("English account/queue read-only check passed; no publication")
@@ -257,9 +296,13 @@ def run(args):
         log("Queue paused" if q.get("paused") else "English queue empty; nothing to publish", to_file=False)
         return 0
     item = q["queue"][0]
-    if not eligible(q, item, args.slot, now()):
-        log("No English reel eligible for this slot", to_file=False)
-        return 0
+    reconciling = bool(item.get("media_id") or item.get("publish_requested_at"))
+    if not reconciling:
+        if scheduled_time(q, item).date() < now().astimezone(KST).date():
+            raise RuntimeError("English reel missed its scheduled date; explicit rescheduling is required")
+        if not eligible(q, item, slot, now()):
+            log("No English reel eligible for this slot", to_file=False)
+            return 0
     video, caption = media(item)
     api = API(c or credentials())
     api.verify()
@@ -281,6 +324,9 @@ def run(args):
         log("Previous publication is uncertain; English queue paused for reconciliation")
         persist(q, "uncertain previous publication")
         return 1
+    if not eligible(q, item, slot, now()):
+        log("English reel is no longer eligible; no publication", to_file=False)
+        return 0
     todays_posts = [r for r in recent if dt.datetime.fromisoformat(r["timestamp"]).astimezone(KST).date() == now().date()]
     if len(todays_posts) >= 2:
         log("English account already has two posts today", to_file=False)
@@ -302,9 +348,21 @@ def run(args):
         log("English media processing failed; retry count recorded")
         persist(q, "processing failed")
         return 1
+    # Processing can cross midnight. Recheck before recording/sending a new
+    # publish request, while preserving any prepared container for inspection.
+    if not eligible(q, item, slot, now()):
+        log("English reel is no longer eligible after processing; no publication", to_file=False)
+        return 0
     item["publish_requested_at"] = now().isoformat()
     log("English publication requested")
     persist(q, "publication intent")
+    if not eligible(q, item, slot, now()):
+        # Git push/rebase may itself cross midnight. No publish was sent, so
+        # clearing this prepared intent is safe; a failed commit stops closed.
+        item.pop("publish_requested_at", None)
+        log("English publication intent expired before sending; no publication")
+        persist(q, "publication intent expired before sending")
+        return 0
     mid = api.publish(item["creation_id"])
     item["media_id"] = mid
     log("Instagram returned English media ID")
@@ -318,7 +376,9 @@ def run(args):
 
 def main():
     p = argparse.ArgumentParser()
-    p.add_argument("--slot", choices=("A", "B"), default="B")
+    timing = p.add_mutually_exclusive_group()
+    timing.add_argument("--slot", choices=("A", "B"), default="B")
+    timing.add_argument("--schedule", choices=tuple(SCHEDULE_SLOTS))
     p.add_argument("--plan", action="store_true")
     p.add_argument("--check", action="store_true")
     args = p.parse_args()
