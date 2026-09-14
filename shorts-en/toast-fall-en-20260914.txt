@@ -1,0 +1,9 @@
+Toast already starts rotating while it tips off the table. The fall gives it only a limited amount of time to keep turning.
+
+This animation reuses our original simplified model: a uniform rigid slice, a small initial overhang, Coulomb friction at the edge, then free fall with constant angular velocity and no air resistance. The launch and slice dimensions matter too. The outcome depends on these assumptions and is not a universal rule for real toast. A higher drop can change the outcome without making every landing topping-side up.
+
+Background: R. A. J. Matthews, Tumbling toast, Murphy's Law and the fundamental constants, European Journal of Physics 16 (1995), 172-176. https://doi.org/10.1088/0143-0807/16/4/005
+
+English adaptation of our original @phyedu_net reel. Synthetic narration.
+
+#EverydayScience #Physics #Toast #Rotation #PhyEdu

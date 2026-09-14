@@ -2,8 +2,51 @@
   "schema_version": 1,
   "account": "phyedu_en",
   "timezone": "Asia/Seoul",
-  "slots": {"B": "12:00", "A": "18:00"},
+  "slots": {
+    "B": "12:00",
+    "A": "18:00"
+  },
   "paused": false,
-  "queue": [],
+  "queue": [
+    {
+      "id": "toast-fall-en-20260914",
+      "video": "toast-fall-en-20260914.mp4",
+      "caption": "toast-fall-en-20260914.txt",
+      "language": "en",
+      "reviewed": true,
+      "slot": "A",
+      "scheduled_at": "2026-09-14T18:00:00+09:00",
+      "video_sha256": "73d9c3b3797561e500fc776d63d89e009edacd45928b52d60ba0d36ea16d310b",
+      "caption_sha256": "431dd2861eeb312c3e914d7639446e5e5df4d44b61abd51233bd517701d4826f",
+      "status": "pending",
+      "approval": "User explicitly requested publication of the delivered English batch on 2026-09-14."
+    },
+    {
+      "id": "bus-bunching-en-20260914",
+      "video": "bus-bunching-en-20260914.mp4",
+      "caption": "bus-bunching-en-20260914.txt",
+      "language": "en",
+      "reviewed": true,
+      "slot": "B",
+      "scheduled_at": "2026-09-15T12:00:00+09:00",
+      "video_sha256": "fe1b9339ed80e2764059705193883ecb7e5e971da7e8a052673011cfdde10811",
+      "caption_sha256": "efbafa4c9403cf29083980e1a67a8a5e5344aaa7ce4fd32cc64ea81c6790a980",
+      "status": "pending",
+      "approval": "User explicitly requested publication of the delivered English batch on 2026-09-14."
+    },
+    {
+      "id": "block-tower-en-20260914",
+      "video": "block-tower-en-20260914.mp4",
+      "caption": "block-tower-en-20260914.txt",
+      "language": "en",
+      "reviewed": true,
+      "slot": "A",
+      "scheduled_at": "2026-09-15T18:00:00+09:00",
+      "video_sha256": "17b29f767dbc1540a88121229e88444ed79dca1785d66855b301c69e339d6697",
+      "caption_sha256": "a79d760df304c797c4a3e979e5cba4d190554d3850bbb28b9c90ff9c9f6a77ac",
+      "status": "pending",
+      "approval": "User explicitly requested publication of the delivered English batch on 2026-09-14."
+    }
+  ],
   "done": []
 }

@@ -1,0 +1,9 @@
+A late bus picks up the passengers who arrived during its extra delay. More boarding makes it later still. The following bus finds fewer people waiting, so it catches up.
+
+Our original illustrative simulation uses a circular route, steady passenger arrivals, fixed boarding times and no overtaking. All displayed timings and growth rates describe those assumptions. They are not measured predictions for a particular city. Holding a bus that is too close to the one ahead can help restore spacing; the result depends on the route, demand and control policy.
+
+Background: C. F. Daganzo, A headway-based approach to eliminate bus bunching: Systematic analysis and comparisons, Transportation Research Part B 43 (2009), 913-921. https://doi.org/10.1016/j.trb.2009.04.002
+
+English adaptation of our original @phyedu_net reel. Synthetic narration.
+
+#EverydayScience #BusBunching #PublicTransport #Simulation #PhyEdu

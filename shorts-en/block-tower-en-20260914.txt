@@ -1,0 +1,11 @@
+A harmonic stack places one identical, uniform block in each layer. The maximum offsets are half a block length, then a quarter, then a sixth, and so on. The total overhang is H_n / 2.
+
+That sum has no finite upper bound, but grows only logarithmically. Passing one, two, three, four and five block lengths requires 4, 31, 227, 1,674 and 12,367 blocks in this arrangement. For large stacks, each extra block length multiplies the required count by about e squared, or 7.39.
+
+These are ideal static-equilibrium limits. Real stacks need a margin against small disturbances. Allowing several blocks per layer permits more efficient arrangements.
+
+Sources: Paterson and Zwick, Overhang: https://arxiv.org/abs/0710.2357 ; Paterson et al., Maximum overhang: https://arxiv.org/abs/0707.0093
+
+English adaptation of our original @phyedu_net reel. Synthetic narration.
+
+#EverydayScience #Physics #Math #CenterOfMass #PhyEdu
