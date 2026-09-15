@@ -21,7 +21,8 @@
       "status": "pending",
       "approval": "User explicitly requested publication of the delivered English batch on 2026-09-14.",
       "creation_id": "18116197333768269",
-      "publish_requested_at": "2026-09-15T22:55:40.465506+09:00"
+      "publish_requested_at": "2026-09-15T22:55:40.465506+09:00",
+      "media_id": "18174160075445996"
     }
   ],
   "done": [
