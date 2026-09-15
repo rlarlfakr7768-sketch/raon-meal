@@ -9,22 +9,6 @@
   "paused": false,
   "queue": [
     {
-      "id": "bus-bunching-en-20260914",
-      "video": "bus-bunching-en-20260914.mp4",
-      "caption": "bus-bunching-en-20260914.txt",
-      "language": "en",
-      "reviewed": true,
-      "slot": "B",
-      "scheduled_at": "2026-09-15T12:00:00+09:00",
-      "video_sha256": "fe1b9339ed80e2764059705193883ecb7e5e971da7e8a052673011cfdde10811",
-      "caption_sha256": "efbafa4c9403cf29083980e1a67a8a5e5344aaa7ce4fd32cc64ea81c6790a980",
-      "status": "pending",
-      "approval": "User explicitly requested publication of the delivered English batch on 2026-09-14.",
-      "creation_id": "18116137054768269",
-      "publish_requested_at": "2026-09-15T17:13:28.230155+09:00",
-      "media_id": "18197604811375720"
-    },
-    {
       "id": "block-tower-en-20260914",
       "video": "block-tower-en-20260914.mp4",
       "caption": "block-tower-en-20260914.txt",
@@ -56,6 +40,24 @@
       "media_id": "18115468678950812",
       "permalink": "https://www.instagram.com/reel/DdQ8LoAAAL8/",
       "published_at": "2026-09-14T19:39:14+09:00"
+    },
+    {
+      "id": "bus-bunching-en-20260914",
+      "video": "bus-bunching-en-20260914.mp4",
+      "caption": "bus-bunching-en-20260914.txt",
+      "language": "en",
+      "reviewed": true,
+      "slot": "B",
+      "scheduled_at": "2026-09-15T12:00:00+09:00",
+      "video_sha256": "fe1b9339ed80e2764059705193883ecb7e5e971da7e8a052673011cfdde10811",
+      "caption_sha256": "efbafa4c9403cf29083980e1a67a8a5e5344aaa7ce4fd32cc64ea81c6790a980",
+      "status": "published",
+      "approval": "User explicitly requested publication of the delivered English batch on 2026-09-14.",
+      "creation_id": "18116137054768269",
+      "publish_requested_at": "2026-09-15T17:13:28.230155+09:00",
+      "media_id": "18197604811375720",
+      "permalink": "https://www.instagram.com/reel/DdTQR_MjyqS/",
+      "published_at": "2026-09-15T17:13:30+09:00"
     }
   ]
 }
