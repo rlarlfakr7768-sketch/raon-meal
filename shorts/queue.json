@@ -6,20 +6,6 @@
   "paused": false,
   "queue": [
     {
-      "num": "120",
-      "slug": "block-stack-compare",
-      "cue": null,
-      "next_cue": null,
-      "fails": 0,
-      "title": "블록 네 개, 배치만 바꾸면 얼마나 더 나갈까",
-      "sha256": "64283b58665cb7e62fe561cb6ce6d6bd6452614a5a0a84625e6e34ade90e7b55",
-      "voice": "Supertonic3 M2",
-      "voice_version": "native-m2-20260912",
-      "visual_version": "comparison-20260912",
-      "scheduled_at": "2026-09-14T12:00:00+09:00",
-      "slot": "B"
-    },
-    {
       "num": "100",
       "slug": "icecream-sandy",
       "title": "아이스크림 속 모래 같은 감촉",
@@ -863,6 +849,23 @@
       "at": "2026-09-15T00:27:29.682771+09:00",
       "media_id": "17899926654665121",
       "permalink": "https://www.instagram.com/reel/DdRdJOPEocw/"
+    },
+    {
+      "num": "120",
+      "slug": "block-stack-compare",
+      "cue": null,
+      "next_cue": null,
+      "fails": 0,
+      "title": "블록 네 개, 배치만 바꾸면 얼마나 더 나갈까",
+      "sha256": "64283b58665cb7e62fe561cb6ce6d6bd6452614a5a0a84625e6e34ade90e7b55",
+      "voice": "Supertonic3 M2",
+      "voice_version": "native-m2-20260912",
+      "visual_version": "comparison-20260912",
+      "scheduled_at": "2026-09-14T12:00:00+09:00",
+      "slot": "B",
+      "at": "2026-09-15T17:15:09.872110+09:00",
+      "media_id": "17987960418050923",
+      "permalink": "https://www.instagram.com/reel/DdTQeFYAY-t/"
     }
   ],
   "cancelled_for_remake": [
