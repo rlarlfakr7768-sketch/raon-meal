@@ -20,7 +20,8 @@
       "caption_sha256": "efbafa4c9403cf29083980e1a67a8a5e5344aaa7ce4fd32cc64ea81c6790a980",
       "status": "pending",
       "approval": "User explicitly requested publication of the delivered English batch on 2026-09-14.",
-      "creation_id": "18116137054768269"
+      "creation_id": "18116137054768269",
+      "publish_requested_at": "2026-09-15T17:13:28.230155+09:00"
     },
     {
       "id": "block-tower-en-20260914",
