@@ -19,7 +19,8 @@
       "video_sha256": "17b29f767dbc1540a88121229e88444ed79dca1785d66855b301c69e339d6697",
       "caption_sha256": "a79d760df304c797c4a3e979e5cba4d190554d3850bbb28b9c90ff9c9f6a77ac",
       "status": "pending",
-      "approval": "User explicitly requested publication of the delivered English batch on 2026-09-14."
+      "approval": "User explicitly requested publication of the delivered English batch on 2026-09-14.",
+      "creation_id": "18116197333768269"
     }
   ],
   "done": [
