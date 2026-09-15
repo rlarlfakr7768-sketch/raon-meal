@@ -7,24 +7,7 @@
     "A": "18:00"
   },
   "paused": false,
-  "queue": [
-    {
-      "id": "block-tower-en-20260914",
-      "video": "block-tower-en-20260914.mp4",
-      "caption": "block-tower-en-20260914.txt",
-      "language": "en",
-      "reviewed": true,
-      "slot": "A",
-      "scheduled_at": "2026-09-15T18:00:00+09:00",
-      "video_sha256": "17b29f767dbc1540a88121229e88444ed79dca1785d66855b301c69e339d6697",
-      "caption_sha256": "a79d760df304c797c4a3e979e5cba4d190554d3850bbb28b9c90ff9c9f6a77ac",
-      "status": "pending",
-      "approval": "User explicitly requested publication of the delivered English batch on 2026-09-14.",
-      "creation_id": "18116197333768269",
-      "publish_requested_at": "2026-09-15T22:55:40.465506+09:00",
-      "media_id": "18174160075445996"
-    }
-  ],
+  "queue": [],
   "done": [
     {
       "id": "toast-fall-en-20260914",
@@ -61,6 +44,24 @@
       "media_id": "18197604811375720",
       "permalink": "https://www.instagram.com/reel/DdTQR_MjyqS/",
       "published_at": "2026-09-15T17:13:30+09:00"
+    },
+    {
+      "id": "block-tower-en-20260914",
+      "video": "block-tower-en-20260914.mp4",
+      "caption": "block-tower-en-20260914.txt",
+      "language": "en",
+      "reviewed": true,
+      "slot": "A",
+      "scheduled_at": "2026-09-15T18:00:00+09:00",
+      "video_sha256": "17b29f767dbc1540a88121229e88444ed79dca1785d66855b301c69e339d6697",
+      "caption_sha256": "a79d760df304c797c4a3e979e5cba4d190554d3850bbb28b9c90ff9c9f6a77ac",
+      "status": "published",
+      "approval": "User explicitly requested publication of the delivered English batch on 2026-09-14.",
+      "creation_id": "18116197333768269",
+      "publish_requested_at": "2026-09-15T22:55:40.465506+09:00",
+      "media_id": "18174160075445996",
+      "permalink": "https://www.instagram.com/reel/DdT3aJmDkdT/",
+      "published_at": "2026-09-15T22:55:42+09:00"
     }
   ]
 }
