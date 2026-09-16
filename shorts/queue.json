@@ -6,20 +6,6 @@
   "paused": false,
   "queue": [
     {
-      "num": "100",
-      "slug": "icecream-sandy",
-      "title": "아이스크림 속 모래 같은 감촉",
-      "cue": null,
-      "next_cue": null,
-      "slot": "A",
-      "fails": 0,
-      "scheduled_at": "2026-09-14T18:00:00+09:00",
-      "sha256": "4e5b0cd4a956dca2b6130676a506592796e018b6f0088b577ddb0ab5a25e7ac2",
-      "voice": "Supertonic3 M2",
-      "voice_version": "native-m2-20260912",
-      "visual_version": "comparison-20260912"
-    },
-    {
       "num": "93",
       "slug": "meat-loses-30g",
       "title": "구운 고기는 왜 작아질까",
@@ -866,6 +852,23 @@
       "at": "2026-09-15T17:15:09.872110+09:00",
       "media_id": "17987960418050923",
       "permalink": "https://www.instagram.com/reel/DdTQeFYAY-t/"
+    },
+    {
+      "num": "100",
+      "slug": "icecream-sandy",
+      "title": "아이스크림 속 모래 같은 감촉",
+      "cue": null,
+      "next_cue": null,
+      "slot": "A",
+      "fails": 0,
+      "scheduled_at": "2026-09-14T18:00:00+09:00",
+      "sha256": "4e5b0cd4a956dca2b6130676a506592796e018b6f0088b577ddb0ab5a25e7ac2",
+      "voice": "Supertonic3 M2",
+      "voice_version": "native-m2-20260912",
+      "visual_version": "comparison-20260912",
+      "at": "2026-09-16T22:54:02.483379+09:00",
+      "media_id": "18094824722411203",
+      "permalink": "https://www.instagram.com/reel/DdWcCswDzEw/"
     }
   ],
   "cancelled_for_remake": [
