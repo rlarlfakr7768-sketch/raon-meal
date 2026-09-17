@@ -6,20 +6,6 @@
   "paused": false,
   "queue": [
     {
-      "num": "94",
-      "slug": "resting-meat",
-      "title": "불에서 내렸는데 중심 온도가 오른다",
-      "cue": null,
-      "next_cue": null,
-      "slot": "A",
-      "fails": 0,
-      "scheduled_at": "2026-09-15T18:00:00+09:00",
-      "sha256": "651e95b8276f40a7382d25f0d68a1d240c65c260d4ec5a0856e27b5a2330654d",
-      "visual_revision": "2026-09-10",
-      "voice": "Supertonic3 M2",
-      "voice_version": "native-m2-20260912"
-    },
-    {
       "num": "95",
       "slug": "aging-two-weeks",
       "title": "고기는 숙성하면서 왜 부드러워질까",
@@ -872,6 +858,23 @@
       "at": "2026-09-17T17:15:18.454530+09:00",
       "media_id": "17901590568569101",
       "permalink": "https://www.instagram.com/reel/DdYaEokjfya/"
+    },
+    {
+      "num": "94",
+      "slug": "resting-meat",
+      "title": "불에서 내렸는데 중심 온도가 오른다",
+      "cue": null,
+      "next_cue": null,
+      "slot": "A",
+      "fails": 0,
+      "scheduled_at": "2026-09-15T18:00:00+09:00",
+      "sha256": "651e95b8276f40a7382d25f0d68a1d240c65c260d4ec5a0856e27b5a2330654d",
+      "visual_revision": "2026-09-10",
+      "voice": "Supertonic3 M2",
+      "voice_version": "native-m2-20260912",
+      "at": "2026-09-17T22:57:29.553851+09:00",
+      "media_id": "18086511062271001",
+      "permalink": "https://www.instagram.com/reel/DdZBO-pFcrR/"
     }
   ],
   "cancelled_for_remake": [
