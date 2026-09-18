@@ -6,20 +6,6 @@
   "paused": false,
   "queue": [
     {
-      "num": "95",
-      "slug": "aging-two-weeks",
-      "title": "고기는 숙성하면서 왜 부드러워질까",
-      "cue": null,
-      "next_cue": null,
-      "slot": "B",
-      "fails": 0,
-      "scheduled_at": "2026-09-16T12:00:00+09:00",
-      "sha256": "fda7f437dd5b312281bf1c73900a17ac105901a55abdff46dbbdee2991b41aa1",
-      "visual_revision": "2026-09-10",
-      "voice": "Supertonic3 M2",
-      "voice_version": "native-m2-20260912"
-    },
-    {
       "num": "96",
       "slug": "rigor-mortis",
       "title": "근육은 에너지가 없어도 풀리지 않는다",
@@ -875,6 +861,23 @@
       "at": "2026-09-17T22:57:29.553851+09:00",
       "media_id": "18086511062271001",
       "permalink": "https://www.instagram.com/reel/DdZBO-pFcrR/"
+    },
+    {
+      "num": "95",
+      "slug": "aging-two-weeks",
+      "title": "고기는 숙성하면서 왜 부드러워질까",
+      "cue": null,
+      "next_cue": null,
+      "slot": "B",
+      "fails": 0,
+      "scheduled_at": "2026-09-16T12:00:00+09:00",
+      "sha256": "fda7f437dd5b312281bf1c73900a17ac105901a55abdff46dbbdee2991b41aa1",
+      "visual_revision": "2026-09-10",
+      "voice": "Supertonic3 M2",
+      "voice_version": "native-m2-20260912",
+      "at": "2026-09-18T16:49:41.182647+09:00",
+      "media_id": "18174853093452527",
+      "permalink": "https://www.instagram.com/reel/Dda78AblesQ/"
     }
   ],
   "cancelled_for_remake": [
