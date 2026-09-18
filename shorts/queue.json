@@ -6,20 +6,6 @@
   "paused": false,
   "queue": [
     {
-      "num": "96",
-      "slug": "rigor-mortis",
-      "title": "근육은 에너지가 없어도 풀리지 않는다",
-      "cue": null,
-      "next_cue": null,
-      "slot": "A",
-      "fails": 0,
-      "scheduled_at": "2026-09-16T18:00:00+09:00",
-      "sha256": "1e726fac0e3b1c46525a00b01f9c533a47ab113ba49f6e97ac04c7bdd29323f4",
-      "visual_revision": "2026-09-10",
-      "voice": "Supertonic3 M2",
-      "voice_version": "native-m2-20260912"
-    },
-    {
       "num": "97",
       "slug": "yolk-first",
       "title": "흰자는 묽은데 노른자는 걸쭉한 달걀",
@@ -878,6 +864,23 @@
       "at": "2026-09-18T16:49:41.182647+09:00",
       "media_id": "18174853093452527",
       "permalink": "https://www.instagram.com/reel/Dda78AblesQ/"
+    },
+    {
+      "num": "96",
+      "slug": "rigor-mortis",
+      "title": "근육은 에너지가 없어도 풀리지 않는다",
+      "cue": null,
+      "next_cue": null,
+      "slot": "A",
+      "fails": 0,
+      "scheduled_at": "2026-09-16T18:00:00+09:00",
+      "sha256": "1e726fac0e3b1c46525a00b01f9c533a47ab113ba49f6e97ac04c7bdd29323f4",
+      "visual_revision": "2026-09-10",
+      "voice": "Supertonic3 M2",
+      "voice_version": "native-m2-20260912",
+      "at": "2026-09-18T22:16:53.705894+09:00",
+      "media_id": "17875515405568181",
+      "permalink": "https://www.instagram.com/reel/DdbhYocked3/"
     }
   ],
   "cancelled_for_remake": [
