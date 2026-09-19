@@ -6,19 +6,6 @@
   "paused": false,
   "queue": [
     {
-      "num": "98",
-      "slug": "rennet-cold",
-      "title": "우유가 굳기 전에 일어나는 일",
-      "cue": null,
-      "next_cue": null,
-      "slot": "A",
-      "fails": 0,
-      "scheduled_at": "2026-09-17T18:00:00+09:00",
-      "sha256": "2f0cc0e129eb723b2b873284a4f92f8ac10230b15b1619f804d34a7eaf29b165",
-      "voice": "Supertonic3 M2",
-      "voice_version": "native-m2-20260912"
-    },
-    {
       "num": "99",
       "slug": "cream-rises",
       "title": "우유 위로 크림이 떠오르는 이유",
@@ -884,6 +871,22 @@
       "at": "2026-09-19T16:43:03.235075+09:00",
       "media_id": "18210596086322049",
       "permalink": "https://www.instagram.com/reel/Dddf97ZkTpH/"
+    },
+    {
+      "num": "98",
+      "slug": "rennet-cold",
+      "title": "우유가 굳기 전에 일어나는 일",
+      "cue": null,
+      "next_cue": null,
+      "slot": "A",
+      "fails": 0,
+      "scheduled_at": "2026-09-17T18:00:00+09:00",
+      "sha256": "2f0cc0e129eb723b2b873284a4f92f8ac10230b15b1619f804d34a7eaf29b165",
+      "voice": "Supertonic3 M2",
+      "voice_version": "native-m2-20260912",
+      "at": "2026-09-19T21:47:21.196531+09:00",
+      "media_id": "17903683512563803",
+      "permalink": "https://www.instagram.com/reel/DdeCxkZDAoy/"
     }
   ],
   "cancelled_for_remake": [
