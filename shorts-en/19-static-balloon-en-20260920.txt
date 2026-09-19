@@ -1,0 +1,14 @@
+Why a charged balloon sticks
+
+A rubbed balloon can stick to a wall that's electrically neutral.
+Contact and separation between different materials can transfer charge to one side.
+Bring the charged balloon close, and charges inside the wall shift slightly.
+Opposite charge becomes slightly closer to the balloon than matching charge.
+The stronger attraction from nearby opposite charge can hold the balloon there.
+Charge leakage over time, often helped by humidity, can weaken the effect.
+
+Illustrative models, not measurements of a particular device. Synthetic narration.
+Sources
+https://openstax.org/books/university-physics-volume-2/pages/5-2-conductors-insulators-and-charging-by-induction
+
+#EverydayScience #Physics #Science #PhyEdu

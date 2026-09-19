@@ -1,0 +1,14 @@
+How an echo measures distance
+
+An ultrasonic sensor measures distance by timing a returning sound pulse.
+It sends a short pulse that travels outward through the air.
+Some sound reflects from an object and returns to the sensor.
+Multiply the round-trip time by sound speed to find the total distance traveled.
+The object's distance is half that value, and temperature affects sound speed.
+Tilted or absorbent surfaces can weaken the returning echo, making measurement harder.
+
+Illustrative models, not measurements of a particular device. Synthetic narration.
+Sources
+https://openstax.org/books/college-physics-2e/pages/17-7-ultrasound
+
+#EverydayScience #Physics #Science #PhyEdu

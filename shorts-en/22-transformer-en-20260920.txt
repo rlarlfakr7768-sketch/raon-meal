@@ -1,0 +1,14 @@
+How a transformer changes voltage
+
+A transformer changes voltage through a changing magnetic field shared by two coils.
+Alternating current in the first coil changes magnetic flux through the core.
+That changing flux also passes through the second coil, inducing a voltage.
+In an ideal transformer, the turns ratio determines the voltage ratio.
+At the higher voltage, the same transferred power corresponds to a smaller current.
+Unchanging direct current cannot sustain this induction because the magnetic flux stays constant.
+
+Illustrative models, not measurements of a particular device. Synthetic narration.
+Sources
+https://openstax.org/books/university-physics-volume-2/pages/15-6-transformers
+
+#EverydayScience #Physics #Science #PhyEdu

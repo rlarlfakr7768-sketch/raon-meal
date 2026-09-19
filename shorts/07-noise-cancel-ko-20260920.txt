@@ -1,0 +1,15 @@
+소리에 소리를 더하면 조용해질까?
+
+소음 제거 이어폰은 바깥 소리와 반대 위상의 소리를 만들어 소음을 줄입니다.
+마이크가 소음을 측정하면 회로가 이어폰 안으로 보낼 소리를 계산합니다.
+같은 위치에서 압력이 높아지는 변화와 낮아지는 변화가 겹치면 서로 줄어듭니다.
+두 소리의 압력 변화가 잘 맞으면, 합쳐진 소리의 진폭이 작아집니다.
+꾸준히 반복되는 낮은 소리는 변화가 예측하기 쉬워 비교적 잘 줄어듭니다.
+갑자기 나는 소리나 높은 소리는 처리 시간과 위치 차이 때문에 덜 줄어들 수 있습니다.
+
+원리를 설명하는 모형이며, 내레이션은 합성 음성입니다.
+출처
+https://openstax.org/books/university-physics-volume-1/pages/17-4-normal-modes-of-a-standing-sound-wave
+https://www.bose.com/stories/what-is-active-noise-cancellation
+
+#과학 #물리 #생활과학 #PhyEdu

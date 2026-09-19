@@ -1,0 +1,14 @@
+Why rotating a filter blocks light
+
+Two polarizing filters can turn nearly dark when you rotate one.
+Light's electric field vibrates perpendicular to the direction the light travels.
+The first filter transmits the component aligned with its transmission axis.
+Align the second filter, and that polarized light passes through easily.
+Turn its axis perpendicular to the first, and very little light gets through.
+Polarized sunglasses use this effect to reduce glare reflected from water or roads.
+
+Illustrative models, not measurements of a particular device. Synthetic narration.
+Sources
+https://openstax.org/books/university-physics-volume-3/pages/1-7-polarization
+
+#EverydayScience #Physics #Science #PhyEdu

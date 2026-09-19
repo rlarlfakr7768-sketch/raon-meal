@@ -1,0 +1,14 @@
+How a screen locates your finger
+
+A capacitive touchscreen detects electrical changes when your finger approaches it.
+Transparent electrodes form a grid beneath the screen's outer surface.
+Electric fields form between electrodes, and capacitance describes their charge-storage behavior.
+A conducting finger changes the electric field and the measured capacitance nearby.
+Electronics compare changes across the grid to calculate the touch position.
+Thick insulating gloves can weaken this coupling and make touch detection harder.
+
+Illustrative models, not measurements of a particular device. Synthetic narration.
+Sources
+https://www.microchip.com/en-us/products/sensors-touch/mcus-on-chip-touch/2d-touchpads
+
+#EverydayScience #Physics #Science #PhyEdu

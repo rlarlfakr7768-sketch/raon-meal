@@ -1,69 +1,56 @@
 name: English science reels
-
 on:
   schedule:
-    - cron: '0 3 * * *'
-    - cron: '17 3 * * *'
-    - cron: '47 3 * * *'
-    - cron: '0 9 * * *'
-    - cron: '17 9 * * *'
-    - cron: '47 9 * * *'
+    # Fallback only. Cloudflare dispatches the primary clock independently.
+    - cron: '7,27,47 3-14 * * *'
   workflow_dispatch:
     inputs:
       mode:
-        description: 'Read-only connection check, plan, or scheduled slot'
         type: choice
         options: [check, plan, publish]
         default: check
       slot:
-        description: 'B = 12:00 KST, A = 18:00 KST'
         type: choice
         options: [B, A]
         default: B
-
 permissions:
   contents: write
-
 concurrency:
   group: english-reels-post
   cancel-in-progress: false
-
 jobs:
   post:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
         with:
-          # Read current queue state after this workflow acquires concurrency.
           ref: main
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Install requests
-        run: python -m pip install requests
+      - run: python -m pip install requests
       - name: Configure state commits
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-      - name: English queue only
+      - name: Validate publisher guards
+        run: python -m unittest test_reel_schedule test_reel_publisher
+      - name: Publish or read-only check
         env:
+          REEL_LANGUAGE: en
           IG_EN_SECRETS_JSON: ${{ secrets.IG_EN_SECRETS_JSON }}
           GH_TOKEN: ${{ secrets.GH_PAT }}
           EVENT_NAME: ${{ github.event_name }}
-          EVENT_SCHEDULE: ${{ github.event.schedule }}
           MANUAL_MODE: ${{ inputs.mode }}
-          MANUAL_SLOT: ${{ inputs.slot }}
         run: |
           if [ "$EVENT_NAME" = 'workflow_dispatch' ]; then
             case "$MANUAL_MODE" in
-              check) python cloud_shorts_en.py --check ;;
-              plan) python cloud_shorts_en.py --plan ;;
-              publish) python cloud_shorts_en.py --slot "$MANUAL_SLOT" ;;
+              check) python reel_publisher.py --check ;;
+              plan) python reel_publisher.py --plan ;;
+              publish) python reel_publisher.py --auto ;;
               *) exit 2 ;;
             esac
-          elif [ "$EVENT_NAME" = 'schedule' ]; then
-            python cloud_shorts_en.py --schedule "$EVENT_SCHEDULE"
           else
-            exit 2
+            python reel_publisher.py --auto
           fi

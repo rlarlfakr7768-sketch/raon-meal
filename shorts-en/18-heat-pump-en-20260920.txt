@@ -1,0 +1,14 @@
+How a heat pump warms a home
+
+A heat pump uses electricity to move outdoor heat into your home.
+Cold refrigerant in the outdoor coil absorbs heat from the surrounding air.
+A compressor squeezes the refrigerant vapor, raising its pressure and temperature.
+The hot refrigerant releases heat indoors and condenses into liquid.
+An expansion device lowers its pressure before it returns to the outdoor coil.
+Indoor heating includes both energy collected outside and energy supplied to the compressor.
+
+Illustrative models, not measurements of a particular device. Synthetic narration.
+Sources
+https://www.energy.gov/energysaver/heat-pump-systems
+
+#EverydayScience #Physics #Science #PhyEdu

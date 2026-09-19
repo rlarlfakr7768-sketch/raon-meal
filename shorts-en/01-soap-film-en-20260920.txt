@@ -1,0 +1,14 @@
+Why soap bubbles change color
+
+A soap bubble gets its colors from overlapping reflections.
+Some light reflects off the front surface, while some returns from the back.
+Their different paths strengthen some colors and weaken others when the waves overlap.
+A small change in film thickness changes which colors reflect strongly.
+As liquid drains downward, changing thickness makes those colored patterns move.
+Changing your viewing angle also changes the paths, shifting the colors you see.
+
+Illustrative models, not measurements of a particular device. Synthetic narration.
+Sources
+https://openstax.org/books/university-physics-volume-3/pages/3-4-interference-in-thin-films
+
+#EverydayScience #Physics #Science #PhyEdu

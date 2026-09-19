@@ -1,0 +1,14 @@
+How wireless charging transfers energy
+
+Wireless chargers transfer energy between two coils placed close together.
+Changing current in the charger's coil creates a changing magnetic field.
+Changing magnetic flux through the phone's coil induces an electrical voltage.
+Circuits inside the phone convert that electrical power for charging its battery.
+Misalignment or extra distance reduces how strongly the two coils couple.
+Position and spacing affect efficiency, and some supplied energy becomes heat.
+
+Illustrative models, not measurements of a particular device. Synthetic narration.
+Sources
+https://openstax.org/books/university-physics-volume-2/pages/13-7-applications-of-electromagnetic-induction
+
+#EverydayScience #Physics #Science #PhyEdu

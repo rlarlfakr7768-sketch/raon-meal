@@ -1,0 +1,14 @@
+Why water climbs a narrow tube
+
+Water can rise above the surrounding surface inside a narrow, clean glass tube.
+Attraction to the glass makes water wet the wall and form a curved meniscus.
+Surface tension along the contact line provides an upward force on the water.
+As the column rises, its growing weight eventually balances that upward force.
+Under the same conditions, a narrower tube supports a taller water column.
+Changing the liquid or tube material changes the surface shape and height.
+
+Illustrative models, not measurements of a particular device. Synthetic narration.
+Sources
+https://openstax.org/books/college-physics-2e/pages/11-8-cohesion-and-adhesion-in-liquids-surface-tension-and-capillary-action
+
+#EverydayScience #Physics #Science #PhyEdu

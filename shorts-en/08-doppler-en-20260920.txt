@@ -1,0 +1,14 @@
+Why a passing siren drops in pitch
+
+A steady siren sounds higher as it approaches and lower as it recedes.
+A stationary source produces wavefronts with equal spacing in every direction.
+A moving source compresses the spacing ahead and stretches it behind.
+More wavefronts reach a listener ahead each second, producing a higher pitch.
+After the source passes, fewer arrive each second, producing a lower pitch.
+This change in observed frequency from relative motion is the Doppler effect.
+
+Illustrative models, not measurements of a particular device. Synthetic narration.
+Sources
+https://openstax.org/books/university-physics-volume-1/pages/17-7-the-doppler-effect
+
+#EverydayScience #Physics #Science #PhyEdu

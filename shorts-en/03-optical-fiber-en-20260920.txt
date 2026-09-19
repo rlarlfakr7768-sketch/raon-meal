@@ -1,0 +1,14 @@
+How light follows an optical fiber
+
+Light can travel along a fiber by repeatedly reflecting inside it.
+The central core has a higher refractive index than the surrounding cladding.
+At sufficiently large incidence angles, light reflects completely back into the core.
+This repeated total internal reflection guides light along the fiber.
+A gentle bend can preserve the conditions needed for that reflection.
+A sharp bend lets some light escape, weakening the transmitted signal.
+
+Illustrative models, not measurements of a particular device. Synthetic narration.
+Sources
+https://openstax.org/books/university-physics-volume-3/pages/1-4-total-internal-reflection
+
+#EverydayScience #Physics #Science #PhyEdu

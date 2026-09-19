@@ -1,0 +1,14 @@
+Why a magnet falls slowly in copper
+
+A magnet can fall surprisingly slowly through a copper tube.
+The moving magnet continually changes magnetic flux through the surrounding copper.
+That change induces electric currents circulating in loops through the conductor.
+Their magnetic fields oppose the flux change caused by the falling magnet.
+The resulting force slows the magnet, converting some mechanical energy into heat.
+A long slit interrupts current loops and reduces the braking effect.
+
+Illustrative models, not measurements of a particular device. Synthetic narration.
+Sources
+https://openstax.org/books/university-physics-volume-2/pages/13-5-eddy-currents
+
+#EverydayScience #Physics #Science #PhyEdu

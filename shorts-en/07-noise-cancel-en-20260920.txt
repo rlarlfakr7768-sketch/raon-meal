@@ -1,0 +1,15 @@
+How adding sound reduces noise
+
+Noise-canceling earbuds add carefully timed sound to reduce the noise you hear.
+Microphones measure incoming noise, and electronics calculate a signal for the speaker.
+At your ear, opposite pressure changes can partly cancel each other.
+When overlapping waves reduce their combined amplitude, we call it destructive interference.
+Steady low-frequency sounds are relatively predictable, making them easier to reduce.
+Sudden sounds and higher frequencies are harder because timing and position matter.
+
+Illustrative models, not measurements of a particular device. Synthetic narration.
+Sources
+https://openstax.org/books/university-physics-volume-1/pages/17-4-normal-modes-of-a-standing-sound-wave
+https://www.bose.com/stories/what-is-active-noise-cancellation
+
+#EverydayScience #Physics #Science #PhyEdu

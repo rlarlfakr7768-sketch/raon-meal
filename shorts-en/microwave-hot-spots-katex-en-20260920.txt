@@ -1,0 +1,21 @@
+Why microwaves leave hot and cold spots
+
+Food on the same plate can heat unevenly inside a microwave.
+The electric field varies across the oven, changing how much energy different regions absorb.
+Waves reflecting from metal walls overlap, forming patterns called standing waves.
+Their nodes and antinodes stay fixed as the field oscillates.
+At the usual frequency, microwaves have a wavelength around twelve centimeters in air.
+In a one-dimensional standing wave, neighboring antinodes are roughly six centimeters apart.
+For unchanged material properties and frequency, absorbed power per volume scales with field amplitude squared.
+Doubling that amplitude therefore gives four times the average absorbed power.
+Rotation carries each part of the food through different electric field strengths.
+This can reduce differences in the energy those parts absorb over time.
+The center stays put, while food shape and composition also alter the field.
+Rotation alone doesn't guarantee even temperatures throughout the food on the plate.
+
+Illustrative models, not measurements of a particular device. Synthetic narration.
+Sources
+https://openstax.org/books/university-physics-volume-2/pages/16-5-the-electromagnetic-spectrum
+https://www.comsol.com/blogs/why-does-a-microwave-heat-food-unevenly/
+
+#EverydayScience #Physics #Science #PhyEdu

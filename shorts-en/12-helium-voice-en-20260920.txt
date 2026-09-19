@@ -1,0 +1,15 @@
+What helium changes in a voice
+
+Helium changes a voice largely by shifting resonances inside the vocal tract.
+Vocal cords create vibrations, which travel through the throat and mouth.
+These spaces reinforce certain frequencies, helping shape the voice's familiar timbre.
+Sound travels faster in helium, raising the resonant frequencies of those spaces.
+The changed emphasis makes the voice sound thinner and brighter.
+This can happen without raising vocal-cord frequency; inhaling helium risks oxygen deprivation.
+
+Illustrative models, not measurements of a particular device. Synthetic narration.
+Sources
+https://openstax.org/books/university-physics-volume-1/pages/17-2-speed-of-sound
+https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb33fc07-e122-4f66-aa43-b659ee150150
+
+#EverydayScience #Physics #Science #PhyEdu

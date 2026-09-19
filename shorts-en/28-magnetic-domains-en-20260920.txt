@@ -1,0 +1,14 @@
+How iron becomes magnetized
+
+Iron contains magnetic domains, small regions with similarly aligned magnetization.
+Domains pointing in different directions can leave the whole object weakly magnetized.
+An external magnetic field favors some domains, which grow or change their orientation.
+As their contributions align, the iron develops a stronger overall magnetization.
+How much remains after removing the field depends on the material and structure.
+Permanent magnets use materials whose magnetization resists being easily reversed.
+
+Illustrative models, not measurements of a particular device. Synthetic narration.
+Sources
+https://openstax.org/books/university-physics-volume-2/pages/12-7-magnetism-in-matter
+
+#EverydayScience #Physics #Science #PhyEdu

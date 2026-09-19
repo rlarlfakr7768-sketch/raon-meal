@@ -1,0 +1,14 @@
+Why small droplets become round
+
+Small suspended water droplets tend to become round because of surface tension.
+Increasing their surface area requires energy against interactions between water molecules.
+For a fixed volume, a sphere has the smallest possible surface area.
+Reducing surface energy therefore draws a small droplet toward a spherical shape.
+Larger drops can deform more strongly under gravity and forces from the air.
+On a solid surface, how well water wets that surface also affects its shape.
+
+Illustrative models, not measurements of a particular device. Synthetic narration.
+Sources
+https://www.usgs.gov/special-topics/water-science-school/science/surface-tension-and-water
+
+#EverydayScience #Physics #Science #PhyEdu

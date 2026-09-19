@@ -1,0 +1,14 @@
+Why two window panes insulate
+
+Double glazing uses trapped gas between two panes to slow heat transfer.
+Heat travels through the inner glass, the gap, and the outer glass.
+Air or argon in that gap conducts heat much less effectively than glass.
+An excessively wide gap can allow circulation, increasing heat transfer by convection.
+A low-emissivity coating also reduces heat transfer through infrared radiation.
+Gap width, gas type, and coatings matter alongside the number of panes.
+
+Illustrative models, not measurements of a particular device. Synthetic narration.
+Sources
+https://openstax.org/books/university-physics-volume-2/pages/1-6-mechanisms-of-heat-transfer
+
+#EverydayScience #Physics #Science #PhyEdu

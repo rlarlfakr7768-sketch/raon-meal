@@ -1,0 +1,14 @@
+Why bridges need expansion joints
+
+Bridge expansion joints leave room for structures to change length with temperature.
+In most solids, heating slightly increases the average distance between atoms.
+Across a long structure, a small fractional expansion becomes a noticeable length change.
+A joint accommodates movement as neighboring sections expand or contract.
+Strongly restraining that expansion can create large stresses inside the structure.
+The required gap depends on material, structural length, and the expected temperature range.
+
+Illustrative models, not measurements of a particular device. Synthetic narration.
+Sources
+https://openstax.org/books/university-physics-volume-2/pages/1-3-thermal-expansion
+
+#EverydayScience #Physics #Science #PhyEdu

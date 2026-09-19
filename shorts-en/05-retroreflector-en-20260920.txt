@@ -1,0 +1,14 @@
+How reflectors send light back
+
+A bicycle reflector sends incoming light back toward its source.
+On a flat mirror, the reflection angle equals the incoming angle.
+Arrange mirrors at right angles, and light reflects more than once.
+Three perpendicular faces reverse all three components of the light's direction.
+The outgoing beam then travels almost opposite to the incoming beam.
+Tiny repeated corner structures look bright to drivers sitting near their headlights.
+
+Illustrative models, not measurements of a particular device. Synthetic narration.
+Sources
+https://openstax.org/books/university-physics-volume-3/pages/1-2-the-law-of-reflection
+
+#EverydayScience #Physics #Science #PhyEdu

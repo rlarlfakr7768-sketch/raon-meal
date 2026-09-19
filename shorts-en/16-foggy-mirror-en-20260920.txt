@@ -1,0 +1,14 @@
+Why a bathroom mirror fogs
+
+A bathroom mirror fogs because tiny water droplets form on its surface.
+Warm, humid air cools as it reaches the colder mirror.
+Below the dew point, some water vapor condenses into liquid water.
+The small droplets refract and reflect light in many different directions.
+That scattered light blurs the clear image you normally see in the mirror.
+Warming the mirror or reducing humidity can reduce the condensation.
+
+Illustrative models, not measurements of a particular device. Synthetic narration.
+Sources
+https://openstax.org/books/college-physics-2e/pages/13-6-humidity-evaporation-and-boiling
+
+#EverydayScience #Physics #Science #PhyEdu

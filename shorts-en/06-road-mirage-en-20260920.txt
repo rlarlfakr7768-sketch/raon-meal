@@ -1,0 +1,14 @@
+Why hot roads look wet
+
+A sun-heated road can look wet even when its surface is dry.
+Air close to the hot road becomes less dense than the air above.
+That density gradient also creates a gradual change in refractive index.
+Light from the sky can curve through these layers and reach your eyes.
+Your eyes trace the arriving rays backward along straight lines, placing the image below.
+This image of the sky resembles a reflection from water: a road mirage.
+
+Illustrative models, not measurements of a particular device. Synthetic narration.
+Sources
+https://openstax.org/books/university-physics-volume-3/pages/1-3-refraction
+
+#EverydayScience #Physics #Science #PhyEdu

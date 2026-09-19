@@ -1,0 +1,14 @@
+Why sound needs a medium
+
+A vibrating bell becomes harder to hear as surrounding air is removed.
+Sound in air travels through neighboring regions of compression and expansion.
+A vibrating surface pushes nearby molecules, passing the disturbance along.
+Removing air reduces the molecules available to carry that disturbance.
+In a vacuum, sound has no material medium through which to travel.
+Light is electromagnetic, so it crosses a vacuum and brings us starlight.
+
+Illustrative models, not measurements of a particular device. Synthetic narration.
+Sources
+https://openstax.org/books/university-physics-volume-1/pages/17-1-sound-waves
+
+#EverydayScience #Physics #Science #PhyEdu

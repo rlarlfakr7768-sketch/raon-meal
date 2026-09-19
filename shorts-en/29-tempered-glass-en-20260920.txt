@@ -1,0 +1,14 @@
+Why tempered glass breaks into pieces
+
+Thermally tempered glass breaks differently because manufacturing leaves stresses inside it.
+Rapidly cooling the surface of hot glass makes its outer layers solidify first.
+The cooling interior contracts, leaving surface compression and tension deeper inside.
+Surface compression helps prevent small scratches from opening into larger cracks.
+A deep enough crack can release stored elastic energy and branch rapidly.
+The glass then breaks into many small pieces, which can still cause injury.
+
+Illustrative models, not measurements of a particular device. Synthetic narration.
+Sources
+https://www.pilkington.com/en/gbl/architectural-and-technical-glass/product-categories/safety-and-security/pilkington-toughened-glass
+
+#EverydayScience #Physics #Science #PhyEdu

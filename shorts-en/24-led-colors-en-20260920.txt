@@ -1,0 +1,15 @@
+What sets an LED’s color
+
+An LED's color depends on the energy structure of its semiconductor material.
+Electric current supplies electrons and holes near the semiconductor junction.
+When electrons recombine with holes, some energy is released as light.
+The emitted photon energy is closely linked to the material's band gap.
+Higher-energy photons have shorter wavelengths, while lower-energy photons have longer wavelengths.
+Many white lamps combine a blue LED with light emitted by phosphors.
+
+Illustrative models, not measurements of a particular device. Synthetic narration.
+Sources
+https://openstax.org/books/university-physics-volume-3/pages/9-7-semiconductor-devices
+https://www.energy.gov/cmei/ssl/led-basics
+
+#EverydayScience #Physics #Science #PhyEdu

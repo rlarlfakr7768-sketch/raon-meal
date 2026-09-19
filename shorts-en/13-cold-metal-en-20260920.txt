@@ -1,0 +1,14 @@
+Why metal feels colder than wood
+
+Metal can feel colder than wood even at the same room temperature.
+Their temperatures may match, but they draw heat from your hand differently.
+Metal conducts heat well, spreading energy away from the contact area quickly.
+Wood transfers heat slowly, so the patch beneath your hand warms more easily.
+Faster cooling of your skin makes the metal feel colder.
+Thermal conductivity, density, and heat capacity all help determine this contact sensation.
+
+Illustrative models, not measurements of a particular device. Synthetic narration.
+Sources
+https://openstax.org/books/college-physics-2e/pages/14-5-conduction
+
+#EverydayScience #Physics #Science #PhyEdu

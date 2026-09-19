@@ -1,71 +1,56 @@
-name: 쇼츠 자동 게시
-
-# 집 컴퓨터가 꺼져 있어도 하루 두 편을 올린다.
-# B 점심 12:00, A 퇴근 18:00 (한국 시간).
-#
-# cron 은 UTC 다. 18:00 KST = 09:00 UTC, 12:00 KST = 03:00 UTC
-# ⚠ 깃헙 예약은 몇 분에서 십몇 분 늦게 뜬다. 정확한 시각을 요구하지 않는다.
+name: Korean science reels
 on:
   schedule:
-    - cron: '0 9 * * *'       # A 슬롯 · 18:00 KST
-    - cron: '0 3 * * *'       # B 슬롯 · 12:00 KST
+    # Fallback only. Cloudflare dispatches the primary clock independently.
+    - cron: '7,27,47 3-14 * * *'
   workflow_dispatch:
     inputs:
+      mode:
+        type: choice
+        options: [check, plan, publish]
+        default: check
       slot:
-        description: '슬롯 (A 저녁 / B 점심). 비우면 슬롯 검사 없이 맨 위를 올린다'
-        required: false
-        default: ''
-
+        type: choice
+        options: [B, A]
+        default: B
 permissions:
   contents: write
-
 concurrency:
   group: shorts-post
   cancel-in-progress: false
-
 jobs:
   post:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
-
+        with:
+          ref: main
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-
-      - name: 의존성
+      - run: python -m pip install requests
+      - name: Configure state commits
         run: |
-          python -m pip install --upgrade pip
-          pip install requests
-
-      - name: secrets.json 작성
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+      - name: Validate publisher guards
+        run: python -m unittest test_reel_schedule test_reel_publisher
+      - name: Publish or read-only check
         env:
+          REEL_LANGUAGE: ko
           IG_SECRETS_JSON: ${{ secrets.IG_SECRETS_JSON }}
-        run: printf '%s' "$IG_SECRETS_JSON" > secrets.json
-
-      - name: 슬롯 정하기
-        id: slot
-        run: |
-          if [ -n "${{ github.event.inputs.slot }}" ]; then
-            echo "arg=--slot ${{ github.event.inputs.slot }}" >> "$GITHUB_OUTPUT"
-          elif [ "${{ github.event.schedule }}" = "0 9 * * *" ]; then
-            echo "arg=--slot A" >> "$GITHUB_OUTPUT"
-          elif [ "${{ github.event.schedule }}" = "0 3 * * *" ]; then
-            echo "arg=--slot B" >> "$GITHUB_OUTPUT"
-          else
-            echo "arg=" >> "$GITHUB_OUTPUT"
-          fi
-
-      - name: 한 편 올리기
-        run: python cloud_shorts.py ${{ steps.slot.outputs.arg }}
-
-      - name: 갱신된 토큰을 Secret 에 다시 저장 (GH_PAT 있을 때만)
-        if: always()
-        env:
           GH_TOKEN: ${{ secrets.GH_PAT }}
+          EVENT_NAME: ${{ github.event_name }}
+          MANUAL_MODE: ${{ inputs.mode }}
         run: |
-          if [ -z "$GH_TOKEN" ]; then
-            echo "GH_PAT 미설정 — 토큰 자동 갱신 저장 생략"
-            exit 0
+          if [ "$EVENT_NAME" = 'workflow_dispatch' ]; then
+            case "$MANUAL_MODE" in
+              check) python reel_publisher.py --check ;;
+              plan) python reel_publisher.py --plan ;;
+              publish) python reel_publisher.py --auto ;;
+              *) exit 2 ;;
+            esac
+          else
+            python reel_publisher.py --auto
           fi
-          gh secret set IG_SECRETS_JSON --repo "$GITHUB_REPOSITORY" < secrets.json
