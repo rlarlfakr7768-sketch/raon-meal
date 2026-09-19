@@ -6,19 +6,6 @@
   "paused": false,
   "queue": [
     {
-      "num": "97",
-      "slug": "yolk-first",
-      "title": "흰자는 묽은데 노른자는 걸쭉한 달걀",
-      "cue": null,
-      "next_cue": null,
-      "slot": "B",
-      "fails": 0,
-      "scheduled_at": "2026-09-17T12:00:00+09:00",
-      "sha256": "ad8174bb3b1082052a1bb93e1bde78d838f9b329e05da1bb71f9ce9e6b52aac6",
-      "voice": "Supertonic3 M2",
-      "voice_version": "native-m2-20260912"
-    },
-    {
       "num": "98",
       "slug": "rennet-cold",
       "title": "우유가 굳기 전에 일어나는 일",
@@ -881,6 +868,22 @@
       "at": "2026-09-18T22:16:53.705894+09:00",
       "media_id": "17875515405568181",
       "permalink": "https://www.instagram.com/reel/DdbhYocked3/"
+    },
+    {
+      "num": "97",
+      "slug": "yolk-first",
+      "title": "흰자는 묽은데 노른자는 걸쭉한 달걀",
+      "cue": null,
+      "next_cue": null,
+      "slot": "B",
+      "fails": 0,
+      "scheduled_at": "2026-09-17T12:00:00+09:00",
+      "sha256": "ad8174bb3b1082052a1bb93e1bde78d838f9b329e05da1bb71f9ce9e6b52aac6",
+      "voice": "Supertonic3 M2",
+      "voice_version": "native-m2-20260912",
+      "at": "2026-09-19T16:43:03.235075+09:00",
+      "media_id": "18210596086322049",
+      "permalink": "https://www.instagram.com/reel/Dddf97ZkTpH/"
     }
   ],
   "cancelled_for_remake": [
