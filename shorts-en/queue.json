@@ -22,7 +22,8 @@
       "approval": "User requested all completed Korean and English videos be queued on 2026-09-20.",
       "human_listening_approved": false,
       "slot": "B",
-      "scheduled_at": "2026-09-20T12:00:00+09:00"
+      "scheduled_at": "2026-09-20T12:00:00+09:00",
+      "creation_id": "18117334648768269"
     },
     {
       "id": "02-polarizers-en-20260920",
