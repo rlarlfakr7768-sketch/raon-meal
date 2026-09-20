@@ -6,48 +6,6 @@
   "paused": false,
   "queue": [
     {
-      "num": "101",
-      "slug": "custard-dilution",
-      "title": "달걀에 우유를 섞으면 굳는 모습이 달라진다",
-      "cue": null,
-      "next_cue": null,
-      "slot": "A",
-      "fails": 0,
-      "scheduled_at": "2026-09-20T18:00:00+09:00",
-      "sha256": "40c80fff2c0ee13aa67f00a304ad63b4bca9a9d65616d9ccc4ba83f2cb053ab9",
-      "voice": "Supertonic3 M2",
-      "voice_version": "native-m2-20260912",
-      "id": "legacy-101-custard-dilution",
-      "video": "101-custard-dilution.mp4",
-      "caption": "101-custard-dilution.txt",
-      "language": "ko",
-      "reviewed": true,
-      "video_sha256": "40c80fff2c0ee13aa67f00a304ad63b4bca9a9d65616d9ccc4ba83f2cb053ab9",
-      "caption_sha256": "bf842a90faea93968530d78f3b7b2289fa99f26e15e9d84205ce681c9f07fdf1",
-      "original_scheduled_at": "2026-09-18T18:00:00+09:00",
-      "content_policy": {
-        "version": 1,
-        "mode": "baseline_asset",
-        "topic_family": "food",
-        "keywords": [
-          "달걀"
-        ],
-        "hashtags": [
-          "#과학",
-          "#생활과학",
-          "#달걀",
-          "#단백질응고"
-        ],
-        "measurement_hours": [
-          24,
-          72
-        ]
-      },
-      "creation_id": "18153266542537390",
-      "publish_requested_at": "2026-09-20T18:01:46.533089+09:00",
-      "media_id": "17969828730154476"
-    },
-    {
       "num": "110",
       "slug": "aurora-color",
       "title": "오로라의 초록과 빨강은 어디서 올까",
@@ -2621,6 +2579,52 @@
       "published_at": "2026-09-20T12:01:48+09:00",
       "status": "published",
       "at": "2026-09-20T12:01:48+09:00"
+    },
+    {
+      "num": "101",
+      "slug": "custard-dilution",
+      "title": "달걀에 우유를 섞으면 굳는 모습이 달라진다",
+      "cue": null,
+      "next_cue": null,
+      "slot": "A",
+      "fails": 0,
+      "scheduled_at": "2026-09-20T18:00:00+09:00",
+      "sha256": "40c80fff2c0ee13aa67f00a304ad63b4bca9a9d65616d9ccc4ba83f2cb053ab9",
+      "voice": "Supertonic3 M2",
+      "voice_version": "native-m2-20260912",
+      "id": "legacy-101-custard-dilution",
+      "video": "101-custard-dilution.mp4",
+      "caption": "101-custard-dilution.txt",
+      "language": "ko",
+      "reviewed": true,
+      "video_sha256": "40c80fff2c0ee13aa67f00a304ad63b4bca9a9d65616d9ccc4ba83f2cb053ab9",
+      "caption_sha256": "bf842a90faea93968530d78f3b7b2289fa99f26e15e9d84205ce681c9f07fdf1",
+      "original_scheduled_at": "2026-09-18T18:00:00+09:00",
+      "content_policy": {
+        "version": 1,
+        "mode": "baseline_asset",
+        "topic_family": "food",
+        "keywords": [
+          "달걀"
+        ],
+        "hashtags": [
+          "#과학",
+          "#생활과학",
+          "#달걀",
+          "#단백질응고"
+        ],
+        "measurement_hours": [
+          24,
+          72
+        ]
+      },
+      "creation_id": "18153266542537390",
+      "publish_requested_at": "2026-09-20T18:01:46.533089+09:00",
+      "media_id": "17969828730154476",
+      "permalink": "https://www.instagram.com/reel/DdgNyVsDFAt/",
+      "published_at": "2026-09-20T18:01:50+09:00",
+      "status": "published",
+      "at": "2026-09-20T18:01:50+09:00"
     }
   ],
   "cancelled_for_remake": [
