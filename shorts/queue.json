@@ -25,7 +25,8 @@
       "video_sha256": "5e45325bd53021b8c849f96caeed28964d61c68582f5ea0b76045d3015441b5d",
       "caption_sha256": "8b2c6dc722937e55ccb15f4962fcf4dd5329833f659275cb4b4fa5071a67b57c",
       "original_scheduled_at": "2026-09-18T12:00:00+09:00",
-      "creation_id": "18153217195537390"
+      "creation_id": "18153217195537390",
+      "publish_requested_at": "2026-09-20T12:01:45.931249+09:00"
     },
     {
       "num": "101",
