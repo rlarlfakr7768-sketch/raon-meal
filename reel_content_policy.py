@@ -7,7 +7,7 @@ from pathlib import Path
 
 
 POLICY_VERSION = 1
-HASHTAG_RE = re.compile(r"(?<!\w)#[A-Za-z0-9_가-힣]+")
+HASHTAG_RE = re.compile(r"(?<!\S)#[A-Za-z0-9_가-힣]+")
 GENERIC_TAGS = {
     "ko": {"#과학", "#물리", "#생활과학", "#지구과학", "#요리과학", "#phyedu"},
     "en": {"#science", "#physics", "#everydayscience", "#phyedu"},
