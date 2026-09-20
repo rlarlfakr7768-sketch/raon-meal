@@ -9,25 +9,6 @@
   "paused": false,
   "queue": [
     {
-      "id": "01-soap-film-en-20260920",
-      "video": "01-soap-film-en-20260920.mp4",
-      "caption": "01-soap-film-en-20260920.txt",
-      "video_sha256": "d23a5d0d22b2831fdd8aacd9777a3f0f1cb74318deaae5abc18d118735f7f382",
-      "caption_sha256": "9ed2f4a55f456a3d5a8ef2e9a184c3c5928761a4ba85beabf4470a663e75bb9e",
-      "title": "Why soap bubbles change color",
-      "slug": "01-soap-film",
-      "language": "en",
-      "reviewed": true,
-      "status": "pending",
-      "approval": "User requested all completed Korean and English videos be queued on 2026-09-20.",
-      "human_listening_approved": false,
-      "slot": "B",
-      "scheduled_at": "2026-09-20T12:00:00+09:00",
-      "creation_id": "18117334648768269",
-      "publish_requested_at": "2026-09-20T12:02:32.590418+09:00",
-      "media_id": "17976489818918499"
-    },
-    {
       "id": "02-polarizers-en-20260920",
       "video": "02-polarizers-en-20260920.mp4",
       "caption": "02-polarizers-en-20260920.txt",
@@ -578,6 +559,27 @@
       "media_id": "18174160075445996",
       "permalink": "https://www.instagram.com/reel/DdT3aJmDkdT/",
       "published_at": "2026-09-15T22:55:42+09:00"
+    },
+    {
+      "id": "01-soap-film-en-20260920",
+      "video": "01-soap-film-en-20260920.mp4",
+      "caption": "01-soap-film-en-20260920.txt",
+      "video_sha256": "d23a5d0d22b2831fdd8aacd9777a3f0f1cb74318deaae5abc18d118735f7f382",
+      "caption_sha256": "9ed2f4a55f456a3d5a8ef2e9a184c3c5928761a4ba85beabf4470a663e75bb9e",
+      "title": "Why soap bubbles change color",
+      "slug": "01-soap-film",
+      "language": "en",
+      "reviewed": true,
+      "status": "published",
+      "approval": "User requested all completed Korean and English videos be queued on 2026-09-20.",
+      "human_listening_approved": false,
+      "slot": "B",
+      "scheduled_at": "2026-09-20T12:00:00+09:00",
+      "creation_id": "18117334648768269",
+      "publish_requested_at": "2026-09-20T12:02:32.590418+09:00",
+      "media_id": "17976489818918499",
+      "permalink": "https://www.instagram.com/reel/DdfksBhFBUB/",
+      "published_at": "2026-09-20T12:02:36+09:00"
     }
   ],
   "scheduler": "Cloudflare primary, GitHub schedule fallback",
