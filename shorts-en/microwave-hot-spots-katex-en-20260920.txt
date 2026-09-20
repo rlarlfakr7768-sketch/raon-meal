@@ -17,5 +17,4 @@ Illustrative models, not measurements of a particular device. Synthetic narratio
 Sources
 https://openstax.org/books/university-physics-volume-2/pages/16-5-the-electromagnetic-spectrum
 https://www.comsol.com/blogs/why-does-a-microwave-heat-food-unevenly/
-
-#EverydayScience #Physics #Science #PhyEdu
+#Science #EverydayScience #MicrowaveOven #StandingWaves

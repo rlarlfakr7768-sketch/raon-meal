@@ -10,5 +10,4 @@
 원리를 설명하는 모형이며, 내레이션은 합성 음성입니다.
 출처
 https://openstax.org/books/college-physics-2e/pages/11-8-cohesion-and-adhesion-in-liquids-surface-tension-and-capillary-action
-
-#과학 #물리 #생활과학 #PhyEdu
+#과학 #생활과학 #모세관 #표면장력

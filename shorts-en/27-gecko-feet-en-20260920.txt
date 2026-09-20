@@ -10,5 +10,4 @@ Inspired artificial surfaces also depend on conditions such as dust, moisture, a
 Illustrative models, not measurements of a particular device. Synthetic narration.
 Sources
 https://www.nist.gov/news-events/news/2022/07/gecko-feet-are-coated-ultra-thin-layer-lipids-help-them-stay-sticky
-
-#EverydayScience #Physics #Science #PhyEdu
+#Science #EverydayScience #GeckoFeet #VanDerWaals

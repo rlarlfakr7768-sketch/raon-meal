@@ -10,5 +10,4 @@ Position and spacing affect efficiency, and some supplied energy becomes heat.
 Illustrative models, not measurements of a particular device. Synthetic narration.
 Sources
 https://openstax.org/books/university-physics-volume-2/pages/13-7-applications-of-electromagnetic-induction
-
-#EverydayScience #Physics #Science #PhyEdu
+#Science #EverydayScience #WirelessCharging #ElectromagneticInduction

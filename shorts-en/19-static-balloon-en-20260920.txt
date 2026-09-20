@@ -10,5 +10,4 @@ Charge leakage over time, often helped by humidity, can weaken the effect.
 Illustrative models, not measurements of a particular device. Synthetic narration.
 Sources
 https://openstax.org/books/university-physics-volume-2/pages/5-2-conductors-insulators-and-charging-by-induction
-
-#EverydayScience #Physics #Science #PhyEdu
+#Science #EverydayScience #StaticElectricity #ElectricCharge

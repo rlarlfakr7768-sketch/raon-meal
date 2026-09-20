@@ -10,5 +10,4 @@ Gap width, gas type, and coatings matter alongside the number of panes.
 Illustrative models, not measurements of a particular device. Synthetic narration.
 Sources
 https://openstax.org/books/university-physics-volume-2/pages/1-6-mechanisms-of-heat-transfer
-
-#EverydayScience #Physics #Science #PhyEdu
+#Science #EverydayScience #DoubleGlazing #Insulation

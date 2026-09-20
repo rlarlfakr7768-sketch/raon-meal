@@ -10,5 +10,4 @@ Unchanging direct current cannot sustain this induction because the magnetic flu
 Illustrative models, not measurements of a particular device. Synthetic narration.
 Sources
 https://openstax.org/books/university-physics-volume-2/pages/15-6-transformers
-
-#EverydayScience #Physics #Science #PhyEdu
+#Science #EverydayScience #Transformer #ElectromagneticInduction

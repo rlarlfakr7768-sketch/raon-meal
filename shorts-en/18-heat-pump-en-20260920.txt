@@ -10,5 +10,4 @@ Indoor heating includes both energy collected outside and energy supplied to the
 Illustrative models, not measurements of a particular device. Synthetic narration.
 Sources
 https://www.energy.gov/energysaver/heat-pump-systems
-
-#EverydayScience #Physics #Science #PhyEdu
+#Science #EverydayScience #HeatPump #Thermodynamics

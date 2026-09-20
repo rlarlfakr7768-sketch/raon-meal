@@ -23,156 +23,26 @@
       "language": "ko",
       "reviewed": true,
       "video_sha256": "40c80fff2c0ee13aa67f00a304ad63b4bca9a9d65616d9ccc4ba83f2cb053ab9",
-      "caption_sha256": "190ca5084edad6086b7b7da463d28fb628e144fec8265b2bb05b3b62b9a5972c",
-      "original_scheduled_at": "2026-09-18T18:00:00+09:00"
-    },
-    {
-      "num": "102",
-      "slug": "mayonnaise-75",
-      "title": "흐르는 기름이 되직한 마요네즈가 된다",
-      "cue": null,
-      "next_cue": null,
-      "slot": "B",
-      "fails": 0,
-      "scheduled_at": "2026-09-21T12:00:00+09:00",
-      "sha256": "307a2643d02f2c3271957d953e438962440924e69ebfc82d0718a59f1e456a94",
-      "voice": "Supertonic3 M2",
-      "voice_version": "native-m2-20260912",
-      "id": "legacy-102-mayonnaise-75",
-      "video": "102-mayonnaise-75.mp4",
-      "caption": "102-mayonnaise-75.txt",
-      "language": "ko",
-      "reviewed": true,
-      "video_sha256": "307a2643d02f2c3271957d953e438962440924e69ebfc82d0718a59f1e456a94",
-      "caption_sha256": "59f3b5109eed3b8a0b2cb582e3b16e9a9639fcba497ac451b01b5e09ae6f2192",
-      "original_scheduled_at": "2026-09-19T12:00:00+09:00"
-    },
-    {
-      "num": "103",
-      "slug": "jelly-98",
-      "title": "물이 대부분인 젤리가 서 있는 이유",
-      "cue": null,
-      "next_cue": null,
-      "slot": "A",
-      "fails": 0,
-      "scheduled_at": "2026-09-21T18:00:00+09:00",
-      "sha256": "c6d24597c213b3c72914d0053362b679213bc010b5c0f98f16f7df870b25b02d",
-      "voice": "Supertonic3 M2",
-      "voice_version": "native-m2-20260912",
-      "id": "legacy-103-jelly-98",
-      "video": "103-jelly-98.mp4",
-      "caption": "103-jelly-98.txt",
-      "language": "ko",
-      "reviewed": true,
-      "video_sha256": "c6d24597c213b3c72914d0053362b679213bc010b5c0f98f16f7df870b25b02d",
-      "caption_sha256": "a2ef6008ecc08dc23b5349af7be6febb04a2d79104a1aba2e561814905b1ba3a",
-      "original_scheduled_at": "2026-09-19T18:00:00+09:00"
-    },
-    {
-      "num": "104",
-      "slug": "gel-strength",
-      "title": "젤라틴을 더 넣으면 왜 단단해질까",
-      "cue": null,
-      "next_cue": null,
-      "slot": "B",
-      "fails": 0,
-      "scheduled_at": "2026-09-22T12:00:00+09:00",
-      "sha256": "84e36157581be12364d65827dbc6a99f39804df2dd5d350f0182772fb2264f7b",
-      "voice": "Supertonic3 M2",
-      "voice_version": "native-m2-20260912",
-      "id": "legacy-104-gel-strength",
-      "video": "104-gel-strength.mp4",
-      "caption": "104-gel-strength.txt",
-      "language": "ko",
-      "reviewed": true,
-      "video_sha256": "84e36157581be12364d65827dbc6a99f39804df2dd5d350f0182772fb2264f7b",
-      "caption_sha256": "3d24341e4ff09ec71c81b358bce32066baf1cc2bbf1330d85454c2a473fc4b83",
-      "original_scheduled_at": "2026-09-20T12:00:00+09:00"
-    },
-    {
-      "num": "105",
-      "slug": "meringue-drains",
-      "title": "가만히 둔 거품에서 물이 빠진다",
-      "cue": null,
-      "next_cue": null,
-      "slot": "A",
-      "fails": 0,
-      "scheduled_at": "2026-09-22T18:00:00+09:00",
-      "sha256": "d0bccbf89e3a1b003bdf40740f80882d106142ddbb6bc9dd41fc42bd5bcf79a7",
-      "voice": "Supertonic3 M2",
-      "voice_version": "native-m2-20260912",
-      "id": "legacy-105-meringue-drains",
-      "video": "105-meringue-drains.mp4",
-      "caption": "105-meringue-drains.txt",
-      "language": "ko",
-      "reviewed": true,
-      "video_sha256": "d0bccbf89e3a1b003bdf40740f80882d106142ddbb6bc9dd41fc42bd5bcf79a7",
-      "caption_sha256": "be67be97f9aa1fcb4c36d741b75ba35fcbb4125cd3025296f066dce4b360eb15",
-      "original_scheduled_at": "2026-09-20T18:00:00+09:00"
-    },
-    {
-      "num": "106",
-      "slug": "whipping-waste",
-      "title": "거품기로 쓴 힘은 어디로 갈까",
-      "cue": null,
-      "next_cue": null,
-      "slot": "B",
-      "fails": 0,
-      "scheduled_at": "2026-09-23T12:00:00+09:00",
-      "sha256": "7357526693421399b1b2f54d8fe6739012c1e1fefe9cef1636770f34c760e51b",
-      "visual_revision": "2026-09-10",
-      "voice": "Supertonic3 M2",
-      "voice_version": "native-m2-20260912",
-      "id": "legacy-106-whipping-waste",
-      "video": "106-whipping-waste.mp4",
-      "caption": "106-whipping-waste.txt",
-      "language": "ko",
-      "reviewed": true,
-      "video_sha256": "7357526693421399b1b2f54d8fe6739012c1e1fefe9cef1636770f34c760e51b",
-      "caption_sha256": "fa31ef240036a1fa87c0331680e01c985fdfb66ed5394a4155d05a0b4c55f610",
-      "original_scheduled_at": "2026-09-21T12:00:00+09:00"
-    },
-    {
-      "num": "108",
-      "slug": "bread-is-air",
-      "title": "커다란 빵이 가벼운 이유",
-      "cue": null,
-      "next_cue": null,
-      "slot": "A",
-      "fails": 0,
-      "scheduled_at": "2026-09-23T18:00:00+09:00",
-      "sha256": "5335822846b7b0e2df876f0cf4e34d5e5a8ee8c7f23cdc6057f6fda8ef035620",
-      "voice": "Supertonic3 M2",
-      "voice_version": "native-m2-20260912",
-      "id": "legacy-108-bread-is-air",
-      "video": "108-bread-is-air.mp4",
-      "caption": "108-bread-is-air.txt",
-      "language": "ko",
-      "reviewed": true,
-      "video_sha256": "5335822846b7b0e2df876f0cf4e34d5e5a8ee8c7f23cdc6057f6fda8ef035620",
-      "caption_sha256": "1c06ccc0a2bfbc7989ec8c36f5406da733a57b6bb38d7dd81397abb03a987269",
-      "original_scheduled_at": "2026-09-21T18:00:00+09:00"
-    },
-    {
-      "num": "109",
-      "slug": "starch-60",
-      "title": "전분물은 데우면 왜 되직해질까",
-      "cue": null,
-      "next_cue": null,
-      "slot": "B",
-      "fails": 0,
-      "scheduled_at": "2026-09-24T12:00:00+09:00",
-      "sha256": "6849c52bb4d59bd2b79fd4e942289ea58be2cbf9dadfce3251402335648bda99",
-      "voice": "Supertonic3 M2",
-      "voice_version": "native-m2-20260912",
-      "id": "legacy-109-starch-60",
-      "video": "109-starch-60.mp4",
-      "caption": "109-starch-60.txt",
-      "language": "ko",
-      "reviewed": true,
-      "video_sha256": "6849c52bb4d59bd2b79fd4e942289ea58be2cbf9dadfce3251402335648bda99",
-      "caption_sha256": "68ab006c1bc8fa633bc4249d63e9c75368cab6d70b6e4963f4cdc093d0b731f5",
-      "original_scheduled_at": "2026-09-22T12:00:00+09:00"
+      "caption_sha256": "bf842a90faea93968530d78f3b7b2289fa99f26e15e9d84205ce681c9f07fdf1",
+      "original_scheduled_at": "2026-09-18T18:00:00+09:00",
+      "content_policy": {
+        "version": 1,
+        "mode": "baseline_asset",
+        "topic_family": "food",
+        "keywords": [
+          "달걀"
+        ],
+        "hashtags": [
+          "#과학",
+          "#생활과학",
+          "#달걀",
+          "#단백질응고"
+        ],
+        "measurement_hours": [
+          24,
+          72
+        ]
+      }
     },
     {
       "num": "110",
@@ -180,9 +50,9 @@
       "title": "오로라의 초록과 빨강은 어디서 올까",
       "cue": null,
       "next_cue": null,
-      "slot": "A",
+      "slot": "B",
       "fails": 0,
-      "scheduled_at": "2026-09-24T18:00:00+09:00",
+      "scheduled_at": "2026-09-21T12:00:00+09:00",
       "sha256": "fc774efde6dd94a7bd7c75279c03e1d2bc2606edc6de16973db05bcaac7f1821",
       "voice": "Supertonic3 M2",
       "voice_version": "native-m2-20260912",
@@ -192,8 +62,65 @@
       "language": "ko",
       "reviewed": true,
       "video_sha256": "fc774efde6dd94a7bd7c75279c03e1d2bc2606edc6de16973db05bcaac7f1821",
-      "caption_sha256": "9d63b07f666b2365e585aaa0607971621f86c1d072e7dfa0da3a6b6e2e225e13",
-      "original_scheduled_at": "2026-09-22T18:00:00+09:00"
+      "caption_sha256": "29dfe92604900e7a5d669dbb93e6cc9eeb2177e73680fd5c9b6d4ea5bb498146",
+      "original_scheduled_at": "2026-09-22T18:00:00+09:00",
+      "content_policy": {
+        "version": 1,
+        "mode": "baseline_asset",
+        "topic_family": "general_physics",
+        "keywords": [
+          "오로라"
+        ],
+        "hashtags": [
+          "#과학",
+          "#생활과학",
+          "#오로라",
+          "#대기과학"
+        ],
+        "measurement_hours": [
+          24,
+          72
+        ]
+      }
+    },
+    {
+      "num": "102",
+      "slug": "mayonnaise-75",
+      "title": "흐르는 기름이 되직한 마요네즈가 된다",
+      "cue": null,
+      "next_cue": null,
+      "slot": "A",
+      "fails": 0,
+      "scheduled_at": "2026-09-21T18:00:00+09:00",
+      "sha256": "307a2643d02f2c3271957d953e438962440924e69ebfc82d0718a59f1e456a94",
+      "voice": "Supertonic3 M2",
+      "voice_version": "native-m2-20260912",
+      "id": "legacy-102-mayonnaise-75",
+      "video": "102-mayonnaise-75.mp4",
+      "caption": "102-mayonnaise-75.txt",
+      "language": "ko",
+      "reviewed": true,
+      "video_sha256": "307a2643d02f2c3271957d953e438962440924e69ebfc82d0718a59f1e456a94",
+      "caption_sha256": "6ca5ce8cd7c383efebab31988c12bf1c280ba137e4befae82d1e9bb91bd191d7",
+      "original_scheduled_at": "2026-09-19T12:00:00+09:00",
+      "content_policy": {
+        "version": 1,
+        "mode": "baseline_asset",
+        "topic_family": "food",
+        "keywords": [
+          "마요네즈"
+        ],
+        "hashtags": [
+          "#과학",
+          "#생활과학",
+          "#마요네즈",
+          "#에멀션"
+        ],
+        "measurement_hours": [
+          24,
+          72
+        ]
+      }
     },
     {
       "num": "111",
@@ -203,7 +130,7 @@
       "next_cue": null,
       "slot": "B",
       "fails": 0,
-      "scheduled_at": "2026-09-25T12:00:00+09:00",
+      "scheduled_at": "2026-09-22T12:00:00+09:00",
       "sha256": "63b3c00a4a6d589cf3b9403955e28c9f750b59e058d026fa9f5f8ef0fc68381c",
       "visual_revision": "2026-09-10",
       "voice": "Supertonic3 M2",
@@ -214,8 +141,65 @@
       "language": "ko",
       "reviewed": true,
       "video_sha256": "63b3c00a4a6d589cf3b9403955e28c9f750b59e058d026fa9f5f8ef0fc68381c",
-      "caption_sha256": "68bdd985e93158b994c3e7635e425718d6906dc34e3936bd190dbd6a7ec2832f",
-      "original_scheduled_at": "2026-09-23T12:00:00+09:00"
+      "caption_sha256": "e17acfb55d35a8de3a182962b90a9a1b7329d5e815cc8b7ca9a825f0369cd027",
+      "original_scheduled_at": "2026-09-23T12:00:00+09:00",
+      "content_policy": {
+        "version": 1,
+        "mode": "baseline_asset",
+        "topic_family": "general_physics",
+        "keywords": [
+          "오로라"
+        ],
+        "hashtags": [
+          "#과학",
+          "#생활과학",
+          "#오로라",
+          "#자기권"
+        ],
+        "measurement_hours": [
+          24,
+          72
+        ]
+      }
+    },
+    {
+      "num": "103",
+      "slug": "jelly-98",
+      "title": "물이 대부분인 젤리가 서 있는 이유",
+      "cue": null,
+      "next_cue": null,
+      "slot": "A",
+      "fails": 0,
+      "scheduled_at": "2026-09-22T18:00:00+09:00",
+      "sha256": "c6d24597c213b3c72914d0053362b679213bc010b5c0f98f16f7df870b25b02d",
+      "voice": "Supertonic3 M2",
+      "voice_version": "native-m2-20260912",
+      "id": "legacy-103-jelly-98",
+      "video": "103-jelly-98.mp4",
+      "caption": "103-jelly-98.txt",
+      "language": "ko",
+      "reviewed": true,
+      "video_sha256": "c6d24597c213b3c72914d0053362b679213bc010b5c0f98f16f7df870b25b02d",
+      "caption_sha256": "102c3bcd6df477b7f109f30ba94d3c05341f0938df4e992d3f7bb910679b0cc4",
+      "original_scheduled_at": "2026-09-19T18:00:00+09:00",
+      "content_policy": {
+        "version": 1,
+        "mode": "baseline_asset",
+        "topic_family": "food",
+        "keywords": [
+          "젤리"
+        ],
+        "hashtags": [
+          "#과학",
+          "#생활과학",
+          "#젤리",
+          "#젤라틴"
+        ],
+        "measurement_hours": [
+          24,
+          72
+        ]
+      }
     },
     {
       "num": "112",
@@ -223,9 +207,9 @@
       "title": "밤에는 먼 AM 방송이 잡힌다",
       "cue": null,
       "next_cue": null,
-      "slot": "A",
+      "slot": "B",
       "fails": 0,
-      "scheduled_at": "2026-09-25T18:00:00+09:00",
+      "scheduled_at": "2026-09-23T12:00:00+09:00",
       "sha256": "539e33ac6a9da47a03404dad8212ce181ab3f626db19d853f10bd718b0cacb75",
       "voice": "Supertonic3 M2",
       "voice_version": "native-m2-20260912",
@@ -235,8 +219,65 @@
       "language": "ko",
       "reviewed": true,
       "video_sha256": "539e33ac6a9da47a03404dad8212ce181ab3f626db19d853f10bd718b0cacb75",
-      "caption_sha256": "07f8b512d8996cca8ec15830b620729b9239516fd64234d90e15221fa99f947a",
-      "original_scheduled_at": "2026-09-23T18:00:00+09:00"
+      "caption_sha256": "033147c58a2c292ab2ba7effc160a83a1c5676a23a9cdbbb9768ef6eefca4c02",
+      "original_scheduled_at": "2026-09-23T18:00:00+09:00",
+      "content_policy": {
+        "version": 1,
+        "mode": "baseline_asset",
+        "topic_family": "general_physics",
+        "keywords": [
+          "AM"
+        ],
+        "hashtags": [
+          "#과학",
+          "#생활과학",
+          "#AM라디오",
+          "#전리층"
+        ],
+        "measurement_hours": [
+          24,
+          72
+        ]
+      }
+    },
+    {
+      "num": "104",
+      "slug": "gel-strength",
+      "title": "젤라틴을 더 넣으면 왜 단단해질까",
+      "cue": null,
+      "next_cue": null,
+      "slot": "A",
+      "fails": 0,
+      "scheduled_at": "2026-09-23T18:00:00+09:00",
+      "sha256": "84e36157581be12364d65827dbc6a99f39804df2dd5d350f0182772fb2264f7b",
+      "voice": "Supertonic3 M2",
+      "voice_version": "native-m2-20260912",
+      "id": "legacy-104-gel-strength",
+      "video": "104-gel-strength.mp4",
+      "caption": "104-gel-strength.txt",
+      "language": "ko",
+      "reviewed": true,
+      "video_sha256": "84e36157581be12364d65827dbc6a99f39804df2dd5d350f0182772fb2264f7b",
+      "caption_sha256": "afd13425123821799848820b581381382362a5b1ceb06cf214f1426d4bb63d05",
+      "original_scheduled_at": "2026-09-20T12:00:00+09:00",
+      "content_policy": {
+        "version": 1,
+        "mode": "baseline_asset",
+        "topic_family": "food",
+        "keywords": [
+          "젤라틴"
+        ],
+        "hashtags": [
+          "#과학",
+          "#생활과학",
+          "#젤라틴",
+          "#겔"
+        ],
+        "measurement_hours": [
+          24,
+          72
+        ]
+      }
     },
     {
       "num": "113",
@@ -246,7 +287,7 @@
       "next_cue": null,
       "slot": "B",
       "fails": 0,
-      "scheduled_at": "2026-09-26T12:00:00+09:00",
+      "scheduled_at": "2026-09-24T12:00:00+09:00",
       "sha256": "2e766b48693125bb6db49d8b82f6694255cf1e648076e5829698fe159485c526",
       "visual_revision": "2026-09-10",
       "voice": "Supertonic3 M2",
@@ -257,8 +298,65 @@
       "language": "ko",
       "reviewed": true,
       "video_sha256": "2e766b48693125bb6db49d8b82f6694255cf1e648076e5829698fe159485c526",
-      "caption_sha256": "3094544f8a89b53e23ccc4a582c92a41e555ec6f0b6daa7e80cdfae124321bdd",
-      "original_scheduled_at": "2026-09-24T12:00:00+09:00"
+      "caption_sha256": "f5b52a20ff67848617b693109e4cedf518df86cca79b3c275797900aed1952f9",
+      "original_scheduled_at": "2026-09-24T12:00:00+09:00",
+      "content_policy": {
+        "version": 1,
+        "mode": "baseline_asset",
+        "topic_family": "general_physics",
+        "keywords": [
+          "단파"
+        ],
+        "hashtags": [
+          "#과학",
+          "#생활과학",
+          "#단파",
+          "#전파"
+        ],
+        "measurement_hours": [
+          24,
+          72
+        ]
+      }
+    },
+    {
+      "num": "105",
+      "slug": "meringue-drains",
+      "title": "가만히 둔 거품에서 물이 빠진다",
+      "cue": null,
+      "next_cue": null,
+      "slot": "A",
+      "fails": 0,
+      "scheduled_at": "2026-09-24T18:00:00+09:00",
+      "sha256": "d0bccbf89e3a1b003bdf40740f80882d106142ddbb6bc9dd41fc42bd5bcf79a7",
+      "voice": "Supertonic3 M2",
+      "voice_version": "native-m2-20260912",
+      "id": "legacy-105-meringue-drains",
+      "video": "105-meringue-drains.mp4",
+      "caption": "105-meringue-drains.txt",
+      "language": "ko",
+      "reviewed": true,
+      "video_sha256": "d0bccbf89e3a1b003bdf40740f80882d106142ddbb6bc9dd41fc42bd5bcf79a7",
+      "caption_sha256": "8c684c0eec08e82be158f9116d54d672afb99baba2d304fdd35e6b9add41a817",
+      "original_scheduled_at": "2026-09-20T18:00:00+09:00",
+      "content_policy": {
+        "version": 1,
+        "mode": "baseline_asset",
+        "topic_family": "food",
+        "keywords": [
+          "거품"
+        ],
+        "hashtags": [
+          "#과학",
+          "#생활과학",
+          "#머랭",
+          "#거품"
+        ],
+        "measurement_hours": [
+          24,
+          72
+        ]
+      }
     },
     {
       "num": "114",
@@ -266,9 +364,9 @@
       "title": "갑자기 먼 FM 방송이 잡히는 날",
       "cue": null,
       "next_cue": null,
-      "slot": "A",
+      "slot": "B",
       "fails": 0,
-      "scheduled_at": "2026-09-26T18:00:00+09:00",
+      "scheduled_at": "2026-09-25T12:00:00+09:00",
       "sha256": "6c8f534fe45e397154ad5b7da76d49cc7320f4932cb749d0fd3ab9e908f4c761",
       "visual_revision": "2026-09-10",
       "voice": "Supertonic3 M2",
@@ -279,8 +377,66 @@
       "language": "ko",
       "reviewed": true,
       "video_sha256": "6c8f534fe45e397154ad5b7da76d49cc7320f4932cb749d0fd3ab9e908f4c761",
-      "caption_sha256": "e12e074213f6af643e34d829a547fd4f704d66dc27bd48764c38dd8d0e5e9a6f",
-      "original_scheduled_at": "2026-09-24T18:00:00+09:00"
+      "caption_sha256": "40311012ddef1327b489d4057282806274f520dbd5bc037d6f27ca786ea18340",
+      "original_scheduled_at": "2026-09-24T18:00:00+09:00",
+      "content_policy": {
+        "version": 1,
+        "mode": "baseline_asset",
+        "topic_family": "general_physics",
+        "keywords": [
+          "FM"
+        ],
+        "hashtags": [
+          "#과학",
+          "#생활과학",
+          "#FM라디오",
+          "#전리층"
+        ],
+        "measurement_hours": [
+          24,
+          72
+        ]
+      }
+    },
+    {
+      "num": "106",
+      "slug": "whipping-waste",
+      "title": "거품기로 쓴 힘은 어디로 갈까",
+      "cue": null,
+      "next_cue": null,
+      "slot": "A",
+      "fails": 0,
+      "scheduled_at": "2026-09-25T18:00:00+09:00",
+      "sha256": "7357526693421399b1b2f54d8fe6739012c1e1fefe9cef1636770f34c760e51b",
+      "visual_revision": "2026-09-10",
+      "voice": "Supertonic3 M2",
+      "voice_version": "native-m2-20260912",
+      "id": "legacy-106-whipping-waste",
+      "video": "106-whipping-waste.mp4",
+      "caption": "106-whipping-waste.txt",
+      "language": "ko",
+      "reviewed": true,
+      "video_sha256": "7357526693421399b1b2f54d8fe6739012c1e1fefe9cef1636770f34c760e51b",
+      "caption_sha256": "9b26b045c9ed9739c66954652e749ba0c833e885d63f95d7d41f308811986063",
+      "original_scheduled_at": "2026-09-21T12:00:00+09:00",
+      "content_policy": {
+        "version": 1,
+        "mode": "baseline_asset",
+        "topic_family": "food",
+        "keywords": [
+          "거품기"
+        ],
+        "hashtags": [
+          "#과학",
+          "#생활과학",
+          "#거품",
+          "#에너지전환"
+        ],
+        "measurement_hours": [
+          24,
+          72
+        ]
+      }
     },
     {
       "num": "115",
@@ -290,7 +446,7 @@
       "next_cue": null,
       "slot": "B",
       "fails": 0,
-      "scheduled_at": "2026-09-27T12:00:00+09:00",
+      "scheduled_at": "2026-09-26T12:00:00+09:00",
       "sha256": "0f1677f459c50bb9d3e75f4e9e26fea2b3ee1d95b04628af23898f8b2bbcdd67",
       "voice": "Supertonic3 M2",
       "voice_version": "native-m2-20260912",
@@ -300,8 +456,65 @@
       "language": "ko",
       "reviewed": true,
       "video_sha256": "0f1677f459c50bb9d3e75f4e9e26fea2b3ee1d95b04628af23898f8b2bbcdd67",
-      "caption_sha256": "a543ff2525971d9f1ab7e895034033e9d74bb4fd1ce2927c1714614e2865174b",
-      "original_scheduled_at": "2026-09-25T12:00:00+09:00"
+      "caption_sha256": "ff6f422a61f2d638b6e4cff52c35ad81c146bda2d4a9176c4e0f4f048314b535",
+      "original_scheduled_at": "2026-09-25T12:00:00+09:00",
+      "content_policy": {
+        "version": 1,
+        "mode": "baseline_asset",
+        "topic_family": "general_physics",
+        "keywords": [
+          "태양"
+        ],
+        "hashtags": [
+          "#과학",
+          "#생활과학",
+          "#태양플레어",
+          "#단파통신"
+        ],
+        "measurement_hours": [
+          24,
+          72
+        ]
+      }
+    },
+    {
+      "num": "108",
+      "slug": "bread-is-air",
+      "title": "커다란 빵이 가벼운 이유",
+      "cue": null,
+      "next_cue": null,
+      "slot": "A",
+      "fails": 0,
+      "scheduled_at": "2026-09-26T18:00:00+09:00",
+      "sha256": "5335822846b7b0e2df876f0cf4e34d5e5a8ee8c7f23cdc6057f6fda8ef035620",
+      "voice": "Supertonic3 M2",
+      "voice_version": "native-m2-20260912",
+      "id": "legacy-108-bread-is-air",
+      "video": "108-bread-is-air.mp4",
+      "caption": "108-bread-is-air.txt",
+      "language": "ko",
+      "reviewed": true,
+      "video_sha256": "5335822846b7b0e2df876f0cf4e34d5e5a8ee8c7f23cdc6057f6fda8ef035620",
+      "caption_sha256": "570f21cc7259afb7797571eea6ef2f1e2c6756cdc0c602c37d1a5aeef40619d8",
+      "original_scheduled_at": "2026-09-21T18:00:00+09:00",
+      "content_policy": {
+        "version": 1,
+        "mode": "baseline_asset",
+        "topic_family": "food",
+        "keywords": [
+          "빵"
+        ],
+        "hashtags": [
+          "#과학",
+          "#생활과학",
+          "#빵",
+          "#발효"
+        ],
+        "measurement_hours": [
+          24,
+          72
+        ]
+      }
     },
     {
       "num": "116",
@@ -309,9 +522,9 @@
       "title": "별똥별은 왜 높은 하늘에서 빛날까",
       "cue": null,
       "next_cue": null,
-      "slot": "A",
+      "slot": "B",
       "fails": 0,
-      "scheduled_at": "2026-09-27T18:00:00+09:00",
+      "scheduled_at": "2026-09-27T12:00:00+09:00",
       "sha256": "226c159f507f1ec22ce6d3428aa2e8e4db2d707f9f51516e0bdab05576d412cd",
       "voice": "Supertonic3 M2",
       "voice_version": "native-m2-20260912",
@@ -321,8 +534,65 @@
       "language": "ko",
       "reviewed": true,
       "video_sha256": "226c159f507f1ec22ce6d3428aa2e8e4db2d707f9f51516e0bdab05576d412cd",
-      "caption_sha256": "29afe81d495af43634bf8500ce228a2038e8647b4890bce0522fa4487f427dde",
-      "original_scheduled_at": "2026-09-25T18:00:00+09:00"
+      "caption_sha256": "f7783854ed173800aead4d928c74345448669adce85d82fc2375d92f575f974a",
+      "original_scheduled_at": "2026-09-25T18:00:00+09:00",
+      "content_policy": {
+        "version": 1,
+        "mode": "baseline_asset",
+        "topic_family": "general_physics",
+        "keywords": [
+          "별똥별"
+        ],
+        "hashtags": [
+          "#과학",
+          "#생활과학",
+          "#별똥별",
+          "#유성"
+        ],
+        "measurement_hours": [
+          24,
+          72
+        ]
+      }
+    },
+    {
+      "num": "109",
+      "slug": "starch-60",
+      "title": "전분물은 데우면 왜 되직해질까",
+      "cue": null,
+      "next_cue": null,
+      "slot": "A",
+      "fails": 0,
+      "scheduled_at": "2026-09-27T18:00:00+09:00",
+      "sha256": "6849c52bb4d59bd2b79fd4e942289ea58be2cbf9dadfce3251402335648bda99",
+      "voice": "Supertonic3 M2",
+      "voice_version": "native-m2-20260912",
+      "id": "legacy-109-starch-60",
+      "video": "109-starch-60.mp4",
+      "caption": "109-starch-60.txt",
+      "language": "ko",
+      "reviewed": true,
+      "video_sha256": "6849c52bb4d59bd2b79fd4e942289ea58be2cbf9dadfce3251402335648bda99",
+      "caption_sha256": "6d80b5d4b3b1e78540bf99ccf66c84e02c92e9645b7fd7a7396fd545a79b1013",
+      "original_scheduled_at": "2026-09-22T12:00:00+09:00",
+      "content_policy": {
+        "version": 1,
+        "mode": "baseline_asset",
+        "topic_family": "food",
+        "keywords": [
+          "전분"
+        ],
+        "hashtags": [
+          "#과학",
+          "#생활과학",
+          "#전분",
+          "#호화"
+        ],
+        "measurement_hours": [
+          24,
+          72
+        ]
+      }
     },
     {
       "num": "117",
@@ -342,8 +612,26 @@
       "language": "ko",
       "reviewed": true,
       "video_sha256": "15b95307e2a3494a111bc1bffbac9c4b9efdbbc1bda1ab273c514da72ff88a5b",
-      "caption_sha256": "c61a6bf2273f6c914b19c9ce7ff918902455ee97922584fbd8ab0724b73ca5de",
-      "original_scheduled_at": "2026-09-26T12:00:00+09:00"
+      "caption_sha256": "cca765f00980d2e32f9f05c58db783af69cb7745cbedbf7ce2a7df30d3b70f9f",
+      "original_scheduled_at": "2026-09-26T12:00:00+09:00",
+      "content_policy": {
+        "version": 1,
+        "mode": "baseline_asset",
+        "topic_family": "general_physics",
+        "keywords": [
+          "구름"
+        ],
+        "hashtags": [
+          "#과학",
+          "#생활과학",
+          "#야광운",
+          "#대기과학"
+        ],
+        "measurement_hours": [
+          24,
+          72
+        ]
+      }
     },
     {
       "num": "118",
@@ -363,8 +651,26 @@
       "language": "ko",
       "reviewed": true,
       "video_sha256": "48e09d9fde93e37948e2497ddbd02cb50d5cf62910ea0e670ce6138080089c8d",
-      "caption_sha256": "1f255aada5c060604e5af5c9b5c1760b5899328f67be36de972d15b0deabf6ae",
-      "original_scheduled_at": "2026-09-26T18:00:00+09:00"
+      "caption_sha256": "42a06a00020c266913f61fef0d5012d51786f82de395b54fed0f882d8c6d07b7",
+      "original_scheduled_at": "2026-09-26T18:00:00+09:00",
+      "content_policy": {
+        "version": 1,
+        "mode": "baseline_asset",
+        "topic_family": "general_physics",
+        "keywords": [
+          "지진파"
+        ],
+        "hashtags": [
+          "#과학",
+          "#생활과학",
+          "#지진파",
+          "#지구내부"
+        ],
+        "measurement_hours": [
+          24,
+          72
+        ]
+      }
     },
     {
       "num": "119",
@@ -384,15 +690,33 @@
       "language": "ko",
       "reviewed": true,
       "video_sha256": "1a78455eb8d1fe009106f629a7368cbe6081ebd2fbaaa1e8c7707eb57639aed5",
-      "caption_sha256": "4c0c19e9a455ee5cdb6756b91dce707d3031ea1baabfa6867bc26203967bf1fe",
-      "original_scheduled_at": "2026-09-27T12:00:00+09:00"
+      "caption_sha256": "ecab85206aae66459cd5d85bd8660344e67f2045ba4c05e24a3650ddd941878e",
+      "original_scheduled_at": "2026-09-27T12:00:00+09:00",
+      "content_policy": {
+        "version": 1,
+        "mode": "baseline_asset",
+        "topic_family": "general_physics",
+        "keywords": [
+          "별"
+        ],
+        "hashtags": [
+          "#과학",
+          "#생활과학",
+          "#별빛",
+          "#대기난류"
+        ],
+        "measurement_hours": [
+          24,
+          72
+        ]
+      }
     },
     {
       "id": "01-soap-film-ko-20260920",
       "video": "01-soap-film-ko-20260920.mp4",
       "caption": "01-soap-film-ko-20260920.txt",
       "video_sha256": "b38c2fd6e02bafa0066a687d314198d0aba0b5ef5b0296a5b4b02477e5007451",
-      "caption_sha256": "403f1f298af81b59b87c601d4b68a0a603656912e85c20a8b2cba5a04b3b95cc",
+      "caption_sha256": "6a96b277926f53441fa89f27f5f7a2fd45ea1bcfdb9f4b45ef920fce32cfa4ff",
       "title": "비눗방울은 왜 무지갯빛일까?",
       "slug": "01-soap-film",
       "language": "ko",
@@ -406,14 +730,32 @@
       "next_cue": null,
       "fails": 0,
       "slot": "A",
-      "scheduled_at": "2026-09-29T18:00:00+09:00"
+      "scheduled_at": "2026-09-29T18:00:00+09:00",
+      "content_policy": {
+        "version": 1,
+        "mode": "baseline_asset",
+        "topic_family": "general_physics",
+        "keywords": [
+          "비눗방울"
+        ],
+        "hashtags": [
+          "#과학",
+          "#생활과학",
+          "#비눗방울",
+          "#박막간섭"
+        ],
+        "measurement_hours": [
+          24,
+          72
+        ]
+      }
     },
     {
       "id": "02-polarizers-ko-20260920",
       "video": "02-polarizers-ko-20260920.mp4",
       "caption": "02-polarizers-ko-20260920.txt",
       "video_sha256": "744ae8ef696c660d52f36b68edb08ed82ba1f8eb124e56b6f2393ecfb6d9ae8b",
-      "caption_sha256": "1a8b79debc73a5cdfc70dfff2451de20b3710b46fe3214591d3c1b48cc88421d",
+      "caption_sha256": "97102b9c54b10673deed99b58168f00273ef8c4900c2939060bf868668bad012",
       "title": "선글라스를 돌리면 왜 어두워질까?",
       "slug": "02-polarizers",
       "language": "ko",
@@ -427,14 +769,32 @@
       "next_cue": null,
       "fails": 0,
       "slot": "B",
-      "scheduled_at": "2026-09-30T12:00:00+09:00"
+      "scheduled_at": "2026-09-30T12:00:00+09:00",
+      "content_policy": {
+        "version": 1,
+        "mode": "baseline_asset",
+        "topic_family": "general_physics",
+        "keywords": [
+          "선글라스"
+        ],
+        "hashtags": [
+          "#과학",
+          "#생활과학",
+          "#편광",
+          "#선글라스"
+        ],
+        "measurement_hours": [
+          24,
+          72
+        ]
+      }
     },
     {
       "id": "03-optical-fiber-ko-20260920",
       "video": "03-optical-fiber-ko-20260920.mp4",
       "caption": "03-optical-fiber-ko-20260920.txt",
       "video_sha256": "3893ad4e60e4be3aa27638d7bf0d7767945aeb0344c38fdb45b3ebb084d46518",
-      "caption_sha256": "1febf50e4edd94d77808cc38485264297b418870bd5007d9d31ea9fcdb415dc2",
+      "caption_sha256": "8791a2f70f3f0efb5d74146544c6058bdafeefeeca509229124023535664a366",
       "title": "빛은 어떻게 굽은 선을 따라갈까?",
       "slug": "03-optical-fiber",
       "language": "ko",
@@ -448,14 +808,32 @@
       "next_cue": null,
       "fails": 0,
       "slot": "A",
-      "scheduled_at": "2026-09-30T18:00:00+09:00"
+      "scheduled_at": "2026-09-30T18:00:00+09:00",
+      "content_policy": {
+        "version": 1,
+        "mode": "baseline_asset",
+        "topic_family": "general_physics",
+        "keywords": [
+          "빛"
+        ],
+        "hashtags": [
+          "#과학",
+          "#생활과학",
+          "#광섬유",
+          "#전반사"
+        ],
+        "measurement_hours": [
+          24,
+          72
+        ]
+      }
     },
     {
       "id": "04-disc-colors-ko-20260920",
       "video": "04-disc-colors-ko-20260920.mp4",
       "caption": "04-disc-colors-ko-20260920.txt",
       "video_sha256": "a867ddfaefe25d65f0f1e2b598ea683ff30be4baf26eb4d7eacfc729f519a28b",
-      "caption_sha256": "7a564f1646d7b775eec695a81abe8b97123a26a26ddf22f3f2fab91aaa5b2727",
+      "caption_sha256": "b38e499545bcf53206075c850626af7e97924eeb2473d050604dc16f54d57106",
       "title": "시디 표면은 왜 무지갯빛일까?",
       "slug": "04-disc-colors",
       "language": "ko",
@@ -469,14 +847,32 @@
       "next_cue": null,
       "fails": 0,
       "slot": "B",
-      "scheduled_at": "2026-10-01T12:00:00+09:00"
+      "scheduled_at": "2026-10-01T12:00:00+09:00",
+      "content_policy": {
+        "version": 1,
+        "mode": "baseline_asset",
+        "topic_family": "general_physics",
+        "keywords": [
+          "시디"
+        ],
+        "hashtags": [
+          "#과학",
+          "#생활과학",
+          "#회절",
+          "#시디"
+        ],
+        "measurement_hours": [
+          24,
+          72
+        ]
+      }
     },
     {
       "id": "05-retroreflector-ko-20260920",
       "video": "05-retroreflector-ko-20260920.mp4",
       "caption": "05-retroreflector-ko-20260920.txt",
       "video_sha256": "1db2fb5100bda14dade33c81bcc1b8282276f1d84c9b1bde8e4df6b3f55b96fb",
-      "caption_sha256": "e58a08174a7861e4c24d82173d6dc9ff708507ba44caf5e30a8c9a7727d02af8",
+      "caption_sha256": "842c3f7fdb172e4479181ee30301d115787072c399abe2da5c4a296fbd66a1de",
       "title": "반사판은 어떻게 빛을 돌려보낼까?",
       "slug": "05-retroreflector",
       "language": "ko",
@@ -490,14 +886,32 @@
       "next_cue": null,
       "fails": 0,
       "slot": "A",
-      "scheduled_at": "2026-10-01T18:00:00+09:00"
+      "scheduled_at": "2026-10-01T18:00:00+09:00",
+      "content_policy": {
+        "version": 1,
+        "mode": "baseline_asset",
+        "topic_family": "general_physics",
+        "keywords": [
+          "반사판"
+        ],
+        "hashtags": [
+          "#과학",
+          "#생활과학",
+          "#재귀반사",
+          "#반사판"
+        ],
+        "measurement_hours": [
+          24,
+          72
+        ]
+      }
     },
     {
       "id": "06-road-mirage-ko-20260920",
       "video": "06-road-mirage-ko-20260920.mp4",
       "caption": "06-road-mirage-ko-20260920.txt",
       "video_sha256": "29d7bbe287b84974392acefb27fc931f57929c76374aad36e028090ac628e796",
-      "caption_sha256": "1427975f699747cd5daa9a2bd3e87ffe6eb5350c8b9280ddc4bf3662fa96a492",
+      "caption_sha256": "d3e7199137e84c770f3b5af8dcbd7e01d6458fcf7f624123eff20d62bf9769ab",
       "title": "뜨거운 도로가 왜 젖어 보일까?",
       "slug": "06-road-mirage",
       "language": "ko",
@@ -511,14 +925,32 @@
       "next_cue": null,
       "fails": 0,
       "slot": "B",
-      "scheduled_at": "2026-10-02T12:00:00+09:00"
+      "scheduled_at": "2026-10-02T12:00:00+09:00",
+      "content_policy": {
+        "version": 1,
+        "mode": "baseline_asset",
+        "topic_family": "general_physics",
+        "keywords": [
+          "도로"
+        ],
+        "hashtags": [
+          "#과학",
+          "#생활과학",
+          "#신기루",
+          "#빛의굴절"
+        ],
+        "measurement_hours": [
+          24,
+          72
+        ]
+      }
     },
     {
       "id": "07-noise-cancel-ko-20260920",
       "video": "07-noise-cancel-ko-20260920.mp4",
       "caption": "07-noise-cancel-ko-20260920.txt",
       "video_sha256": "b809243f49df6e4777bce4bc4621850cf3bdbc35c4e6efd428b330bc0da126ee",
-      "caption_sha256": "9b3899e8d8277e807bccb61c3cc09d46c0fb0c154e17e1571ba1325c849e28fc",
+      "caption_sha256": "05431514564af0a905e3603291fb62ff79a961ec1fa4b30fa70a2a55533b4a9d",
       "title": "소리에 소리를 더하면 조용해질까?",
       "slug": "07-noise-cancel",
       "language": "ko",
@@ -532,14 +964,32 @@
       "next_cue": null,
       "fails": 0,
       "slot": "A",
-      "scheduled_at": "2026-10-02T18:00:00+09:00"
+      "scheduled_at": "2026-10-02T18:00:00+09:00",
+      "content_policy": {
+        "version": 1,
+        "mode": "baseline_asset",
+        "topic_family": "general_physics",
+        "keywords": [
+          "소리"
+        ],
+        "hashtags": [
+          "#과학",
+          "#생활과학",
+          "#노이즈캔슬링",
+          "#파동간섭"
+        ],
+        "measurement_hours": [
+          24,
+          72
+        ]
+      }
     },
     {
       "id": "08-doppler-ko-20260920",
       "video": "08-doppler-ko-20260920.mp4",
       "caption": "08-doppler-ko-20260920.txt",
       "video_sha256": "e0a0e771f4b56601950de39622f6296fd38d51d2adf216f88694fd9aa193f137",
-      "caption_sha256": "aa518f907b501e7eab6078a531d88c17088098cf734203ecb4120fd65e82eb90",
+      "caption_sha256": "67c6561eeb18d410183b60064c911832b287a909a47f65f0a912469e623f2a5d",
       "title": "사이렌은 왜 지나가면 낮아질까?",
       "slug": "08-doppler",
       "language": "ko",
@@ -553,14 +1003,32 @@
       "next_cue": null,
       "fails": 0,
       "slot": "B",
-      "scheduled_at": "2026-10-03T12:00:00+09:00"
+      "scheduled_at": "2026-10-03T12:00:00+09:00",
+      "content_policy": {
+        "version": 1,
+        "mode": "baseline_asset",
+        "topic_family": "general_physics",
+        "keywords": [
+          "사이렌"
+        ],
+        "hashtags": [
+          "#과학",
+          "#생활과학",
+          "#도플러효과",
+          "#사이렌"
+        ],
+        "measurement_hours": [
+          24,
+          72
+        ]
+      }
     },
     {
       "id": "09-ultrasound-echo-ko-20260920",
       "video": "09-ultrasound-echo-ko-20260920.mp4",
       "caption": "09-ultrasound-echo-ko-20260920.txt",
       "video_sha256": "21f17c031c42026532517fdb347b7e348de4f24603728f03cc254ad93f612d25",
-      "caption_sha256": "9e11ec8cbacf444d04eeecb61c5e19d33856915794ace96a38ef24a3815c0362",
+      "caption_sha256": "50499544fa79ef96502aa238a5f3e1620d4cd2eac40093fbc1990d9a5ac7277d",
       "title": "초음파 센서는 어떻게 거리를 잴까?",
       "slug": "09-ultrasound-echo",
       "language": "ko",
@@ -574,14 +1042,32 @@
       "next_cue": null,
       "fails": 0,
       "slot": "A",
-      "scheduled_at": "2026-10-03T18:00:00+09:00"
+      "scheduled_at": "2026-10-03T18:00:00+09:00",
+      "content_policy": {
+        "version": 1,
+        "mode": "baseline_asset",
+        "topic_family": "general_physics",
+        "keywords": [
+          "초음파"
+        ],
+        "hashtags": [
+          "#과학",
+          "#생활과학",
+          "#초음파",
+          "#반향"
+        ],
+        "measurement_hours": [
+          24,
+          72
+        ]
+      }
     },
     {
       "id": "10-vacuum-sound-ko-20260920",
       "video": "10-vacuum-sound-ko-20260920.mp4",
       "caption": "10-vacuum-sound-ko-20260920.txt",
       "video_sha256": "2fd02eab01850887b9d6e3c3281adb9080cbcb1adf1125c4272b34dfe2d5c941",
-      "caption_sha256": "6c67b417e475c5c19020fb70b94a7f4aa5b509d77dd8c87758d09fd30937d314",
+      "caption_sha256": "9a800b295637b9d1879b16e79bb5cf3647fe92669b76227f029b581f5ec3e757",
       "title": "우주에서는 왜 소리가 안 들릴까?",
       "slug": "10-vacuum-sound",
       "language": "ko",
@@ -595,14 +1081,32 @@
       "next_cue": null,
       "fails": 0,
       "slot": "B",
-      "scheduled_at": "2026-10-04T12:00:00+09:00"
+      "scheduled_at": "2026-10-04T12:00:00+09:00",
+      "content_policy": {
+        "version": 1,
+        "mode": "baseline_asset",
+        "topic_family": "general_physics",
+        "keywords": [
+          "소리"
+        ],
+        "hashtags": [
+          "#과학",
+          "#생활과학",
+          "#진공",
+          "#소리"
+        ],
+        "measurement_hours": [
+          24,
+          72
+        ]
+      }
     },
     {
       "id": "11-tube-resonance-ko-20260920",
       "video": "11-tube-resonance-ko-20260920.mp4",
       "caption": "11-tube-resonance-ko-20260920.txt",
       "video_sha256": "8c5ff40512416a0f73772facce9341a32232ea2b3248d22a5f58d3dc41b32325",
-      "caption_sha256": "99ce70f6203f65398487575c352d853f10c58db2fe1540e7140f0541b12bae25",
+      "caption_sha256": "c4c661df9c947a4927f56b34238b92c139ce3624acaa28b6deed00103d6eb7c6",
       "title": "관의 길이가 소리의 높이를 바꿀까?",
       "slug": "11-tube-resonance",
       "language": "ko",
@@ -616,14 +1120,32 @@
       "next_cue": null,
       "fails": 0,
       "slot": "A",
-      "scheduled_at": "2026-10-04T18:00:00+09:00"
+      "scheduled_at": "2026-10-04T18:00:00+09:00",
+      "content_policy": {
+        "version": 1,
+        "mode": "baseline_asset",
+        "topic_family": "general_physics",
+        "keywords": [
+          "관"
+        ],
+        "hashtags": [
+          "#과학",
+          "#생활과학",
+          "#공명",
+          "#소리의높이"
+        ],
+        "measurement_hours": [
+          24,
+          72
+        ]
+      }
     },
     {
       "id": "12-helium-voice-ko-20260920",
       "video": "12-helium-voice-ko-20260920.mp4",
       "caption": "12-helium-voice-ko-20260920.txt",
       "video_sha256": "c7a7d719745ac1e4f20dc465ad99f732091ffb63730bfa97a8542d8ff4e337d6",
-      "caption_sha256": "c44d111f7f4c4289f4b3448dcc8d811fea476ef4148f56ae70e66ad81a1c3674",
+      "caption_sha256": "182211072fadb38313a8fdd086276c97c1a516f4a47a632c90157856023aacf1",
       "title": "헬륨은 목소리의 무엇을 바꿀까?",
       "slug": "12-helium-voice",
       "language": "ko",
@@ -637,14 +1159,32 @@
       "next_cue": null,
       "fails": 0,
       "slot": "B",
-      "scheduled_at": "2026-10-05T12:00:00+09:00"
+      "scheduled_at": "2026-10-05T12:00:00+09:00",
+      "content_policy": {
+        "version": 1,
+        "mode": "baseline_asset",
+        "topic_family": "general_physics",
+        "keywords": [
+          "헬륨"
+        ],
+        "hashtags": [
+          "#과학",
+          "#생활과학",
+          "#헬륨",
+          "#공명"
+        ],
+        "measurement_hours": [
+          24,
+          72
+        ]
+      }
     },
     {
       "id": "13-cold-metal-ko-20260920",
       "video": "13-cold-metal-ko-20260920.mp4",
       "caption": "13-cold-metal-ko-20260920.txt",
       "video_sha256": "f505604b5d7e99fed7ec7e178884a04bd2f613f0623b4c0c4c051cdb62dd1dfe",
-      "caption_sha256": "cf91ff4bef405613d2dac2a3f8dea801aa452f79eaade6fe0e200c326cd5461c",
+      "caption_sha256": "9abbe657371f8219567ff9c59d1fab2daa3ae5bdb5cabaa70f29510d90933972",
       "title": "같은 온도인데 금속은 왜 차가울까?",
       "slug": "13-cold-metal",
       "language": "ko",
@@ -658,14 +1198,32 @@
       "next_cue": null,
       "fails": 0,
       "slot": "A",
-      "scheduled_at": "2026-10-05T18:00:00+09:00"
+      "scheduled_at": "2026-10-05T18:00:00+09:00",
+      "content_policy": {
+        "version": 1,
+        "mode": "baseline_asset",
+        "topic_family": "general_physics",
+        "keywords": [
+          "금속"
+        ],
+        "hashtags": [
+          "#과학",
+          "#생활과학",
+          "#열전도",
+          "#금속"
+        ],
+        "measurement_hours": [
+          24,
+          72
+        ]
+      }
     },
     {
       "id": "14-blanket-air-ko-20260920",
       "video": "14-blanket-air-ko-20260920.mp4",
       "caption": "14-blanket-air-ko-20260920.txt",
       "video_sha256": "583dcb9e53c5540ce68b4ecc56af07c01aa6a8c356472a74beb15e2af5530a1f",
-      "caption_sha256": "3db0b66c981e0039e53247220ddac8e4dff992ba285c119ad8f48e4c2592e69c",
+      "caption_sha256": "77c443a57a2e09942e1c2d563c05bc379f26040ba1645acab71ab1c70720fcba",
       "title": "이불 속 공기는 어떻게 보온할까?",
       "slug": "14-blanket-air",
       "language": "ko",
@@ -679,14 +1237,32 @@
       "next_cue": null,
       "fails": 0,
       "slot": "B",
-      "scheduled_at": "2026-10-06T12:00:00+09:00"
+      "scheduled_at": "2026-10-06T12:00:00+09:00",
+      "content_policy": {
+        "version": 1,
+        "mode": "baseline_asset",
+        "topic_family": "general_physics",
+        "keywords": [
+          "공기"
+        ],
+        "hashtags": [
+          "#과학",
+          "#생활과학",
+          "#단열",
+          "#공기층"
+        ],
+        "measurement_hours": [
+          24,
+          72
+        ]
+      }
     },
     {
       "id": "15-double-glazing-ko-20260920",
       "video": "15-double-glazing-ko-20260920.mp4",
       "caption": "15-double-glazing-ko-20260920.txt",
       "video_sha256": "ca6e784ee859c506c01250948acde122eab8740ef4ae942bbc20dc5866c9e100",
-      "caption_sha256": "887c1ad6964b7c90719d8d8f47792b04c9602a2f5a29220df3f882c888764dfb",
+      "caption_sha256": "355cf67bde176f2f800d228962f4ecdd796665bd6220f244bf1d82f258e82645",
       "title": "창문 두 장 사이에는 무엇이 있을까?",
       "slug": "15-double-glazing",
       "language": "ko",
@@ -700,14 +1276,32 @@
       "next_cue": null,
       "fails": 0,
       "slot": "A",
-      "scheduled_at": "2026-10-06T18:00:00+09:00"
+      "scheduled_at": "2026-10-06T18:00:00+09:00",
+      "content_policy": {
+        "version": 1,
+        "mode": "baseline_asset",
+        "topic_family": "general_physics",
+        "keywords": [
+          "창문"
+        ],
+        "hashtags": [
+          "#과학",
+          "#생활과학",
+          "#이중창",
+          "#단열"
+        ],
+        "measurement_hours": [
+          24,
+          72
+        ]
+      }
     },
     {
       "id": "16-foggy-mirror-ko-20260920",
       "video": "16-foggy-mirror-ko-20260920.mp4",
       "caption": "16-foggy-mirror-ko-20260920.txt",
       "video_sha256": "5b9caa8eb13ce0907bc5b9cc3d1dd6236f2a6c1951fa0c7db24872db6a19b460",
-      "caption_sha256": "e57bfc59316d0cace01fe2715a3de6e2c60ede0792b5b2272b1cc9fd37649994",
+      "caption_sha256": "d87833cbe06eb72712c8467213ce9b2e4c918ef4077cc7adc31cc0b88decf6bb",
       "title": "샤워 뒤 거울은 왜 뿌옇게 될까?",
       "slug": "16-foggy-mirror",
       "language": "ko",
@@ -721,14 +1315,32 @@
       "next_cue": null,
       "fails": 0,
       "slot": "B",
-      "scheduled_at": "2026-10-07T12:00:00+09:00"
+      "scheduled_at": "2026-10-07T12:00:00+09:00",
+      "content_policy": {
+        "version": 1,
+        "mode": "baseline_asset",
+        "topic_family": "general_physics",
+        "keywords": [
+          "거울"
+        ],
+        "hashtags": [
+          "#과학",
+          "#생활과학",
+          "#결로",
+          "#이슬점"
+        ],
+        "measurement_hours": [
+          24,
+          72
+        ]
+      }
     },
     {
       "id": "17-bridge-gap-ko-20260920",
       "video": "17-bridge-gap-ko-20260920.mp4",
       "caption": "17-bridge-gap-ko-20260920.txt",
       "video_sha256": "9dcf4e68cd4ef59edae5fb74d970e16f0b8d8e05e3e3ef03b9e25e09b415bd5a",
-      "caption_sha256": "d7a71d89650c876b9e5ab04d2045e3eea828b1ba18233e786ccd9c0d8db6e61b",
+      "caption_sha256": "e06891de9d24f8cff5d65a65154c8d67582299f78336012924ae0172b407c5b3",
       "title": "다리 이음새는 왜 비워 둘까?",
       "slug": "17-bridge-gap",
       "language": "ko",
@@ -742,14 +1354,32 @@
       "next_cue": null,
       "fails": 0,
       "slot": "A",
-      "scheduled_at": "2026-10-07T18:00:00+09:00"
+      "scheduled_at": "2026-10-07T18:00:00+09:00",
+      "content_policy": {
+        "version": 1,
+        "mode": "baseline_asset",
+        "topic_family": "general_physics",
+        "keywords": [
+          "다리"
+        ],
+        "hashtags": [
+          "#과학",
+          "#생활과학",
+          "#열팽창",
+          "#교량"
+        ],
+        "measurement_hours": [
+          24,
+          72
+        ]
+      }
     },
     {
       "id": "18-heat-pump-ko-20260920",
       "video": "18-heat-pump-ko-20260920.mp4",
       "caption": "18-heat-pump-ko-20260920.txt",
       "video_sha256": "1b9a20cbe45db65353ad79cf0942ce67120683b7b56960209015a3dd134497e2",
-      "caption_sha256": "a97c8babbd5ea24f31bfb19feaf8c9be60b9d33aff3eb8aa0ad086a0c49a3c44",
+      "caption_sha256": "b3132dceb5b69aab989033a2635a9a59394c627bfb2ddbe5eade67917ee94975",
       "title": "추운 밖에서 열을 가져올 수 있을까?",
       "slug": "18-heat-pump",
       "language": "ko",
@@ -763,14 +1393,32 @@
       "next_cue": null,
       "fails": 0,
       "slot": "B",
-      "scheduled_at": "2026-10-08T12:00:00+09:00"
+      "scheduled_at": "2026-10-08T12:00:00+09:00",
+      "content_policy": {
+        "version": 1,
+        "mode": "baseline_asset",
+        "topic_family": "general_physics",
+        "keywords": [
+          "열"
+        ],
+        "hashtags": [
+          "#과학",
+          "#생활과학",
+          "#히트펌프",
+          "#열전달"
+        ],
+        "measurement_hours": [
+          24,
+          72
+        ]
+      }
     },
     {
       "id": "19-static-balloon-ko-20260920",
       "video": "19-static-balloon-ko-20260920.mp4",
       "caption": "19-static-balloon-ko-20260920.txt",
       "video_sha256": "3dc4d6f44b3baeb573a2ed711609ca9fd33b07a6b7ddff7b6f251a1ee68dbb14",
-      "caption_sha256": "4ca090d1b0cd52b75fc9d6a5676013982263c7740b1e0750d5f2791f74f8c247",
+      "caption_sha256": "b12efc51e38e04b26c9e0fd5ca12f71e1e918a07c86285e0d1f91bec5dd0ff27",
       "title": "풍선은 왜 벽에 달라붙을까?",
       "slug": "19-static-balloon",
       "language": "ko",
@@ -784,14 +1432,32 @@
       "next_cue": null,
       "fails": 0,
       "slot": "A",
-      "scheduled_at": "2026-10-08T18:00:00+09:00"
+      "scheduled_at": "2026-10-08T18:00:00+09:00",
+      "content_policy": {
+        "version": 1,
+        "mode": "baseline_asset",
+        "topic_family": "general_physics",
+        "keywords": [
+          "풍선"
+        ],
+        "hashtags": [
+          "#과학",
+          "#생활과학",
+          "#정전기",
+          "#유도분극"
+        ],
+        "measurement_hours": [
+          24,
+          72
+        ]
+      }
     },
     {
       "id": "20-wireless-charging-ko-20260920",
       "video": "20-wireless-charging-ko-20260920.mp4",
       "caption": "20-wireless-charging-ko-20260920.txt",
       "video_sha256": "2047ae102c43f056ffaa43775132131d64f367c5ac214ab913b153ac0a07c971",
-      "caption_sha256": "24c10757c3beb8fdcd9ffec8f2d3c1ccb7360b000d9d5dcf90fd6c341ac7297b",
+      "caption_sha256": "0d241b300c3492495cf0cbf69d3379d0366501a62679d3491c1b8abed25b05b7",
       "title": "선 없이 어떻게 충전할까?",
       "slug": "20-wireless-charging",
       "language": "ko",
@@ -805,14 +1471,32 @@
       "next_cue": null,
       "fails": 0,
       "slot": "B",
-      "scheduled_at": "2026-10-09T12:00:00+09:00"
+      "scheduled_at": "2026-10-09T12:00:00+09:00",
+      "content_policy": {
+        "version": 1,
+        "mode": "baseline_asset",
+        "topic_family": "general_physics",
+        "keywords": [
+          "충전"
+        ],
+        "hashtags": [
+          "#과학",
+          "#생활과학",
+          "#무선충전",
+          "#전자기유도"
+        ],
+        "measurement_hours": [
+          24,
+          72
+        ]
+      }
     },
     {
       "id": "21-eddy-brake-ko-20260920",
       "video": "21-eddy-brake-ko-20260920.mp4",
       "caption": "21-eddy-brake-ko-20260920.txt",
       "video_sha256": "cb8264be84a881c74d09dd2ec85cf67836fbe2f4123b27887fa747c557f98e37",
-      "caption_sha256": "67298aab8bbc285757ebc0356d96ba7938f0bcb7fd90d40fd3e62b3410d96458",
+      "caption_sha256": "3cd8655631af717a7541608e4fb1ddc85786e2b8d2330ee83ac5be1fcf2ef421",
       "title": "자석이 구리관에서 천천히 떨어질까?",
       "slug": "21-eddy-brake",
       "language": "ko",
@@ -826,14 +1510,32 @@
       "next_cue": null,
       "fails": 0,
       "slot": "A",
-      "scheduled_at": "2026-10-09T18:00:00+09:00"
+      "scheduled_at": "2026-10-09T18:00:00+09:00",
+      "content_policy": {
+        "version": 1,
+        "mode": "baseline_asset",
+        "topic_family": "general_physics",
+        "keywords": [
+          "자석"
+        ],
+        "hashtags": [
+          "#과학",
+          "#생활과학",
+          "#와전류",
+          "#자기제동"
+        ],
+        "measurement_hours": [
+          24,
+          72
+        ]
+      }
     },
     {
       "id": "22-transformer-ko-20260920",
       "video": "22-transformer-ko-20260920.mp4",
       "caption": "22-transformer-ko-20260920.txt",
       "video_sha256": "ef1228dfc78b8d141db88567cb8e65e44f6ebd4aaf351be3f78e8bee7a9c6af2",
-      "caption_sha256": "0d7d8f22fd14b3a718cf42ed37b42630dfa265cf7dae483f594f46968e4981d1",
+      "caption_sha256": "8f1a264c8da440e25dabd21a957357a7250ae46f139b280bced37fe58ff7bb10",
       "title": "변압기는 어떻게 전압을 바꿀까?",
       "slug": "22-transformer",
       "language": "ko",
@@ -847,14 +1549,32 @@
       "next_cue": null,
       "fails": 0,
       "slot": "B",
-      "scheduled_at": "2026-10-10T12:00:00+09:00"
+      "scheduled_at": "2026-10-10T12:00:00+09:00",
+      "content_policy": {
+        "version": 1,
+        "mode": "baseline_asset",
+        "topic_family": "general_physics",
+        "keywords": [
+          "변압기"
+        ],
+        "hashtags": [
+          "#과학",
+          "#생활과학",
+          "#변압기",
+          "#전자기유도"
+        ],
+        "measurement_hours": [
+          24,
+          72
+        ]
+      }
     },
     {
       "id": "23-touchscreen-ko-20260920",
       "video": "23-touchscreen-ko-20260920.mp4",
       "caption": "23-touchscreen-ko-20260920.txt",
       "video_sha256": "87e2d2c8b2e578afb68170db89d310e087ae93ed991c7e8378007ec2258efce8",
-      "caption_sha256": "a49527b6b720309dcd797c35c3d94aad2604669dba7da10d1b1c12fa77a2a96c",
+      "caption_sha256": "9c4c0d2886dd7a4eb016d542c1e10c600fa7476a67cf888d6d14481a2fd7c795",
       "title": "화면은 손가락 위치를 어떻게 알까?",
       "slug": "23-touchscreen",
       "language": "ko",
@@ -868,14 +1588,32 @@
       "next_cue": null,
       "fails": 0,
       "slot": "A",
-      "scheduled_at": "2026-10-10T18:00:00+09:00"
+      "scheduled_at": "2026-10-10T18:00:00+09:00",
+      "content_policy": {
+        "version": 1,
+        "mode": "baseline_asset",
+        "topic_family": "general_physics",
+        "keywords": [
+          "화면"
+        ],
+        "hashtags": [
+          "#과학",
+          "#생활과학",
+          "#터치스크린",
+          "#정전용량"
+        ],
+        "measurement_hours": [
+          24,
+          72
+        ]
+      }
     },
     {
       "id": "24-led-colors-ko-20260920",
       "video": "24-led-colors-ko-20260920.mp4",
       "caption": "24-led-colors-ko-20260920.txt",
       "video_sha256": "695095e07fc66a4dfc0db0738beb090df36bceae72e92df85fb1cc09f6ed03d3",
-      "caption_sha256": "e429e15cfac86c01e1f4f6b98b324920b89e2f3a9ce104c8a36fcf4b715245f0",
+      "caption_sha256": "cbe38736e3b13c0dac3db251bede48302b47aeafe5696fb57dc1b711e30c2872",
       "title": "발광 다이오드는 어떻게 색을 낼까?",
       "slug": "24-led-colors",
       "language": "ko",
@@ -889,14 +1627,32 @@
       "next_cue": null,
       "fails": 0,
       "slot": "B",
-      "scheduled_at": "2026-10-11T12:00:00+09:00"
+      "scheduled_at": "2026-10-11T12:00:00+09:00",
+      "content_policy": {
+        "version": 1,
+        "mode": "baseline_asset",
+        "topic_family": "general_physics",
+        "keywords": [
+          "발광"
+        ],
+        "hashtags": [
+          "#과학",
+          "#생활과학",
+          "#LED",
+          "#반도체"
+        ],
+        "measurement_hours": [
+          24,
+          72
+        ]
+      }
     },
     {
       "id": "25-capillary-ko-20260920",
       "video": "25-capillary-ko-20260920.mp4",
       "caption": "25-capillary-ko-20260920.txt",
       "video_sha256": "f5396d3d3a8d183ba54336e29f580ad1fcbf3cd976f405a7baefa4d4beb997be",
-      "caption_sha256": "384773b07db7351a13cea83f235abb3628b0521769f6b59b3b7f1d9aee6fcab5",
+      "caption_sha256": "1780e34de0810181a5866d33f62c240f0d74c6e219d68b0c684c004ce1b6909a",
       "title": "가는 관에서는 왜 물이 올라갈까?",
       "slug": "25-capillary",
       "language": "ko",
@@ -910,14 +1666,32 @@
       "next_cue": null,
       "fails": 0,
       "slot": "A",
-      "scheduled_at": "2026-10-11T18:00:00+09:00"
+      "scheduled_at": "2026-10-11T18:00:00+09:00",
+      "content_policy": {
+        "version": 1,
+        "mode": "baseline_asset",
+        "topic_family": "general_physics",
+        "keywords": [
+          "관"
+        ],
+        "hashtags": [
+          "#과학",
+          "#생활과학",
+          "#모세관",
+          "#표면장력"
+        ],
+        "measurement_hours": [
+          24,
+          72
+        ]
+      }
     },
     {
       "id": "26-round-drops-ko-20260920",
       "video": "26-round-drops-ko-20260920.mp4",
       "caption": "26-round-drops-ko-20260920.txt",
       "video_sha256": "4f00bdec93f33783853ae42c829b73d326e73c4861b9c8f7929d83c5870ea446",
-      "caption_sha256": "c366e17f2732f500be73aeda97619d523900af507b6ebd6c908bd35c3a03ee4a",
+      "caption_sha256": "77a0cdd52749ab2505d0e88963a09a9c27175aef05cee58f251585229338fde1",
       "title": "작은 물방울은 왜 둥글까?",
       "slug": "26-round-drops",
       "language": "ko",
@@ -931,14 +1705,32 @@
       "next_cue": null,
       "fails": 0,
       "slot": "B",
-      "scheduled_at": "2026-10-12T12:00:00+09:00"
+      "scheduled_at": "2026-10-12T12:00:00+09:00",
+      "content_policy": {
+        "version": 1,
+        "mode": "baseline_asset",
+        "topic_family": "general_physics",
+        "keywords": [
+          "물방울"
+        ],
+        "hashtags": [
+          "#과학",
+          "#생활과학",
+          "#물방울",
+          "#표면장력"
+        ],
+        "measurement_hours": [
+          24,
+          72
+        ]
+      }
     },
     {
       "id": "27-gecko-feet-ko-20260920",
       "video": "27-gecko-feet-ko-20260920.mp4",
       "caption": "27-gecko-feet-ko-20260920.txt",
       "video_sha256": "a8a0504b58756918066b7eaeeadea879654408e43dae38e1a244ac3b7b10322e",
-      "caption_sha256": "6807f7487b822c43e880030be609369451e4a028b5463bf84780280091b405d0",
+      "caption_sha256": "6f0743754f320afc9aa835503181913face2e376c45e66b94d799f84680d444f",
       "title": "도마뱀은 어떻게 유리에 붙을까?",
       "slug": "27-gecko-feet",
       "language": "ko",
@@ -952,14 +1744,32 @@
       "next_cue": null,
       "fails": 0,
       "slot": "A",
-      "scheduled_at": "2026-10-12T18:00:00+09:00"
+      "scheduled_at": "2026-10-12T18:00:00+09:00",
+      "content_policy": {
+        "version": 1,
+        "mode": "baseline_asset",
+        "topic_family": "general_physics",
+        "keywords": [
+          "도마뱀"
+        ],
+        "hashtags": [
+          "#과학",
+          "#생활과학",
+          "#도마뱀붙이",
+          "#분자간힘"
+        ],
+        "measurement_hours": [
+          24,
+          72
+        ]
+      }
     },
     {
       "id": "28-magnetic-domains-ko-20260920",
       "video": "28-magnetic-domains-ko-20260920.mp4",
       "caption": "28-magnetic-domains-ko-20260920.txt",
       "video_sha256": "ea61fc255448f765ebc42863e7ff1772d8d33a0926b65eaeba5fce2ef4c4fdf8",
-      "caption_sha256": "59aac5249854fca3ce0485e36c03ebf189bbf72a6e1e5dff38a092cbd91a36a4",
+      "caption_sha256": "846078eedb0fff727b148ba99539125d76e7950ca896153f4a22460e19c70582",
       "title": "철은 어떻게 자석이 될까?",
       "slug": "28-magnetic-domains",
       "language": "ko",
@@ -973,14 +1783,32 @@
       "next_cue": null,
       "fails": 0,
       "slot": "B",
-      "scheduled_at": "2026-10-13T12:00:00+09:00"
+      "scheduled_at": "2026-10-13T12:00:00+09:00",
+      "content_policy": {
+        "version": 1,
+        "mode": "baseline_asset",
+        "topic_family": "general_physics",
+        "keywords": [
+          "자석"
+        ],
+        "hashtags": [
+          "#과학",
+          "#생활과학",
+          "#자구",
+          "#자화"
+        ],
+        "measurement_hours": [
+          24,
+          72
+        ]
+      }
     },
     {
       "id": "29-tempered-glass-ko-20260920",
       "video": "29-tempered-glass-ko-20260920.mp4",
       "caption": "29-tempered-glass-ko-20260920.txt",
       "video_sha256": "f1e3063dbebbbed10a9abe151b2bb5a8df8519ebf804772413b80e87d8a47be6",
-      "caption_sha256": "8d98e1c2953dabe11f89a3dd882f3c2fef987ebac1c63659432707bb18ea89ba",
+      "caption_sha256": "4173704de18124ed7c7acc1bc0a4a83fe71c70baa93131d8e3e253bd9773ebae",
       "title": "강화유리는 왜 작은 조각으로 깨질까?",
       "slug": "29-tempered-glass",
       "language": "ko",
@@ -994,14 +1822,32 @@
       "next_cue": null,
       "fails": 0,
       "slot": "A",
-      "scheduled_at": "2026-10-13T18:00:00+09:00"
+      "scheduled_at": "2026-10-13T18:00:00+09:00",
+      "content_policy": {
+        "version": 1,
+        "mode": "baseline_asset",
+        "topic_family": "general_physics",
+        "keywords": [
+          "강화유리"
+        ],
+        "hashtags": [
+          "#과학",
+          "#생활과학",
+          "#강화유리",
+          "#잔류응력"
+        ],
+        "measurement_hours": [
+          24,
+          72
+        ]
+      }
     },
     {
       "id": "30-lotus-leaf-ko-20260920",
       "video": "30-lotus-leaf-ko-20260920.mp4",
       "caption": "30-lotus-leaf-ko-20260920.txt",
       "video_sha256": "a92c577c3d8bc40d2c2f95a03cf5229e445b4b45afd003b1605ab3885e01c067",
-      "caption_sha256": "ea0acc076274c8336091c36c230f8c30cc34672b79cae9ad2d0d23438fef52e1",
+      "caption_sha256": "159b4a49a7851939855f058bbc1ced2e14b5f5e720af167817acb66cae780776",
       "title": "연잎 위 물방울은 왜 잘 굴러갈까?",
       "slug": "30-lotus-leaf",
       "language": "ko",
@@ -1015,14 +1861,32 @@
       "next_cue": null,
       "fails": 0,
       "slot": "B",
-      "scheduled_at": "2026-10-14T12:00:00+09:00"
+      "scheduled_at": "2026-10-14T12:00:00+09:00",
+      "content_policy": {
+        "version": 1,
+        "mode": "baseline_asset",
+        "topic_family": "general_physics",
+        "keywords": [
+          "연잎"
+        ],
+        "hashtags": [
+          "#과학",
+          "#생활과학",
+          "#연잎효과",
+          "#초소수성"
+        ],
+        "measurement_hours": [
+          24,
+          72
+        ]
+      }
     },
     {
       "id": "chocolate-bloom-v2-ko-20260920",
       "video": "chocolate-bloom-v2-ko-20260920.mp4",
       "caption": "chocolate-bloom-v2-ko-20260920.txt",
       "video_sha256": "7cb807ab8ae3e6d1c4bfa4ef79016551bf140295519f5e0e519cc2a5942ac4ce",
-      "caption_sha256": "4d9ec855c4c0a4fd79de327931de0a18b61f5f378181bddfd8caebaa9f7d9646",
+      "caption_sha256": "b5984d1484fb7bd6b64585ea9c828785dfd4a9ad6abb08048322d7da61181070",
       "title": "초콜릿 위 하얀 무늬",
       "slug": "chocolate-bloom-v2",
       "language": "ko",
@@ -1036,14 +1900,32 @@
       "next_cue": null,
       "fails": 0,
       "slot": "A",
-      "scheduled_at": "2026-10-14T18:00:00+09:00"
+      "scheduled_at": "2026-10-14T18:00:00+09:00",
+      "content_policy": {
+        "version": 1,
+        "mode": "baseline_asset",
+        "topic_family": "food",
+        "keywords": [
+          "초콜릿"
+        ],
+        "hashtags": [
+          "#과학",
+          "#생활과학",
+          "#초콜릿",
+          "#팻블룸"
+        ],
+        "measurement_hours": [
+          24,
+          72
+        ]
+      }
     },
     {
       "id": "microwave-hot-spots-katex-ko-20260920",
       "video": "microwave-hot-spots-katex-ko-20260920.mp4",
       "caption": "microwave-hot-spots-katex-ko-20260920.txt",
       "video_sha256": "549e6c908cc72c037521b7ea2ba814cb6bf056cdaeefb989bed884606ecf928c",
-      "caption_sha256": "6d18c5cb31e28604508d48e8fe8025ab6bde839ce0e4f3d9368e217e6cfc4573",
+      "caption_sha256": "d03a48b27d50c92f1d4530724906514a1016a63776beef849fb6aa015028af9f",
       "title": "전자레인지의 뜨거운 자리",
       "slug": "microwave-hot-spots-katex",
       "language": "ko",
@@ -1057,7 +1939,25 @@
       "next_cue": null,
       "fails": 0,
       "slot": "B",
-      "scheduled_at": "2026-10-15T12:00:00+09:00"
+      "scheduled_at": "2026-10-15T12:00:00+09:00",
+      "content_policy": {
+        "version": 1,
+        "mode": "baseline_asset",
+        "topic_family": "food",
+        "keywords": [
+          "전자레인지"
+        ],
+        "hashtags": [
+          "#과학",
+          "#생활과학",
+          "#전자레인지",
+          "#정상파"
+        ],
+        "measurement_hours": [
+          24,
+          72
+        ]
+      }
     }
   ],
   "done": [
@@ -1964,10 +2864,10 @@
   ],
   "resumed_at": "2026-09-09T08:05:59.713108+09:00",
   "voice_repair_completed_at": "2026-09-12T04:54:35.529738+00:00",
-  "content_revision_at": "2026-09-12T09:19:29.694642+00:00",
+  "content_revision_at": "2026-09-20T15:27:04+09:00",
   "account": "phyedu_net",
   "timezone": "Asia/Seoul",
   "schema_version": 2,
   "scheduler": "Cloudflare primary, GitHub schedule fallback",
-  "rescheduled_at": "2026-09-20T02:49:09.779706+09:00"
+  "rescheduled_at": "2026-09-20T15:27:04+09:00"
 }

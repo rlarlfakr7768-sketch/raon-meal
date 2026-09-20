@@ -35,7 +35,7 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
       - name: Validate publisher guards
-        run: python -m unittest test_reel_schedule test_reel_publisher
+        run: python -m unittest test_reel_schedule test_reel_publisher test_reel_content_policy test_reel_performance
       - name: Publish or read-only check
         env:
           REEL_LANGUAGE: en

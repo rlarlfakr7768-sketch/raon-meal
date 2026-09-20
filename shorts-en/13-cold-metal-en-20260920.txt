@@ -10,5 +10,4 @@ Thermal conductivity, density, and heat capacity all help determine this contact
 Illustrative models, not measurements of a particular device. Synthetic narration.
 Sources
 https://openstax.org/books/college-physics-2e/pages/14-5-conduction
-
-#EverydayScience #Physics #Science #PhyEdu
+#Science #EverydayScience #ThermalConductivity #HeatTransfer

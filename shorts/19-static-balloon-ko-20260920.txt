@@ -10,5 +10,4 @@
 원리를 설명하는 모형이며, 내레이션은 합성 음성입니다.
 출처
 https://openstax.org/books/university-physics-volume-2/pages/5-2-conductors-insulators-and-charging-by-induction
-
-#과학 #물리 #생활과학 #PhyEdu
+#과학 #생활과학 #정전기 #유도분극

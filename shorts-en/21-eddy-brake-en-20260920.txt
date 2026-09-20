@@ -10,5 +10,4 @@ A long slit interrupts current loops and reduces the braking effect.
 Illustrative models, not measurements of a particular device. Synthetic narration.
 Sources
 https://openstax.org/books/university-physics-volume-2/pages/13-5-eddy-currents
-
-#EverydayScience #Physics #Science #PhyEdu
+#Science #EverydayScience #EddyCurrents #MagneticBraking

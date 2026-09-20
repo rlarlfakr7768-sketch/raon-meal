@@ -10,5 +10,4 @@ Tilted or absorbent surfaces can weaken the returning echo, making measurement h
 Illustrative models, not measurements of a particular device. Synthetic narration.
 Sources
 https://openstax.org/books/college-physics-2e/pages/17-7-ultrasound
-
-#EverydayScience #Physics #Science #PhyEdu
+#Science #EverydayScience #Ultrasound #Echo

@@ -11,5 +11,4 @@
 출처
 https://openstax.org/books/university-physics-volume-1/pages/17-4-normal-modes-of-a-standing-sound-wave
 https://www.bose.com/stories/what-is-active-noise-cancellation
-
-#과학 #물리 #생활과학 #PhyEdu
+#과학 #생활과학 #노이즈캔슬링 #파동간섭

@@ -10,5 +10,4 @@ The required gap depends on material, structural length, and the expected temper
 Illustrative models, not measurements of a particular device. Synthetic narration.
 Sources
 https://openstax.org/books/university-physics-volume-2/pages/1-3-thermal-expansion
-
-#EverydayScience #Physics #Science #PhyEdu
+#Science #EverydayScience #ThermalExpansion #Bridges

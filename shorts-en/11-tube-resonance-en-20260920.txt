@@ -10,5 +10,4 @@ Opening holes or extending the tube changes its effective acoustic length.
 Illustrative models, not measurements of a particular device. Synthetic narration.
 Sources
 https://openstax.org/books/university-physics-volume-1/pages/17-4-normal-modes-of-a-standing-sound-wave
-
-#EverydayScience #Physics #Science #PhyEdu
+#Science #EverydayScience #Resonance #SoundPitch

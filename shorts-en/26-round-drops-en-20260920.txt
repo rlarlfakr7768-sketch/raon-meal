@@ -10,5 +10,4 @@ On a solid surface, how well water wets that surface also affects its shape.
 Illustrative models, not measurements of a particular device. Synthetic narration.
 Sources
 https://www.usgs.gov/special-topics/water-science-school/science/surface-tension-and-water
-
-#EverydayScience #Physics #Science #PhyEdu
+#Science #EverydayScience #Droplets #SurfaceTension

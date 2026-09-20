@@ -10,5 +10,4 @@ Permanent magnets use materials whose magnetization resists being easily reverse
 Illustrative models, not measurements of a particular device. Synthetic narration.
 Sources
 https://openstax.org/books/university-physics-volume-2/pages/12-7-magnetism-in-matter
-
-#EverydayScience #Physics #Science #PhyEdu
+#Science #EverydayScience #MagneticDomains #Magnetism

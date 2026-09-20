@@ -10,5 +10,4 @@ This change in observed frequency from relative motion is the Doppler effect.
 Illustrative models, not measurements of a particular device. Synthetic narration.
 Sources
 https://openstax.org/books/university-physics-volume-1/pages/17-7-the-doppler-effect
-
-#EverydayScience #Physics #Science #PhyEdu
+#Science #EverydayScience #DopplerEffect #SoundWaves

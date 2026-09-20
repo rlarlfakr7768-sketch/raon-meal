@@ -10,5 +10,4 @@ Warming the mirror or reducing humidity can reduce the condensation.
 Illustrative models, not measurements of a particular device. Synthetic narration.
 Sources
 https://openstax.org/books/college-physics-2e/pages/13-6-humidity-evaporation-and-boiling
-
-#EverydayScience #Physics #Science #PhyEdu
+#Science #EverydayScience #Condensation #DewPoint

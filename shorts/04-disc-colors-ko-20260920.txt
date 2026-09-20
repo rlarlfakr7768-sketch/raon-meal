@@ -10,5 +10,4 @@
 원리를 설명하는 모형이며, 내레이션은 합성 음성입니다.
 출처
 https://openstax.org/books/university-physics-volume-3/pages/4-4-diffraction-gratings
-
-#과학 #물리 #생활과학 #PhyEdu
+#과학 #생활과학 #회절 #시디

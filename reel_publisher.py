@@ -48,6 +48,8 @@ def load_queue():
         raise RuntimeError("Expected lunch/evening schedule")
     if not isinstance(q.get("queue"), list) or not isinstance(q.get("done"), list):
         raise RuntimeError("Invalid queue schema")
+    from reel_content_policy import validate_queue
+    validate_queue(q, DATA, LANGUAGE, ACCOUNT, ROOT)
     return q
 
 

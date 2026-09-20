@@ -1,0 +1,40 @@
+name: Reel performance samples
+on:
+  schedule:
+    - cron: '25 */3 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: reel-performance-samples
+  cancel-in-progress: false
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install requests
+      - name: Configure metric commits
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+      - name: Validate metric collector
+        run: python -m unittest test_reel_performance test_reel_content_policy
+      - name: Capture Korean samples
+        env:
+          REEL_LANGUAGE: ko
+          IG_SECRETS_JSON: ${{ secrets.IG_SECRETS_JSON }}
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: python reel_performance.py
+      - name: Capture English samples
+        env:
+          REEL_LANGUAGE: en
+          IG_EN_SECRETS_JSON: ${{ secrets.IG_EN_SECRETS_JSON }}
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: python reel_performance.py

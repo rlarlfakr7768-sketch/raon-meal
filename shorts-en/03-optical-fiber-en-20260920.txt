@@ -10,5 +10,4 @@ A sharp bend lets some light escape, weakening the transmitted signal.
 Illustrative models, not measurements of a particular device. Synthetic narration.
 Sources
 https://openstax.org/books/university-physics-volume-3/pages/1-4-total-internal-reflection
-
-#EverydayScience #Physics #Science #PhyEdu
+#Science #EverydayScience #OpticalFiber #TotalInternalReflection

@@ -10,5 +10,4 @@ Tiny repeated corner structures look bright to drivers sitting near their headli
 Illustrative models, not measurements of a particular device. Synthetic narration.
 Sources
 https://openstax.org/books/university-physics-volume-3/pages/1-2-the-law-of-reflection
-
-#EverydayScience #Physics #Science #PhyEdu
+#Science #EverydayScience #Retroreflection #Reflectors

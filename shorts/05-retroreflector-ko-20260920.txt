@@ -10,5 +10,4 @@
 원리를 설명하는 모형이며, 내레이션은 합성 음성입니다.
 출처
 https://openstax.org/books/university-physics-volume-3/pages/1-2-the-law-of-reflection
-
-#과학 #물리 #생활과학 #PhyEdu
+#과학 #생활과학 #재귀반사 #반사판

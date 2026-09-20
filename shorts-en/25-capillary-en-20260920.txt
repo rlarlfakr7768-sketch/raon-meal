@@ -10,5 +10,4 @@ Changing the liquid or tube material changes the surface shape and height.
 Illustrative models, not measurements of a particular device. Synthetic narration.
 Sources
 https://openstax.org/books/college-physics-2e/pages/11-8-cohesion-and-adhesion-in-liquids-surface-tension-and-capillary-action
-
-#EverydayScience #Physics #Science #PhyEdu
+#Science #EverydayScience #CapillaryAction #SurfaceTension

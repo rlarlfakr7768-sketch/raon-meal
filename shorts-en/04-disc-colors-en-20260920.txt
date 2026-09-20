@@ -10,5 +10,4 @@ Diffraction gratings use this same principle to separate light for analysis.
 Illustrative models, not measurements of a particular device. Synthetic narration.
 Sources
 https://openstax.org/books/university-physics-volume-3/pages/4-4-diffraction-gratings
-
-#EverydayScience #Physics #Science #PhyEdu
+#Science #EverydayScience #Diffraction #RainbowDisc

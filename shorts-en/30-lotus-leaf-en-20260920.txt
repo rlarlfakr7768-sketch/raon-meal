@@ -10,5 +10,4 @@ This behavior comes from both the microscopic texture and the surface chemistry.
 Illustrative models, not measurements of a particular device. Synthetic narration.
 Sources
 https://pmc.ncbi.nlm.nih.gov/articles/PMC3148040/
-
-#EverydayScience #Physics #Science #PhyEdu
+#Science #EverydayScience #LotusEffect #Hydrophobic
