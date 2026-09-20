@@ -9,43 +9,6 @@
   "paused": false,
   "queue": [
     {
-      "id": "02-polarizers-en-20260920",
-      "video": "02-polarizers-en-20260920.mp4",
-      "caption": "02-polarizers-en-20260920.txt",
-      "video_sha256": "13b23eb1956578653b0350d9c9a1c72edd518dd7bd1d29981cc6181f2ade068d",
-      "caption_sha256": "397f6f50f14fc9b9e41c1b34e0071d596652c840820683831778768eb98fd76b",
-      "title": "Why rotating a filter blocks light",
-      "slug": "02-polarizers",
-      "language": "en",
-      "reviewed": true,
-      "status": "pending",
-      "approval": "User requested all completed Korean and English videos be queued on 2026-09-20.",
-      "human_listening_approved": false,
-      "slot": "A",
-      "scheduled_at": "2026-09-20T18:00:00+09:00",
-      "content_policy": {
-        "version": 1,
-        "mode": "baseline_asset",
-        "topic_family": "general_physics",
-        "keywords": [
-          "filter"
-        ],
-        "hashtags": [
-          "#Science",
-          "#EverydayScience",
-          "#Polarization",
-          "#LightFilter"
-        ],
-        "measurement_hours": [
-          24,
-          72
-        ]
-      },
-      "creation_id": "18117399850768269",
-      "publish_requested_at": "2026-09-20T18:01:58.272699+09:00",
-      "media_id": "17948448579294054"
-    },
-    {
       "id": "03-optical-fiber-en-20260920",
       "video": "03-optical-fiber-en-20260920.mp4",
       "caption": "03-optical-fiber-en-20260920.txt",
@@ -1141,6 +1104,45 @@
       "media_id": "17976489818918499",
       "permalink": "https://www.instagram.com/reel/DdfksBhFBUB/",
       "published_at": "2026-09-20T12:02:36+09:00"
+    },
+    {
+      "id": "02-polarizers-en-20260920",
+      "video": "02-polarizers-en-20260920.mp4",
+      "caption": "02-polarizers-en-20260920.txt",
+      "video_sha256": "13b23eb1956578653b0350d9c9a1c72edd518dd7bd1d29981cc6181f2ade068d",
+      "caption_sha256": "397f6f50f14fc9b9e41c1b34e0071d596652c840820683831778768eb98fd76b",
+      "title": "Why rotating a filter blocks light",
+      "slug": "02-polarizers",
+      "language": "en",
+      "reviewed": true,
+      "status": "published",
+      "approval": "User requested all completed Korean and English videos be queued on 2026-09-20.",
+      "human_listening_approved": false,
+      "slot": "A",
+      "scheduled_at": "2026-09-20T18:00:00+09:00",
+      "content_policy": {
+        "version": 1,
+        "mode": "baseline_asset",
+        "topic_family": "general_physics",
+        "keywords": [
+          "filter"
+        ],
+        "hashtags": [
+          "#Science",
+          "#EverydayScience",
+          "#Polarization",
+          "#LightFilter"
+        ],
+        "measurement_hours": [
+          24,
+          72
+        ]
+      },
+      "creation_id": "18117399850768269",
+      "publish_requested_at": "2026-09-20T18:01:58.272699+09:00",
+      "media_id": "17948448579294054",
+      "permalink": "https://www.instagram.com/reel/DdgN0I4EsD7/",
+      "published_at": "2026-09-20T18:02:01+09:00"
     }
   ],
   "scheduler": "Cloudflare primary, GitHub schedule fallback",
