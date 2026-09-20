@@ -23,7 +23,8 @@
       "human_listening_approved": false,
       "slot": "B",
       "scheduled_at": "2026-09-20T12:00:00+09:00",
-      "creation_id": "18117334648768269"
+      "creation_id": "18117334648768269",
+      "publish_requested_at": "2026-09-20T12:02:32.590418+09:00"
     },
     {
       "id": "02-polarizers-en-20260920",
