@@ -6,48 +6,6 @@
   "paused": false,
   "queue": [
     {
-      "num": "102",
-      "slug": "mayonnaise-75",
-      "title": "흐르는 기름이 되직한 마요네즈가 된다",
-      "cue": null,
-      "next_cue": null,
-      "slot": "A",
-      "fails": 0,
-      "scheduled_at": "2026-09-21T18:00:00+09:00",
-      "sha256": "307a2643d02f2c3271957d953e438962440924e69ebfc82d0718a59f1e456a94",
-      "voice": "Supertonic3 M2",
-      "voice_version": "native-m2-20260912",
-      "id": "legacy-102-mayonnaise-75",
-      "video": "102-mayonnaise-75.mp4",
-      "caption": "102-mayonnaise-75.txt",
-      "language": "ko",
-      "reviewed": true,
-      "video_sha256": "307a2643d02f2c3271957d953e438962440924e69ebfc82d0718a59f1e456a94",
-      "caption_sha256": "6ca5ce8cd7c383efebab31988c12bf1c280ba137e4befae82d1e9bb91bd191d7",
-      "original_scheduled_at": "2026-09-19T12:00:00+09:00",
-      "content_policy": {
-        "version": 1,
-        "mode": "baseline_asset",
-        "topic_family": "food",
-        "keywords": [
-          "마요네즈"
-        ],
-        "hashtags": [
-          "#과학",
-          "#생활과학",
-          "#마요네즈",
-          "#에멀션"
-        ],
-        "measurement_hours": [
-          24,
-          72
-        ]
-      },
-      "creation_id": "18153465475537390",
-      "publish_requested_at": "2026-09-21T18:01:40.110520+09:00",
-      "media_id": "18130909963741748"
-    },
-    {
       "num": "111",
       "slug": "aurora-oval",
       "title": "오로라는 왜 극점 주위에 고리로 생길까",
@@ -2635,6 +2593,52 @@
       "published_at": "2026-09-21T12:01:24+09:00",
       "status": "published",
       "at": "2026-09-21T12:01:24+09:00"
+    },
+    {
+      "num": "102",
+      "slug": "mayonnaise-75",
+      "title": "흐르는 기름이 되직한 마요네즈가 된다",
+      "cue": null,
+      "next_cue": null,
+      "slot": "A",
+      "fails": 0,
+      "scheduled_at": "2026-09-21T18:00:00+09:00",
+      "sha256": "307a2643d02f2c3271957d953e438962440924e69ebfc82d0718a59f1e456a94",
+      "voice": "Supertonic3 M2",
+      "voice_version": "native-m2-20260912",
+      "id": "legacy-102-mayonnaise-75",
+      "video": "102-mayonnaise-75.mp4",
+      "caption": "102-mayonnaise-75.txt",
+      "language": "ko",
+      "reviewed": true,
+      "video_sha256": "307a2643d02f2c3271957d953e438962440924e69ebfc82d0718a59f1e456a94",
+      "caption_sha256": "6ca5ce8cd7c383efebab31988c12bf1c280ba137e4befae82d1e9bb91bd191d7",
+      "original_scheduled_at": "2026-09-19T12:00:00+09:00",
+      "content_policy": {
+        "version": 1,
+        "mode": "baseline_asset",
+        "topic_family": "food",
+        "keywords": [
+          "마요네즈"
+        ],
+        "hashtags": [
+          "#과학",
+          "#생활과학",
+          "#마요네즈",
+          "#에멀션"
+        ],
+        "measurement_hours": [
+          24,
+          72
+        ]
+      },
+      "creation_id": "18153465475537390",
+      "publish_requested_at": "2026-09-21T18:01:40.110520+09:00",
+      "media_id": "18130909963741748",
+      "permalink": "https://www.instagram.com/reel/Ddiyh7LirQO/",
+      "published_at": "2026-09-21T18:01:44+09:00",
+      "status": "published",
+      "at": "2026-09-21T18:01:44+09:00"
     }
   ],
   "cancelled_for_remake": [
