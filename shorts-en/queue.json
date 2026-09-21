@@ -9,43 +9,6 @@
   "paused": false,
   "queue": [
     {
-      "id": "03-optical-fiber-en-20260920",
-      "video": "03-optical-fiber-en-20260920.mp4",
-      "caption": "03-optical-fiber-en-20260920.txt",
-      "video_sha256": "f3a0e0e06ab94a8935fe20192747bf2fdd8479190e9c67443f9b77173176fdff",
-      "caption_sha256": "0cf6f6352d23c2583db7905f66728a31f8fe21dd0371335849a1092b70e6fe41",
-      "title": "How light follows an optical fiber",
-      "slug": "03-optical-fiber",
-      "language": "en",
-      "reviewed": true,
-      "status": "pending",
-      "approval": "User requested all completed Korean and English videos be queued on 2026-09-20.",
-      "human_listening_approved": false,
-      "slot": "B",
-      "scheduled_at": "2026-09-21T12:00:00+09:00",
-      "content_policy": {
-        "version": 1,
-        "mode": "baseline_asset",
-        "topic_family": "general_physics",
-        "keywords": [
-          "optical fiber"
-        ],
-        "hashtags": [
-          "#Science",
-          "#EverydayScience",
-          "#OpticalFiber",
-          "#TotalInternalReflection"
-        ],
-        "measurement_hours": [
-          24,
-          72
-        ]
-      },
-      "creation_id": "18117610885768269",
-      "publish_requested_at": "2026-09-21T12:01:16.200027+09:00",
-      "media_id": "18379942117232033"
-    },
-    {
       "id": "04-disc-colors-en-20260920",
       "video": "04-disc-colors-en-20260920.mp4",
       "caption": "04-disc-colors-en-20260920.txt",
@@ -1146,6 +1109,45 @@
       "media_id": "17948448579294054",
       "permalink": "https://www.instagram.com/reel/DdgN0I4EsD7/",
       "published_at": "2026-09-20T18:02:01+09:00"
+    },
+    {
+      "id": "03-optical-fiber-en-20260920",
+      "video": "03-optical-fiber-en-20260920.mp4",
+      "caption": "03-optical-fiber-en-20260920.txt",
+      "video_sha256": "f3a0e0e06ab94a8935fe20192747bf2fdd8479190e9c67443f9b77173176fdff",
+      "caption_sha256": "0cf6f6352d23c2583db7905f66728a31f8fe21dd0371335849a1092b70e6fe41",
+      "title": "How light follows an optical fiber",
+      "slug": "03-optical-fiber",
+      "language": "en",
+      "reviewed": true,
+      "status": "published",
+      "approval": "User requested all completed Korean and English videos be queued on 2026-09-20.",
+      "human_listening_approved": false,
+      "slot": "B",
+      "scheduled_at": "2026-09-21T12:00:00+09:00",
+      "content_policy": {
+        "version": 1,
+        "mode": "baseline_asset",
+        "topic_family": "general_physics",
+        "keywords": [
+          "optical fiber"
+        ],
+        "hashtags": [
+          "#Science",
+          "#EverydayScience",
+          "#OpticalFiber",
+          "#TotalInternalReflection"
+        ],
+        "measurement_hours": [
+          24,
+          72
+        ]
+      },
+      "creation_id": "18117610885768269",
+      "publish_requested_at": "2026-09-21T12:01:16.200027+09:00",
+      "media_id": "18379942117232033",
+      "permalink": "https://www.instagram.com/reel/DdiJUvaj3JF/",
+      "published_at": "2026-09-21T12:01:19+09:00"
     }
   ],
   "scheduler": "Cloudflare primary, GitHub schedule fallback",
