@@ -1,5 +1,26 @@
 {
   "schema_version": 1,
   "account": "phyedu_net",
-  "samples": []
+  "samples": [
+    {
+      "item_id": "legacy-101-custard-dilution",
+      "media_id": "17969828730154476",
+      "permalink": "https://www.instagram.com/reel/DdgNyVsDFAt/",
+      "topic_family": "food",
+      "window_hours": 24,
+      "actual_age_hours": 27.972,
+      "captured_at": "2026-09-21T13:00:10.438871+00:00",
+      "views": 1072,
+      "reach": 811,
+      "average_watch_time_ms": 5477,
+      "total_watch_time_ms": 4475405,
+      "likes": 1,
+      "comments": 0,
+      "shares": 3,
+      "saved": 1,
+      "total_interactions": 5,
+      "shares_per_1000_reach": 3.699,
+      "saves_per_1000_reach": 1.233
+    }
+  ]
 }
