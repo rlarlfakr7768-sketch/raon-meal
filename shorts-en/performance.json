@@ -1,5 +1,26 @@
 {
   "schema_version": 1,
   "account": "phyedu_en",
-  "samples": []
+  "samples": [
+    {
+      "item_id": "02-polarizers-en-20260920",
+      "media_id": "17948448579294054",
+      "permalink": "https://www.instagram.com/reel/DdgN0I4EsD7/",
+      "topic_family": "general_physics",
+      "window_hours": 24,
+      "actual_age_hours": 27.97,
+      "captured_at": "2026-09-21T13:00:13.124525+00:00",
+      "views": 2080,
+      "reach": 1777,
+      "average_watch_time_ms": 8458,
+      "total_watch_time_ms": 15225603,
+      "likes": 5,
+      "comments": 0,
+      "shares": 0,
+      "saved": 4,
+      "total_interactions": 9,
+      "shares_per_1000_reach": 0.0,
+      "saves_per_1000_reach": 2.251
+    }
+  ]
 }
