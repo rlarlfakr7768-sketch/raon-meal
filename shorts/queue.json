@@ -6,48 +6,6 @@
   "paused": false,
   "queue": [
     {
-      "num": "110",
-      "slug": "aurora-color",
-      "title": "오로라의 초록과 빨강은 어디서 올까",
-      "cue": null,
-      "next_cue": null,
-      "slot": "B",
-      "fails": 0,
-      "scheduled_at": "2026-09-21T12:00:00+09:00",
-      "sha256": "fc774efde6dd94a7bd7c75279c03e1d2bc2606edc6de16973db05bcaac7f1821",
-      "voice": "Supertonic3 M2",
-      "voice_version": "native-m2-20260912",
-      "id": "legacy-110-aurora-color",
-      "video": "110-aurora-color.mp4",
-      "caption": "110-aurora-color.txt",
-      "language": "ko",
-      "reviewed": true,
-      "video_sha256": "fc774efde6dd94a7bd7c75279c03e1d2bc2606edc6de16973db05bcaac7f1821",
-      "caption_sha256": "29dfe92604900e7a5d669dbb93e6cc9eeb2177e73680fd5c9b6d4ea5bb498146",
-      "original_scheduled_at": "2026-09-22T18:00:00+09:00",
-      "content_policy": {
-        "version": 1,
-        "mode": "baseline_asset",
-        "topic_family": "general_physics",
-        "keywords": [
-          "오로라"
-        ],
-        "hashtags": [
-          "#과학",
-          "#생활과학",
-          "#오로라",
-          "#대기과학"
-        ],
-        "measurement_hours": [
-          24,
-          72
-        ]
-      },
-      "creation_id": "18153423229537390",
-      "publish_requested_at": "2026-09-21T12:01:21.583702+09:00",
-      "media_id": "18149866477534569"
-    },
-    {
       "num": "102",
       "slug": "mayonnaise-75",
       "title": "흐르는 기름이 되직한 마요네즈가 된다",
@@ -2628,6 +2586,52 @@
       "published_at": "2026-09-20T18:01:50+09:00",
       "status": "published",
       "at": "2026-09-20T18:01:50+09:00"
+    },
+    {
+      "num": "110",
+      "slug": "aurora-color",
+      "title": "오로라의 초록과 빨강은 어디서 올까",
+      "cue": null,
+      "next_cue": null,
+      "slot": "B",
+      "fails": 0,
+      "scheduled_at": "2026-09-21T12:00:00+09:00",
+      "sha256": "fc774efde6dd94a7bd7c75279c03e1d2bc2606edc6de16973db05bcaac7f1821",
+      "voice": "Supertonic3 M2",
+      "voice_version": "native-m2-20260912",
+      "id": "legacy-110-aurora-color",
+      "video": "110-aurora-color.mp4",
+      "caption": "110-aurora-color.txt",
+      "language": "ko",
+      "reviewed": true,
+      "video_sha256": "fc774efde6dd94a7bd7c75279c03e1d2bc2606edc6de16973db05bcaac7f1821",
+      "caption_sha256": "29dfe92604900e7a5d669dbb93e6cc9eeb2177e73680fd5c9b6d4ea5bb498146",
+      "original_scheduled_at": "2026-09-22T18:00:00+09:00",
+      "content_policy": {
+        "version": 1,
+        "mode": "baseline_asset",
+        "topic_family": "general_physics",
+        "keywords": [
+          "오로라"
+        ],
+        "hashtags": [
+          "#과학",
+          "#생활과학",
+          "#오로라",
+          "#대기과학"
+        ],
+        "measurement_hours": [
+          24,
+          72
+        ]
+      },
+      "creation_id": "18153423229537390",
+      "publish_requested_at": "2026-09-21T12:01:21.583702+09:00",
+      "media_id": "18149866477534569",
+      "permalink": "https://www.instagram.com/reel/DdiJVSWivTf/",
+      "published_at": "2026-09-21T12:01:24+09:00",
+      "status": "published",
+      "at": "2026-09-21T12:01:24+09:00"
     }
   ],
   "cancelled_for_remake": [
