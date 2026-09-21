@@ -9,43 +9,6 @@
   "paused": false,
   "queue": [
     {
-      "id": "04-disc-colors-en-20260920",
-      "video": "04-disc-colors-en-20260920.mp4",
-      "caption": "04-disc-colors-en-20260920.txt",
-      "video_sha256": "0dddb615aae0e6a30857b0af2a1fd5c009a94feb4be68c42f2f61ea7641fda4c",
-      "caption_sha256": "ec940bc0a7ccef9fb9927f98db4a3070a5829aa23e13bede5391162baa44fcb6",
-      "title": "Why a disc reflects rainbows",
-      "slug": "04-disc-colors",
-      "language": "en",
-      "reviewed": true,
-      "status": "pending",
-      "approval": "User requested all completed Korean and English videos be queued on 2026-09-20.",
-      "human_listening_approved": false,
-      "slot": "A",
-      "scheduled_at": "2026-09-21T18:00:00+09:00",
-      "content_policy": {
-        "version": 1,
-        "mode": "baseline_asset",
-        "topic_family": "general_physics",
-        "keywords": [
-          "disc"
-        ],
-        "hashtags": [
-          "#Science",
-          "#EverydayScience",
-          "#Diffraction",
-          "#RainbowDisc"
-        ],
-        "measurement_hours": [
-          24,
-          72
-        ]
-      },
-      "creation_id": "18117663550768269",
-      "publish_requested_at": "2026-09-21T18:01:13.081081+09:00",
-      "media_id": "18014932463955970"
-    },
-    {
       "id": "05-retroreflector-en-20260920",
       "video": "05-retroreflector-en-20260920.mp4",
       "caption": "05-retroreflector-en-20260920.txt",
@@ -1151,6 +1114,45 @@
       "media_id": "18379942117232033",
       "permalink": "https://www.instagram.com/reel/DdiJUvaj3JF/",
       "published_at": "2026-09-21T12:01:19+09:00"
+    },
+    {
+      "id": "04-disc-colors-en-20260920",
+      "video": "04-disc-colors-en-20260920.mp4",
+      "caption": "04-disc-colors-en-20260920.txt",
+      "video_sha256": "0dddb615aae0e6a30857b0af2a1fd5c009a94feb4be68c42f2f61ea7641fda4c",
+      "caption_sha256": "ec940bc0a7ccef9fb9927f98db4a3070a5829aa23e13bede5391162baa44fcb6",
+      "title": "Why a disc reflects rainbows",
+      "slug": "04-disc-colors",
+      "language": "en",
+      "reviewed": true,
+      "status": "published",
+      "approval": "User requested all completed Korean and English videos be queued on 2026-09-20.",
+      "human_listening_approved": false,
+      "slot": "A",
+      "scheduled_at": "2026-09-21T18:00:00+09:00",
+      "content_policy": {
+        "version": 1,
+        "mode": "baseline_asset",
+        "topic_family": "general_physics",
+        "keywords": [
+          "disc"
+        ],
+        "hashtags": [
+          "#Science",
+          "#EverydayScience",
+          "#Diffraction",
+          "#RainbowDisc"
+        ],
+        "measurement_hours": [
+          24,
+          72
+        ]
+      },
+      "creation_id": "18117663550768269",
+      "publish_requested_at": "2026-09-21T18:01:13.081081+09:00",
+      "media_id": "18014932463955970",
+      "permalink": "https://www.instagram.com/reel/DdiyiFMFEn5/",
+      "published_at": "2026-09-21T18:01:15+09:00"
     }
   ],
   "scheduler": "Cloudflare primary, GitHub schedule fallback",
