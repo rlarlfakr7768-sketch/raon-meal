@@ -6,49 +6,6 @@
   "paused": false,
   "queue": [
     {
-      "num": "111",
-      "slug": "aurora-oval",
-      "title": "오로라는 왜 극점 주위에 고리로 생길까",
-      "cue": null,
-      "next_cue": null,
-      "slot": "B",
-      "fails": 0,
-      "scheduled_at": "2026-09-22T12:00:00+09:00",
-      "sha256": "63b3c00a4a6d589cf3b9403955e28c9f750b59e058d026fa9f5f8ef0fc68381c",
-      "visual_revision": "2026-09-10",
-      "voice": "Supertonic3 M2",
-      "voice_version": "native-m2-20260912",
-      "id": "legacy-111-aurora-oval",
-      "video": "111-aurora-oval.mp4",
-      "caption": "111-aurora-oval.txt",
-      "language": "ko",
-      "reviewed": true,
-      "video_sha256": "63b3c00a4a6d589cf3b9403955e28c9f750b59e058d026fa9f5f8ef0fc68381c",
-      "caption_sha256": "e17acfb55d35a8de3a182962b90a9a1b7329d5e815cc8b7ca9a825f0369cd027",
-      "original_scheduled_at": "2026-09-23T12:00:00+09:00",
-      "content_policy": {
-        "version": 1,
-        "mode": "baseline_asset",
-        "topic_family": "general_physics",
-        "keywords": [
-          "오로라"
-        ],
-        "hashtags": [
-          "#과학",
-          "#생활과학",
-          "#오로라",
-          "#자기권"
-        ],
-        "measurement_hours": [
-          24,
-          72
-        ]
-      },
-      "creation_id": "18153621583537390",
-      "publish_requested_at": "2026-09-22T12:01:19.115130+09:00",
-      "media_id": "18123618829895689"
-    },
-    {
       "num": "103",
       "slug": "jelly-98",
       "title": "물이 대부분인 젤리가 서 있는 이유",
@@ -2642,6 +2599,53 @@
       "published_at": "2026-09-21T18:01:44+09:00",
       "status": "published",
       "at": "2026-09-21T18:01:44+09:00"
+    },
+    {
+      "num": "111",
+      "slug": "aurora-oval",
+      "title": "오로라는 왜 극점 주위에 고리로 생길까",
+      "cue": null,
+      "next_cue": null,
+      "slot": "B",
+      "fails": 0,
+      "scheduled_at": "2026-09-22T12:00:00+09:00",
+      "sha256": "63b3c00a4a6d589cf3b9403955e28c9f750b59e058d026fa9f5f8ef0fc68381c",
+      "visual_revision": "2026-09-10",
+      "voice": "Supertonic3 M2",
+      "voice_version": "native-m2-20260912",
+      "id": "legacy-111-aurora-oval",
+      "video": "111-aurora-oval.mp4",
+      "caption": "111-aurora-oval.txt",
+      "language": "ko",
+      "reviewed": true,
+      "video_sha256": "63b3c00a4a6d589cf3b9403955e28c9f750b59e058d026fa9f5f8ef0fc68381c",
+      "caption_sha256": "e17acfb55d35a8de3a182962b90a9a1b7329d5e815cc8b7ca9a825f0369cd027",
+      "original_scheduled_at": "2026-09-23T12:00:00+09:00",
+      "content_policy": {
+        "version": 1,
+        "mode": "baseline_asset",
+        "topic_family": "general_physics",
+        "keywords": [
+          "오로라"
+        ],
+        "hashtags": [
+          "#과학",
+          "#생활과학",
+          "#오로라",
+          "#자기권"
+        ],
+        "measurement_hours": [
+          24,
+          72
+        ]
+      },
+      "creation_id": "18153621583537390",
+      "publish_requested_at": "2026-09-22T12:01:19.115130+09:00",
+      "media_id": "18123618829895689",
+      "permalink": "https://www.instagram.com/reel/DdkuIDCiKaE/",
+      "published_at": "2026-09-22T12:01:22+09:00",
+      "status": "published",
+      "at": "2026-09-22T12:01:22+09:00"
     }
   ],
   "cancelled_for_remake": [
