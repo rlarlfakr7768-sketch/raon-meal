@@ -6,48 +6,6 @@
   "paused": false,
   "queue": [
     {
-      "num": "103",
-      "slug": "jelly-98",
-      "title": "물이 대부분인 젤리가 서 있는 이유",
-      "cue": null,
-      "next_cue": null,
-      "slot": "A",
-      "fails": 0,
-      "scheduled_at": "2026-09-22T18:00:00+09:00",
-      "sha256": "c6d24597c213b3c72914d0053362b679213bc010b5c0f98f16f7df870b25b02d",
-      "voice": "Supertonic3 M2",
-      "voice_version": "native-m2-20260912",
-      "id": "legacy-103-jelly-98",
-      "video": "103-jelly-98.mp4",
-      "caption": "103-jelly-98.txt",
-      "language": "ko",
-      "reviewed": true,
-      "video_sha256": "c6d24597c213b3c72914d0053362b679213bc010b5c0f98f16f7df870b25b02d",
-      "caption_sha256": "102c3bcd6df477b7f109f30ba94d3c05341f0938df4e992d3f7bb910679b0cc4",
-      "original_scheduled_at": "2026-09-19T18:00:00+09:00",
-      "content_policy": {
-        "version": 1,
-        "mode": "baseline_asset",
-        "topic_family": "food",
-        "keywords": [
-          "젤리"
-        ],
-        "hashtags": [
-          "#과학",
-          "#생활과학",
-          "#젤리",
-          "#젤라틴"
-        ],
-        "measurement_hours": [
-          24,
-          72
-        ]
-      },
-      "creation_id": "18153667363537390",
-      "publish_requested_at": "2026-09-22T18:01:12.603449+09:00",
-      "media_id": "18077542661384492"
-    },
-    {
       "num": "112",
       "slug": "am-night",
       "title": "밤에는 먼 AM 방송이 잡힌다",
@@ -2649,6 +2607,52 @@
       "published_at": "2026-09-22T12:01:22+09:00",
       "status": "published",
       "at": "2026-09-22T12:01:22+09:00"
+    },
+    {
+      "num": "103",
+      "slug": "jelly-98",
+      "title": "물이 대부분인 젤리가 서 있는 이유",
+      "cue": null,
+      "next_cue": null,
+      "slot": "A",
+      "fails": 0,
+      "scheduled_at": "2026-09-22T18:00:00+09:00",
+      "sha256": "c6d24597c213b3c72914d0053362b679213bc010b5c0f98f16f7df870b25b02d",
+      "voice": "Supertonic3 M2",
+      "voice_version": "native-m2-20260912",
+      "id": "legacy-103-jelly-98",
+      "video": "103-jelly-98.mp4",
+      "caption": "103-jelly-98.txt",
+      "language": "ko",
+      "reviewed": true,
+      "video_sha256": "c6d24597c213b3c72914d0053362b679213bc010b5c0f98f16f7df870b25b02d",
+      "caption_sha256": "102c3bcd6df477b7f109f30ba94d3c05341f0938df4e992d3f7bb910679b0cc4",
+      "original_scheduled_at": "2026-09-19T18:00:00+09:00",
+      "content_policy": {
+        "version": 1,
+        "mode": "baseline_asset",
+        "topic_family": "food",
+        "keywords": [
+          "젤리"
+        ],
+        "hashtags": [
+          "#과학",
+          "#생활과학",
+          "#젤리",
+          "#젤라틴"
+        ],
+        "measurement_hours": [
+          24,
+          72
+        ]
+      },
+      "creation_id": "18153667363537390",
+      "publish_requested_at": "2026-09-22T18:01:12.603449+09:00",
+      "media_id": "18077542661384492",
+      "permalink": "https://www.instagram.com/reel/DdlXU8DgLVY/",
+      "published_at": "2026-09-22T18:01:15+09:00",
+      "status": "published",
+      "at": "2026-09-22T18:01:15+09:00"
     }
   ],
   "cancelled_for_remake": [
