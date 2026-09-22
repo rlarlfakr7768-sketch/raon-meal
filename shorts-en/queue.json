@@ -9,43 +9,6 @@
   "paused": false,
   "queue": [
     {
-      "id": "05-retroreflector-en-20260920",
-      "video": "05-retroreflector-en-20260920.mp4",
-      "caption": "05-retroreflector-en-20260920.txt",
-      "video_sha256": "7f3594c8e3a640527a2b2e56446df3343a8f5a9b1886ca29e5f1b94955e1be82",
-      "caption_sha256": "ac2712e513e768c367ffc95567fa5d5bc32e8257d5922ad60ffe35edb5f99ebf",
-      "title": "How reflectors send light back",
-      "slug": "05-retroreflector",
-      "language": "en",
-      "reviewed": true,
-      "status": "pending",
-      "approval": "User requested all completed Korean and English videos be queued on 2026-09-20.",
-      "human_listening_approved": false,
-      "slot": "B",
-      "scheduled_at": "2026-09-22T12:00:00+09:00",
-      "content_policy": {
-        "version": 1,
-        "mode": "baseline_asset",
-        "topic_family": "general_physics",
-        "keywords": [
-          "reflectors"
-        ],
-        "hashtags": [
-          "#Science",
-          "#EverydayScience",
-          "#Retroreflection",
-          "#Reflectors"
-        ],
-        "measurement_hours": [
-          24,
-          72
-        ]
-      },
-      "creation_id": "18117871516768269",
-      "publish_requested_at": "2026-09-22T12:01:15.960552+09:00",
-      "media_id": "17861444280696734"
-    },
-    {
       "id": "06-road-mirage-en-20260920",
       "video": "06-road-mirage-en-20260920.mp4",
       "caption": "06-road-mirage-en-20260920.txt",
@@ -1156,6 +1119,45 @@
       "media_id": "18014932463955970",
       "permalink": "https://www.instagram.com/reel/DdiyiFMFEn5/",
       "published_at": "2026-09-21T18:01:15+09:00"
+    },
+    {
+      "id": "05-retroreflector-en-20260920",
+      "video": "05-retroreflector-en-20260920.mp4",
+      "caption": "05-retroreflector-en-20260920.txt",
+      "video_sha256": "7f3594c8e3a640527a2b2e56446df3343a8f5a9b1886ca29e5f1b94955e1be82",
+      "caption_sha256": "ac2712e513e768c367ffc95567fa5d5bc32e8257d5922ad60ffe35edb5f99ebf",
+      "title": "How reflectors send light back",
+      "slug": "05-retroreflector",
+      "language": "en",
+      "reviewed": true,
+      "status": "published",
+      "approval": "User requested all completed Korean and English videos be queued on 2026-09-20.",
+      "human_listening_approved": false,
+      "slot": "B",
+      "scheduled_at": "2026-09-22T12:00:00+09:00",
+      "content_policy": {
+        "version": 1,
+        "mode": "baseline_asset",
+        "topic_family": "general_physics",
+        "keywords": [
+          "reflectors"
+        ],
+        "hashtags": [
+          "#Science",
+          "#EverydayScience",
+          "#Retroreflection",
+          "#Reflectors"
+        ],
+        "measurement_hours": [
+          24,
+          72
+        ]
+      },
+      "creation_id": "18117871516768269",
+      "publish_requested_at": "2026-09-22T12:01:15.960552+09:00",
+      "media_id": "17861444280696734",
+      "permalink": "https://www.instagram.com/reel/DdkuIg2j8zr/",
+      "published_at": "2026-09-22T12:01:18+09:00"
     }
   ],
   "scheduler": "Cloudflare primary, GitHub schedule fallback",
