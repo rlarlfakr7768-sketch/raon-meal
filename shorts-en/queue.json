@@ -9,43 +9,6 @@
   "paused": false,
   "queue": [
     {
-      "id": "06-road-mirage-en-20260920",
-      "video": "06-road-mirage-en-20260920.mp4",
-      "caption": "06-road-mirage-en-20260920.txt",
-      "video_sha256": "ab1eece4132853ae324a555604cd2f9d4b39cfa7cf9d71db773c81c5704c6434",
-      "caption_sha256": "845961046a5b5d1daffb659f95fdaf05afb0c89ccfc1e0cb2e072a152cc37f4a",
-      "title": "Why hot roads look wet",
-      "slug": "06-road-mirage",
-      "language": "en",
-      "reviewed": true,
-      "status": "pending",
-      "approval": "User requested all completed Korean and English videos be queued on 2026-09-20.",
-      "human_listening_approved": false,
-      "slot": "A",
-      "scheduled_at": "2026-09-22T18:00:00+09:00",
-      "content_policy": {
-        "version": 1,
-        "mode": "baseline_asset",
-        "topic_family": "general_physics",
-        "keywords": [
-          "roads"
-        ],
-        "hashtags": [
-          "#Science",
-          "#EverydayScience",
-          "#Mirage",
-          "#LightRefraction"
-        ],
-        "measurement_hours": [
-          24,
-          72
-        ]
-      },
-      "creation_id": "18117941809768269",
-      "publish_requested_at": "2026-09-22T18:01:19.788479+09:00",
-      "media_id": "18621214321034639"
-    },
-    {
       "id": "07-noise-cancel-en-20260920",
       "video": "07-noise-cancel-en-20260920.mp4",
       "caption": "07-noise-cancel-en-20260920.txt",
@@ -1161,6 +1124,45 @@
       "media_id": "17861444280696734",
       "permalink": "https://www.instagram.com/reel/DdkuIg2j8zr/",
       "published_at": "2026-09-22T12:01:18+09:00"
+    },
+    {
+      "id": "06-road-mirage-en-20260920",
+      "video": "06-road-mirage-en-20260920.mp4",
+      "caption": "06-road-mirage-en-20260920.txt",
+      "video_sha256": "ab1eece4132853ae324a555604cd2f9d4b39cfa7cf9d71db773c81c5704c6434",
+      "caption_sha256": "845961046a5b5d1daffb659f95fdaf05afb0c89ccfc1e0cb2e072a152cc37f4a",
+      "title": "Why hot roads look wet",
+      "slug": "06-road-mirage",
+      "language": "en",
+      "reviewed": true,
+      "status": "published",
+      "approval": "User requested all completed Korean and English videos be queued on 2026-09-20.",
+      "human_listening_approved": false,
+      "slot": "A",
+      "scheduled_at": "2026-09-22T18:00:00+09:00",
+      "content_policy": {
+        "version": 1,
+        "mode": "baseline_asset",
+        "topic_family": "general_physics",
+        "keywords": [
+          "roads"
+        ],
+        "hashtags": [
+          "#Science",
+          "#EverydayScience",
+          "#Mirage",
+          "#LightRefraction"
+        ],
+        "measurement_hours": [
+          24,
+          72
+        ]
+      },
+      "creation_id": "18117941809768269",
+      "publish_requested_at": "2026-09-22T18:01:19.788479+09:00",
+      "media_id": "18621214321034639",
+      "permalink": "https://www.instagram.com/reel/DdlXUnuidgc/",
+      "published_at": "2026-09-22T18:01:22+09:00"
     }
   ],
   "scheduler": "Cloudflare primary, GitHub schedule fallback",
