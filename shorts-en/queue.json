@@ -9,43 +9,6 @@
   "paused": false,
   "queue": [
     {
-      "id": "07-noise-cancel-en-20260920",
-      "video": "07-noise-cancel-en-20260920.mp4",
-      "caption": "07-noise-cancel-en-20260920.txt",
-      "video_sha256": "c72acdb66a27f47a252cf7eddc78c8798ad0d5832907e5e9baf299ad7aa0e578",
-      "caption_sha256": "8475f46c1beacebdcf984cfba64b164dd368f07fee854cbcc6a823c05805fd86",
-      "title": "How adding sound reduces noise",
-      "slug": "07-noise-cancel",
-      "language": "en",
-      "reviewed": true,
-      "status": "pending",
-      "approval": "User requested all completed Korean and English videos be queued on 2026-09-20.",
-      "human_listening_approved": false,
-      "slot": "B",
-      "scheduled_at": "2026-09-23T12:00:00+09:00",
-      "content_policy": {
-        "version": 1,
-        "mode": "baseline_asset",
-        "topic_family": "general_physics",
-        "keywords": [
-          "sound"
-        ],
-        "hashtags": [
-          "#Science",
-          "#EverydayScience",
-          "#NoiseCanceling",
-          "#WaveInterference"
-        ],
-        "measurement_hours": [
-          24,
-          72
-        ]
-      },
-      "creation_id": "18118173865768269",
-      "publish_requested_at": "2026-09-23T12:01:17.906255+09:00",
-      "media_id": "17982164874064383"
-    },
-    {
       "id": "08-doppler-en-20260920",
       "video": "08-doppler-en-20260920.mp4",
       "caption": "08-doppler-en-20260920.txt",
@@ -1166,6 +1129,45 @@
       "media_id": "18621214321034639",
       "permalink": "https://www.instagram.com/reel/DdlXUnuidgc/",
       "published_at": "2026-09-22T18:01:22+09:00"
+    },
+    {
+      "id": "07-noise-cancel-en-20260920",
+      "video": "07-noise-cancel-en-20260920.mp4",
+      "caption": "07-noise-cancel-en-20260920.txt",
+      "video_sha256": "c72acdb66a27f47a252cf7eddc78c8798ad0d5832907e5e9baf299ad7aa0e578",
+      "caption_sha256": "8475f46c1beacebdcf984cfba64b164dd368f07fee854cbcc6a823c05805fd86",
+      "title": "How adding sound reduces noise",
+      "slug": "07-noise-cancel",
+      "language": "en",
+      "reviewed": true,
+      "status": "published",
+      "approval": "User requested all completed Korean and English videos be queued on 2026-09-20.",
+      "human_listening_approved": false,
+      "slot": "B",
+      "scheduled_at": "2026-09-23T12:00:00+09:00",
+      "content_policy": {
+        "version": 1,
+        "mode": "baseline_asset",
+        "topic_family": "general_physics",
+        "keywords": [
+          "sound"
+        ],
+        "hashtags": [
+          "#Science",
+          "#EverydayScience",
+          "#NoiseCanceling",
+          "#WaveInterference"
+        ],
+        "measurement_hours": [
+          24,
+          72
+        ]
+      },
+      "creation_id": "18118173865768269",
+      "publish_requested_at": "2026-09-23T12:01:17.906255+09:00",
+      "media_id": "17982164874064383",
+      "permalink": "https://www.instagram.com/reel/DdnS6iHHDVm/",
+      "published_at": "2026-09-23T12:01:20+09:00"
     }
   ],
   "scheduler": "Cloudflare primary, GitHub schedule fallback",
