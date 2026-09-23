@@ -81,6 +81,46 @@
       "total_interactions": 2,
       "shares_per_1000_reach": 1.712,
       "saves_per_1000_reach": 0.0
+    },
+    {
+      "item_id": "legacy-101-custard-dilution",
+      "media_id": "17969828730154476",
+      "permalink": "https://www.instagram.com/reel/DdgNyVsDFAt/",
+      "topic_family": "food",
+      "window_hours": 72,
+      "actual_age_hours": 74.804,
+      "captured_at": "2026-09-23T11:50:04.750669+00:00",
+      "views": 1226,
+      "reach": 904,
+      "average_watch_time_ms": 5534,
+      "total_watch_time_ms": 5136458,
+      "likes": 2,
+      "comments": 0,
+      "shares": 3,
+      "saved": 1,
+      "total_interactions": 6,
+      "shares_per_1000_reach": 3.319,
+      "saves_per_1000_reach": 1.106
+    },
+    {
+      "item_id": "legacy-103-jelly-98",
+      "media_id": "18077542661384492",
+      "permalink": "https://www.instagram.com/reel/DdlXU8DgLVY/",
+      "topic_family": "food",
+      "window_hours": 24,
+      "actual_age_hours": 26.814,
+      "captured_at": "2026-09-23T11:50:04.750669+00:00",
+      "views": 1991,
+      "reach": 1558,
+      "average_watch_time_ms": 14452,
+      "total_watch_time_ms": 22993624,
+      "likes": 8,
+      "comments": 0,
+      "shares": 3,
+      "saved": 2,
+      "total_interactions": 13,
+      "shares_per_1000_reach": 1.926,
+      "saves_per_1000_reach": 1.284
     }
   ]
 }
