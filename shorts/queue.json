@@ -3,7 +3,7 @@
     "B": "12:00",
     "A": "18:00"
   },
-  "paused": false,
+  "paused": true,
   "queue": [
     {
       "num": "112",
