@@ -81,6 +81,46 @@
       "total_interactions": 4,
       "shares_per_1000_reach": 1.859,
       "saves_per_1000_reach": 0.0
+    },
+    {
+      "item_id": "02-polarizers-en-20260920",
+      "media_id": "17948448579294054",
+      "permalink": "https://www.instagram.com/reel/DdgN0I4EsD7/",
+      "topic_family": "general_physics",
+      "window_hours": 72,
+      "actual_age_hours": 74.802,
+      "captured_at": "2026-09-23T11:50:09.004466+00:00",
+      "views": 2137,
+      "reach": 1820,
+      "average_watch_time_ms": 8473,
+      "total_watch_time_ms": 15683594,
+      "likes": 5,
+      "comments": 0,
+      "shares": 0,
+      "saved": 5,
+      "total_interactions": 10,
+      "shares_per_1000_reach": 0.0,
+      "saves_per_1000_reach": 2.747
+    },
+    {
+      "item_id": "06-road-mirage-en-20260920",
+      "media_id": "18621214321034639",
+      "permalink": "https://www.instagram.com/reel/DdlXUnuidgc/",
+      "topic_family": "general_physics",
+      "window_hours": 24,
+      "actual_age_hours": 26.813,
+      "captured_at": "2026-09-23T11:50:09.004466+00:00",
+      "views": 1862,
+      "reach": 1669,
+      "average_watch_time_ms": 7985,
+      "total_watch_time_ms": 13128383,
+      "likes": 12,
+      "comments": 0,
+      "shares": 0,
+      "saved": 3,
+      "total_interactions": 15,
+      "shares_per_1000_reach": 0.0,
+      "saves_per_1000_reach": 1.797
     }
   ]
 }
