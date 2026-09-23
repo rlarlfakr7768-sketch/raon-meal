@@ -61,6 +61,26 @@
       "total_interactions": 9,
       "shares_per_1000_reach": 0.0,
       "saves_per_1000_reach": 0.0
+    },
+    {
+      "item_id": "05-retroreflector-en-20260920",
+      "media_id": "17861444280696734",
+      "permalink": "https://www.instagram.com/reel/DdkuIg2j8zr/",
+      "topic_family": "general_physics",
+      "window_hours": 24,
+      "actual_age_hours": 25.871,
+      "captured_at": "2026-09-23T04:53:35.245068+00:00",
+      "views": 682,
+      "reach": 538,
+      "average_watch_time_ms": 7894,
+      "total_watch_time_ms": 4397333,
+      "likes": 3,
+      "comments": 0,
+      "shares": 1,
+      "saved": 0,
+      "total_interactions": 4,
+      "shares_per_1000_reach": 1.859,
+      "saves_per_1000_reach": 0.0
     }
   ]
 }
