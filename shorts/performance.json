@@ -61,6 +61,26 @@
       "total_interactions": 4,
       "shares_per_1000_reach": 0.0,
       "saves_per_1000_reach": 0.661
+    },
+    {
+      "item_id": "legacy-111-aurora-oval",
+      "media_id": "18123618829895689",
+      "permalink": "https://www.instagram.com/reel/DdkuIDCiKaE/",
+      "topic_family": "general_physics",
+      "window_hours": 24,
+      "actual_age_hours": 25.869,
+      "captured_at": "2026-09-23T04:53:31.702267+00:00",
+      "views": 891,
+      "reach": 584,
+      "average_watch_time_ms": 5104,
+      "total_watch_time_ms": 3011940,
+      "likes": 1,
+      "comments": 0,
+      "shares": 1,
+      "saved": 0,
+      "total_interactions": 2,
+      "shares_per_1000_reach": 1.712,
+      "saves_per_1000_reach": 0.0
     }
   ]
 }
