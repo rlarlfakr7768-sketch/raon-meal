@@ -9,43 +9,6 @@
   "paused": false,
   "queue": [
     {
-      "id": "08-doppler-en-20260920",
-      "video": "08-doppler-en-20260920.mp4",
-      "caption": "08-doppler-en-20260920.txt",
-      "video_sha256": "de172058d27dee362a357bd7bebfd96aa742f1d3a201e1b2d4bbc7e3e09d870b",
-      "caption_sha256": "5cae0f871be8ace09db1e62c8dd19bf0cfa4f87776c34f2f0e43b3099b28e28d",
-      "title": "Why a passing siren drops in pitch",
-      "slug": "08-doppler",
-      "language": "en",
-      "reviewed": true,
-      "status": "pending",
-      "approval": "User requested all completed Korean and English videos be queued on 2026-09-20.",
-      "human_listening_approved": false,
-      "slot": "A",
-      "scheduled_at": "2026-09-23T18:00:00+09:00",
-      "content_policy": {
-        "version": 1,
-        "mode": "baseline_asset",
-        "topic_family": "general_physics",
-        "keywords": [
-          "siren"
-        ],
-        "hashtags": [
-          "#Science",
-          "#EverydayScience",
-          "#DopplerEffect",
-          "#SoundWaves"
-        ],
-        "measurement_hours": [
-          24,
-          72
-        ]
-      },
-      "creation_id": "18118242334768269",
-      "publish_requested_at": "2026-09-23T18:01:18.409306+09:00",
-      "media_id": "18134586061645471"
-    },
-    {
       "id": "09-ultrasound-echo-en-20260920",
       "video": "09-ultrasound-echo-en-20260920.mp4",
       "caption": "09-ultrasound-echo-en-20260920.txt",
@@ -1171,6 +1134,45 @@
       "media_id": "17982164874064383",
       "permalink": "https://www.instagram.com/reel/DdnS6iHHDVm/",
       "published_at": "2026-09-23T12:01:20+09:00"
+    },
+    {
+      "id": "08-doppler-en-20260920",
+      "video": "08-doppler-en-20260920.mp4",
+      "caption": "08-doppler-en-20260920.txt",
+      "video_sha256": "de172058d27dee362a357bd7bebfd96aa742f1d3a201e1b2d4bbc7e3e09d870b",
+      "caption_sha256": "5cae0f871be8ace09db1e62c8dd19bf0cfa4f87776c34f2f0e43b3099b28e28d",
+      "title": "Why a passing siren drops in pitch",
+      "slug": "08-doppler",
+      "language": "en",
+      "reviewed": true,
+      "status": "published",
+      "approval": "User requested all completed Korean and English videos be queued on 2026-09-20.",
+      "human_listening_approved": false,
+      "slot": "A",
+      "scheduled_at": "2026-09-23T18:00:00+09:00",
+      "content_policy": {
+        "version": 1,
+        "mode": "baseline_asset",
+        "topic_family": "general_physics",
+        "keywords": [
+          "siren"
+        ],
+        "hashtags": [
+          "#Science",
+          "#EverydayScience",
+          "#DopplerEffect",
+          "#SoundWaves"
+        ],
+        "measurement_hours": [
+          24,
+          72
+        ]
+      },
+      "creation_id": "18118242334768269",
+      "publish_requested_at": "2026-09-23T18:01:18.409306+09:00",
+      "media_id": "18134586061645471",
+      "permalink": "https://www.instagram.com/reel/Ddn8HlDikQ1/",
+      "published_at": "2026-09-23T18:01:20+09:00"
     }
   ],
   "scheduler": "Cloudflare primary, GitHub schedule fallback",
