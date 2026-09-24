@@ -121,6 +121,26 @@
       "total_interactions": 13,
       "shares_per_1000_reach": 1.926,
       "saves_per_1000_reach": 1.284
+    },
+    {
+      "item_id": "legacy-110-aurora-color",
+      "media_id": "18149866477534569",
+      "permalink": "https://www.instagram.com/reel/DdiJVSWivTf/",
+      "topic_family": "general_physics",
+      "window_hours": 72,
+      "actual_age_hours": 74.019,
+      "captured_at": "2026-09-24T05:02:32.342612+00:00",
+      "views": 824,
+      "reach": 546,
+      "average_watch_time_ms": 4590,
+      "total_watch_time_ms": 2575371,
+      "likes": 5,
+      "comments": 0,
+      "shares": 0,
+      "saved": 1,
+      "total_interactions": 6,
+      "shares_per_1000_reach": 0.0,
+      "saves_per_1000_reach": 1.832
     }
   ]
 }
