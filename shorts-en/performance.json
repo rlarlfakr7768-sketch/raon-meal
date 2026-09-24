@@ -121,6 +121,46 @@
       "total_interactions": 15,
       "shares_per_1000_reach": 0.0,
       "saves_per_1000_reach": 1.797
+    },
+    {
+      "item_id": "03-optical-fiber-en-20260920",
+      "media_id": "18379942117232033",
+      "permalink": "https://www.instagram.com/reel/DdiJUvaj3JF/",
+      "topic_family": "general_physics",
+      "window_hours": 72,
+      "actual_age_hours": 74.021,
+      "captured_at": "2026-09-24T05:02:35.252607+00:00",
+      "views": 2869,
+      "reach": 2104,
+      "average_watch_time_ms": 11483,
+      "total_watch_time_ms": 24654100,
+      "likes": 18,
+      "comments": 0,
+      "shares": 6,
+      "saved": 4,
+      "total_interactions": 29,
+      "shares_per_1000_reach": 2.852,
+      "saves_per_1000_reach": 1.901
+    },
+    {
+      "item_id": "07-noise-cancel-en-20260920",
+      "media_id": "17982164874064383",
+      "permalink": "https://www.instagram.com/reel/DdnS6iHHDVm/",
+      "topic_family": "general_physics",
+      "window_hours": 24,
+      "actual_age_hours": 26.021,
+      "captured_at": "2026-09-24T05:02:35.252607+00:00",
+      "views": 1538,
+      "reach": 1266,
+      "average_watch_time_ms": 10111,
+      "total_watch_time_ms": 12881508,
+      "likes": 6,
+      "comments": 0,
+      "shares": 1,
+      "saved": 0,
+      "total_interactions": 7,
+      "shares_per_1000_reach": 0.79,
+      "saves_per_1000_reach": 0.0
     }
   ]
 }
