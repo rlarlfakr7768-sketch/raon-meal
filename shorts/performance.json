@@ -141,6 +141,26 @@
       "total_interactions": 6,
       "shares_per_1000_reach": 0.0,
       "saves_per_1000_reach": 1.832
+    },
+    {
+      "item_id": "legacy-102-mayonnaise-75",
+      "media_id": "18130909963741748",
+      "permalink": "https://www.instagram.com/reel/Ddiyh7LirQO/",
+      "topic_family": "food",
+      "window_hours": 72,
+      "actual_age_hours": 74.93,
+      "captured_at": "2026-09-24T11:57:33.197512+00:00",
+      "views": 2036,
+      "reach": 1601,
+      "average_watch_time_ms": 6965,
+      "total_watch_time_ms": 11235315,
+      "likes": 3,
+      "comments": 0,
+      "shares": 5,
+      "saved": 2,
+      "total_interactions": 10,
+      "shares_per_1000_reach": 3.123,
+      "saves_per_1000_reach": 1.249
     }
   ]
 }
