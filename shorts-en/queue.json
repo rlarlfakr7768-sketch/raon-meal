@@ -9,43 +9,6 @@
   "paused": false,
   "queue": [
     {
-      "id": "10-vacuum-sound-en-20260920",
-      "video": "10-vacuum-sound-en-20260920.mp4",
-      "caption": "10-vacuum-sound-en-20260920.txt",
-      "video_sha256": "c2881abfc89c6c8dfd24189f4701b06a1f0c6d05345248bbe5b2fa0ccaf1b70d",
-      "caption_sha256": "0979453fdbf3c41126d15cfe5e41a1d427d0e8c86e34ec6fa4518a81ece3a289",
-      "title": "Why sound needs a medium",
-      "slug": "10-vacuum-sound",
-      "language": "en",
-      "reviewed": true,
-      "status": "pending",
-      "approval": "User requested all completed Korean and English videos be queued on 2026-09-20.",
-      "human_listening_approved": false,
-      "slot": "A",
-      "scheduled_at": "2026-09-24T18:00:00+09:00",
-      "content_policy": {
-        "version": 1,
-        "mode": "baseline_asset",
-        "topic_family": "general_physics",
-        "keywords": [
-          "sound"
-        ],
-        "hashtags": [
-          "#Science",
-          "#EverydayScience",
-          "#SoundWaves",
-          "#Vacuum"
-        ],
-        "measurement_hours": [
-          24,
-          72
-        ]
-      },
-      "creation_id": "18118495867768269",
-      "publish_requested_at": "2026-09-24T18:00:56.395792+09:00",
-      "media_id": "17948946549272153"
-    },
-    {
       "id": "11-tube-resonance-en-20260920",
       "video": "11-tube-resonance-en-20260920.mp4",
       "caption": "11-tube-resonance-en-20260920.txt",
@@ -1181,6 +1144,45 @@
       "media_id": "18033203093814692",
       "permalink": "https://www.instagram.com/reel/Ddp3tJxCR9m/",
       "published_at": "2026-09-24T12:01:07+09:00"
+    },
+    {
+      "id": "10-vacuum-sound-en-20260920",
+      "video": "10-vacuum-sound-en-20260920.mp4",
+      "caption": "10-vacuum-sound-en-20260920.txt",
+      "video_sha256": "c2881abfc89c6c8dfd24189f4701b06a1f0c6d05345248bbe5b2fa0ccaf1b70d",
+      "caption_sha256": "0979453fdbf3c41126d15cfe5e41a1d427d0e8c86e34ec6fa4518a81ece3a289",
+      "title": "Why sound needs a medium",
+      "slug": "10-vacuum-sound",
+      "language": "en",
+      "reviewed": true,
+      "status": "published",
+      "approval": "User requested all completed Korean and English videos be queued on 2026-09-20.",
+      "human_listening_approved": false,
+      "slot": "A",
+      "scheduled_at": "2026-09-24T18:00:00+09:00",
+      "content_policy": {
+        "version": 1,
+        "mode": "baseline_asset",
+        "topic_family": "general_physics",
+        "keywords": [
+          "sound"
+        ],
+        "hashtags": [
+          "#Science",
+          "#EverydayScience",
+          "#SoundWaves",
+          "#Vacuum"
+        ],
+        "measurement_hours": [
+          24,
+          72
+        ]
+      },
+      "creation_id": "18118495867768269",
+      "publish_requested_at": "2026-09-24T18:00:56.395792+09:00",
+      "media_id": "17948946549272153",
+      "permalink": "https://www.instagram.com/reel/Ddqg4ujADml/",
+      "published_at": "2026-09-24T18:00:58+09:00"
     }
   ],
   "scheduler": "Cloudflare primary, GitHub schedule fallback",
