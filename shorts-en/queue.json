@@ -9,43 +9,6 @@
   "paused": false,
   "queue": [
     {
-      "id": "09-ultrasound-echo-en-20260920",
-      "video": "09-ultrasound-echo-en-20260920.mp4",
-      "caption": "09-ultrasound-echo-en-20260920.txt",
-      "video_sha256": "d681c99fd1f5401b1239a1b1dc8e98d9ff1aeda44e3b4153a8d940248d1ea9b8",
-      "caption_sha256": "8d2d3d13dd443da42047ee4728764c3b819f9f366ec2da71e2eb6d0ea50c4439",
-      "title": "How an echo measures distance",
-      "slug": "09-ultrasound-echo",
-      "language": "en",
-      "reviewed": true,
-      "status": "pending",
-      "approval": "User requested all completed Korean and English videos be queued on 2026-09-20.",
-      "human_listening_approved": false,
-      "slot": "B",
-      "scheduled_at": "2026-09-24T12:00:00+09:00",
-      "content_policy": {
-        "version": 1,
-        "mode": "baseline_asset",
-        "topic_family": "general_physics",
-        "keywords": [
-          "echo"
-        ],
-        "hashtags": [
-          "#Science",
-          "#EverydayScience",
-          "#Ultrasound",
-          "#Echo"
-        ],
-        "measurement_hours": [
-          24,
-          72
-        ]
-      },
-      "creation_id": "18118433308768269",
-      "publish_requested_at": "2026-09-24T12:01:05.460110+09:00",
-      "media_id": "18033203093814692"
-    },
-    {
       "id": "10-vacuum-sound-en-20260920",
       "video": "10-vacuum-sound-en-20260920.mp4",
       "caption": "10-vacuum-sound-en-20260920.txt",
@@ -1176,6 +1139,45 @@
       "media_id": "18134586061645471",
       "permalink": "https://www.instagram.com/reel/Ddn8HlDikQ1/",
       "published_at": "2026-09-23T18:01:20+09:00"
+    },
+    {
+      "id": "09-ultrasound-echo-en-20260920",
+      "video": "09-ultrasound-echo-en-20260920.mp4",
+      "caption": "09-ultrasound-echo-en-20260920.txt",
+      "video_sha256": "d681c99fd1f5401b1239a1b1dc8e98d9ff1aeda44e3b4153a8d940248d1ea9b8",
+      "caption_sha256": "8d2d3d13dd443da42047ee4728764c3b819f9f366ec2da71e2eb6d0ea50c4439",
+      "title": "How an echo measures distance",
+      "slug": "09-ultrasound-echo",
+      "language": "en",
+      "reviewed": true,
+      "status": "published",
+      "approval": "User requested all completed Korean and English videos be queued on 2026-09-20.",
+      "human_listening_approved": false,
+      "slot": "B",
+      "scheduled_at": "2026-09-24T12:00:00+09:00",
+      "content_policy": {
+        "version": 1,
+        "mode": "baseline_asset",
+        "topic_family": "general_physics",
+        "keywords": [
+          "echo"
+        ],
+        "hashtags": [
+          "#Science",
+          "#EverydayScience",
+          "#Ultrasound",
+          "#Echo"
+        ],
+        "measurement_hours": [
+          24,
+          72
+        ]
+      },
+      "creation_id": "18118433308768269",
+      "publish_requested_at": "2026-09-24T12:01:05.460110+09:00",
+      "media_id": "18033203093814692",
+      "permalink": "https://www.instagram.com/reel/Ddp3tJxCR9m/",
+      "published_at": "2026-09-24T12:01:07+09:00"
     }
   ],
   "scheduler": "Cloudflare primary, GitHub schedule fallback",
