@@ -241,6 +241,46 @@
       "total_interactions": 4,
       "shares_per_1000_reach": 2.933,
       "saves_per_1000_reach": 0.0
+    },
+    {
+      "item_id": "06-road-mirage-en-20260920",
+      "media_id": "18621214321034639",
+      "permalink": "https://www.instagram.com/reel/DdlXUnuidgc/",
+      "topic_family": "general_physics",
+      "window_hours": 72,
+      "actual_age_hours": 74.96,
+      "captured_at": "2026-09-25T11:58:56.372069+00:00",
+      "views": 1912,
+      "reach": 1716,
+      "average_watch_time_ms": 7991,
+      "total_watch_time_ms": 13512907,
+      "likes": 12,
+      "comments": 0,
+      "shares": 0,
+      "saved": 3,
+      "total_interactions": 15,
+      "shares_per_1000_reach": 0.0,
+      "saves_per_1000_reach": 1.748
+    },
+    {
+      "item_id": "10-vacuum-sound-en-20260920",
+      "media_id": "17948946549272153",
+      "permalink": "https://www.instagram.com/reel/Ddqg4ujADml/",
+      "topic_family": "general_physics",
+      "window_hours": 24,
+      "actual_age_hours": 26.966,
+      "captured_at": "2026-09-25T11:58:56.372069+00:00",
+      "views": 565,
+      "reach": 484,
+      "average_watch_time_ms": 7230,
+      "total_watch_time_ms": 3477844,
+      "likes": 4,
+      "comments": 0,
+      "shares": 0,
+      "saved": 1,
+      "total_interactions": 5,
+      "shares_per_1000_reach": 0.0,
+      "saves_per_1000_reach": 2.066
     }
   ]
 }
