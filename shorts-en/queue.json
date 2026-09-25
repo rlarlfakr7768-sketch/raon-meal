@@ -9,43 +9,6 @@
   "paused": false,
   "queue": [
     {
-      "id": "11-tube-resonance-en-20260920",
-      "video": "11-tube-resonance-en-20260920.mp4",
-      "caption": "11-tube-resonance-en-20260920.txt",
-      "video_sha256": "cc47b1009abf67c5d52459569f48d150223eff939f75948fe41393f354d78f17",
-      "caption_sha256": "3d2d54b1a4dfe6262ca821b242c84c0675293aa508f1487f1fb5c39dfd7e04f2",
-      "title": "Why longer tubes sound lower",
-      "slug": "11-tube-resonance",
-      "language": "en",
-      "reviewed": true,
-      "status": "pending",
-      "approval": "User requested all completed Korean and English videos be queued on 2026-09-20.",
-      "human_listening_approved": false,
-      "slot": "B",
-      "scheduled_at": "2026-09-25T12:00:00+09:00",
-      "content_policy": {
-        "version": 1,
-        "mode": "baseline_asset",
-        "topic_family": "general_physics",
-        "keywords": [
-          "tubes"
-        ],
-        "hashtags": [
-          "#Science",
-          "#EverydayScience",
-          "#Resonance",
-          "#SoundPitch"
-        ],
-        "measurement_hours": [
-          24,
-          72
-        ]
-      },
-      "creation_id": "18118712572768269",
-      "publish_requested_at": "2026-09-25T12:01:16.004085+09:00",
-      "media_id": "18101681579315217"
-    },
-    {
       "id": "12-helium-voice-en-20260920",
       "video": "12-helium-voice-en-20260920.mp4",
       "caption": "12-helium-voice-en-20260920.txt",
@@ -1186,6 +1149,45 @@
       "media_id": "17948946549272153",
       "permalink": "https://www.instagram.com/reel/Ddqg4ujADml/",
       "published_at": "2026-09-24T18:00:58+09:00"
+    },
+    {
+      "id": "11-tube-resonance-en-20260920",
+      "video": "11-tube-resonance-en-20260920.mp4",
+      "caption": "11-tube-resonance-en-20260920.txt",
+      "video_sha256": "cc47b1009abf67c5d52459569f48d150223eff939f75948fe41393f354d78f17",
+      "caption_sha256": "3d2d54b1a4dfe6262ca821b242c84c0675293aa508f1487f1fb5c39dfd7e04f2",
+      "title": "Why longer tubes sound lower",
+      "slug": "11-tube-resonance",
+      "language": "en",
+      "reviewed": true,
+      "status": "published",
+      "approval": "User requested all completed Korean and English videos be queued on 2026-09-20.",
+      "human_listening_approved": false,
+      "slot": "B",
+      "scheduled_at": "2026-09-25T12:00:00+09:00",
+      "content_policy": {
+        "version": 1,
+        "mode": "baseline_asset",
+        "topic_family": "general_physics",
+        "keywords": [
+          "tubes"
+        ],
+        "hashtags": [
+          "#Science",
+          "#EverydayScience",
+          "#Resonance",
+          "#SoundPitch"
+        ],
+        "measurement_hours": [
+          24,
+          72
+        ]
+      },
+      "creation_id": "18118712572768269",
+      "publish_requested_at": "2026-09-25T12:01:16.004085+09:00",
+      "media_id": "18101681579315217",
+      "permalink": "https://www.instagram.com/reel/DdscgHaDAf9/",
+      "published_at": "2026-09-25T12:01:18+09:00"
     }
   ],
   "scheduler": "Cloudflare primary, GitHub schedule fallback",
