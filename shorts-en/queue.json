@@ -9,43 +9,6 @@
   "paused": false,
   "queue": [
     {
-      "id": "12-helium-voice-en-20260920",
-      "video": "12-helium-voice-en-20260920.mp4",
-      "caption": "12-helium-voice-en-20260920.txt",
-      "video_sha256": "c0b862003c17c219e8ee658b57ff74e2512846904df58faf9bc4f9a132e759cf",
-      "caption_sha256": "ba51e763c5e625de72b39143e21f1c740f67154962f85e97ebc6f227f5393742",
-      "title": "What helium changes in a voice",
-      "slug": "12-helium-voice",
-      "language": "en",
-      "reviewed": true,
-      "status": "pending",
-      "approval": "User requested all completed Korean and English videos be queued on 2026-09-20.",
-      "human_listening_approved": false,
-      "slot": "A",
-      "scheduled_at": "2026-09-25T18:00:00+09:00",
-      "content_policy": {
-        "version": 1,
-        "mode": "baseline_asset",
-        "topic_family": "general_physics",
-        "keywords": [
-          "helium"
-        ],
-        "hashtags": [
-          "#Science",
-          "#EverydayScience",
-          "#HeliumVoice",
-          "#Resonance"
-        ],
-        "measurement_hours": [
-          24,
-          72
-        ]
-      },
-      "creation_id": "18118782178768269",
-      "publish_requested_at": "2026-09-25T18:01:10.649561+09:00",
-      "media_id": "17956064829248194"
-    },
-    {
       "id": "13-cold-metal-en-20260920",
       "video": "13-cold-metal-en-20260920.mp4",
       "caption": "13-cold-metal-en-20260920.txt",
@@ -1191,6 +1154,45 @@
       "media_id": "18101681579315217",
       "permalink": "https://www.instagram.com/reel/DdscgHaDAf9/",
       "published_at": "2026-09-25T12:01:18+09:00"
+    },
+    {
+      "id": "12-helium-voice-en-20260920",
+      "video": "12-helium-voice-en-20260920.mp4",
+      "caption": "12-helium-voice-en-20260920.txt",
+      "video_sha256": "c0b862003c17c219e8ee658b57ff74e2512846904df58faf9bc4f9a132e759cf",
+      "caption_sha256": "ba51e763c5e625de72b39143e21f1c740f67154962f85e97ebc6f227f5393742",
+      "title": "What helium changes in a voice",
+      "slug": "12-helium-voice",
+      "language": "en",
+      "reviewed": true,
+      "status": "published",
+      "approval": "User requested all completed Korean and English videos be queued on 2026-09-20.",
+      "human_listening_approved": false,
+      "slot": "A",
+      "scheduled_at": "2026-09-25T18:00:00+09:00",
+      "content_policy": {
+        "version": 1,
+        "mode": "baseline_asset",
+        "topic_family": "general_physics",
+        "keywords": [
+          "helium"
+        ],
+        "hashtags": [
+          "#Science",
+          "#EverydayScience",
+          "#HeliumVoice",
+          "#Resonance"
+        ],
+        "measurement_hours": [
+          24,
+          72
+        ]
+      },
+      "creation_id": "18118782178768269",
+      "publish_requested_at": "2026-09-25T18:01:10.649561+09:00",
+      "media_id": "17956064829248194",
+      "permalink": "https://www.instagram.com/reel/DdtFsO6lhyW/",
+      "published_at": "2026-09-25T18:01:13+09:00"
     }
   ],
   "scheduler": "Cloudflare primary, GitHub schedule fallback",
