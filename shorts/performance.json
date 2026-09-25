@@ -181,6 +181,26 @@
       "total_interactions": 4,
       "shares_per_1000_reach": 1.443,
       "saves_per_1000_reach": 0.0
+    },
+    {
+      "item_id": "legacy-103-jelly-98",
+      "media_id": "18077542661384492",
+      "permalink": "https://www.instagram.com/reel/DdlXU8DgLVY/",
+      "topic_family": "food",
+      "window_hours": 72,
+      "actual_age_hours": 74.961,
+      "captured_at": "2026-09-25T11:58:53.616576+00:00",
+      "views": 2133,
+      "reach": 1659,
+      "average_watch_time_ms": 13959,
+      "total_watch_time_ms": 23899116,
+      "likes": 9,
+      "comments": 0,
+      "shares": 3,
+      "saved": 3,
+      "total_interactions": 15,
+      "shares_per_1000_reach": 1.808,
+      "saves_per_1000_reach": 1.808
     }
   ]
 }
