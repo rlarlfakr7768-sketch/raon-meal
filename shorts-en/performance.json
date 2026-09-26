@@ -321,6 +321,46 @@
       "total_interactions": 2,
       "shares_per_1000_reach": 0.0,
       "saves_per_1000_reach": 0.0
+    },
+    {
+      "item_id": "08-doppler-en-20260920",
+      "media_id": "18134586061645471",
+      "permalink": "https://www.instagram.com/reel/Ddn8HlDikQ1/",
+      "topic_family": "general_physics",
+      "window_hours": 72,
+      "actual_age_hours": 74.548,
+      "captured_at": "2026-09-26T11:34:13.364574+00:00",
+      "views": 415,
+      "reach": 377,
+      "average_watch_time_ms": 6243,
+      "total_watch_time_ms": 2353896,
+      "likes": 2,
+      "comments": 0,
+      "shares": 0,
+      "saved": 0,
+      "total_interactions": 2,
+      "shares_per_1000_reach": 0.0,
+      "saves_per_1000_reach": 0.0
+    },
+    {
+      "item_id": "12-helium-voice-en-20260920",
+      "media_id": "17956064829248194",
+      "permalink": "https://www.instagram.com/reel/DdtFsO6lhyW/",
+      "topic_family": "general_physics",
+      "window_hours": 24,
+      "actual_age_hours": 26.55,
+      "captured_at": "2026-09-26T11:34:13.364574+00:00",
+      "views": 299,
+      "reach": 264,
+      "average_watch_time_ms": 5284,
+      "total_watch_time_ms": 1432132,
+      "likes": 1,
+      "comments": 0,
+      "shares": 0,
+      "saved": 0,
+      "total_interactions": 1,
+      "shares_per_1000_reach": 0.0,
+      "saves_per_1000_reach": 0.0
     }
   ]
 }
