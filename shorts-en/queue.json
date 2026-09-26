@@ -9,43 +9,6 @@
   "paused": false,
   "queue": [
     {
-      "id": "13-cold-metal-en-20260920",
-      "video": "13-cold-metal-en-20260920.mp4",
-      "caption": "13-cold-metal-en-20260920.txt",
-      "video_sha256": "f001bc04b7f5624bfdf5ee7e613c2c324de1bc33a3a2bd3233a1b604b4ca038d",
-      "caption_sha256": "038a071f4e6bf40a6987e3df936f55de82ef89e18a6de98bdd8b11df14fb91bb",
-      "title": "Why metal feels colder than wood",
-      "slug": "13-cold-metal",
-      "language": "en",
-      "reviewed": true,
-      "status": "pending",
-      "approval": "User requested all completed Korean and English videos be queued on 2026-09-20.",
-      "human_listening_approved": false,
-      "slot": "B",
-      "scheduled_at": "2026-09-26T12:00:00+09:00",
-      "content_policy": {
-        "version": 1,
-        "mode": "baseline_asset",
-        "topic_family": "general_physics",
-        "keywords": [
-          "metal"
-        ],
-        "hashtags": [
-          "#Science",
-          "#EverydayScience",
-          "#ThermalConductivity",
-          "#HeatTransfer"
-        ],
-        "measurement_hours": [
-          24,
-          72
-        ]
-      },
-      "creation_id": "18119023177768269",
-      "publish_requested_at": "2026-09-26T12:02:05.754392+09:00",
-      "media_id": "18118102417957478"
-    },
-    {
       "id": "14-blanket-air-en-20260920",
       "video": "14-blanket-air-en-20260920.mp4",
       "caption": "14-blanket-air-en-20260920.txt",
@@ -1196,6 +1159,45 @@
       "media_id": "17956064829248194",
       "permalink": "https://www.instagram.com/reel/DdtFsO6lhyW/",
       "published_at": "2026-09-25T18:01:13+09:00"
+    },
+    {
+      "id": "13-cold-metal-en-20260920",
+      "video": "13-cold-metal-en-20260920.mp4",
+      "caption": "13-cold-metal-en-20260920.txt",
+      "video_sha256": "f001bc04b7f5624bfdf5ee7e613c2c324de1bc33a3a2bd3233a1b604b4ca038d",
+      "caption_sha256": "038a071f4e6bf40a6987e3df936f55de82ef89e18a6de98bdd8b11df14fb91bb",
+      "title": "Why metal feels colder than wood",
+      "slug": "13-cold-metal",
+      "language": "en",
+      "reviewed": true,
+      "status": "published",
+      "approval": "User requested all completed Korean and English videos be queued on 2026-09-20.",
+      "human_listening_approved": false,
+      "slot": "B",
+      "scheduled_at": "2026-09-26T12:00:00+09:00",
+      "content_policy": {
+        "version": 1,
+        "mode": "baseline_asset",
+        "topic_family": "general_physics",
+        "keywords": [
+          "metal"
+        ],
+        "hashtags": [
+          "#Science",
+          "#EverydayScience",
+          "#ThermalConductivity",
+          "#HeatTransfer"
+        ],
+        "measurement_hours": [
+          24,
+          72
+        ]
+      },
+      "creation_id": "18119023177768269",
+      "publish_requested_at": "2026-09-26T12:02:05.754392+09:00",
+      "media_id": "18118102417957478",
+      "permalink": "https://www.instagram.com/reel/DdvBaTcAN_n/",
+      "published_at": "2026-09-26T12:02:08+09:00"
     }
   ],
   "scheduler": "Cloudflare primary, GitHub schedule fallback",
